@@ -1,0 +1,593 @@
+SMART HOME DATASET - CHANNEL DISTRIBUTION REPORT
+============================================================
+
+ACTION CHANNELS STATISTICS
+----------------------------------------
+Total unique action channels: 455
+Action channels >= 10: 301
+Action channels < 10: 154
+
+Top 10 Action Channels:
+Twitter: 9079
+Notifications: 5552
+Aura: 5123
+Email: 4737
+Harvest: 3968
+Google Sheets: 2691
+Philips Hue: 2415
+Facebook Pages: 2335
+Android Device: 2025
+Evernote: 2014
+
+Full distribution (>= threshold) sorted:
+Twitter: 9079
+Notifications: 5552
+Aura: 5123
+Email: 4737
+Harvest: 3968
+Google Sheets: 2691
+Philips Hue: 2415
+Facebook Pages: 2335
+Android Device: 2025
+Evernote: 2014
+Dropbox: 1777
+Gmail: 1726
+Pocket: 966
+Google Calendar: 925
+Google Drive: 889
+Slack: 837
+WordPress: 820
+Pushbullet: 724
+Buffer: 628
+Android SMS: 627
+Phone Call (US only): 575
+WeMo Smart Plug: 572
+Email Digest: 557
+LIFX: 515
+Todoist: 434
+OneDrive: 406
+Google Docs: 388
+Spotify: 377
+iOS Photos: 358
+Flickr: 344
+OneNote: 323
+Telegram: 319
+Trello: 303
+iOS Reminders: 269
+Box: 267
+Pushover: 264
+Nest Thermostat: 260
+Instapaper: 252
+Diigo: 235
+Bitly: 231
+Harmony: 223
+Delicious: 208
+Smart Life: 205
+SmartThings: 197
+reddit: 195
+Yeelight: 193
+TP-Link Kasa: 179
+WeMo Light Switch: 170
+LINE: 164
+eWeLink Smart Home: 160
+Wear OS: 158
+Day One: 149
+ecobee: 146
+SMS: 139
+WeMo Insight Switch: 137
+Apilio: 129
+SoundCloud: 128
+Feedly: 127
+Qapital: 127
+WiZ: 116
+Arlo: 110
+Sonos: 109
+Hunter Douglas PowerView: 103
+Weebly: 101
+Wink: Shortcuts: 94
+WeMo Lighting: 93
+blink(1): 89
+littleBits: 88
+GroupMe: 86
+Bernafon: 84
+VoIP Calls: 76
+Honeywell Total Connect Comfort: 75
+Wyze: 75
+Beeminder: 73
+Unforgettable Me: 73
+Pinboard: 66
+Yardian: 65
+iRobot: 65
+Adafruit: 62
+SpotCam: 60
+Lutron Caséta and RA2 Select: 56
+Toodledo: 56
+Rachio: 55
+MagicHue: 55
+Das Keyboard Q: 53
+Blink: 52
+iOS Calendar: 52
+Heatzy: 51
+Nanoleaf Smarter Series: 50
+Particle: 50
+HomeSeer: 49
+RescueTime: 47
+NewsBlur: 45
+Monzo: 44
+Netatmo Thermostat: 44
+LaMetric: 44
+GO: 42
+AICO: 42
+Honeywell evohome: 41
+Garadget: 41
+Discord: 41
+Hive Active Heating™ - UK and Europe: 41
+Scout Alarm: 41
+iOS Reading List: 40
+Amazon Cloud Drive: 38
+Salesforce: 38
+Domino's: 38
+woopla phone calls: 38
+Wink: Nimbus: 38
+Gogogate: 38
+Inoreader: 37
+EZVIZ: 35
+Netro: 35
+LightwaveRF Lighting: 35
+coqon: 35
+Boxcar 2: 35
+Google Contacts: 34
+Somfy Protect: 34
+Energenie Mi|Home: 34
+Oticon: 33
+Homey: 33
+PAVLOK: 33
+AC Cloud Control: 33
+Pryv: 33
+Daikin Online Controller: 32
+TaHoma: 32
+abode: 32
+Glance clock: 31
+Heatmiser: 31
+SwitchBot: 31
+Nimbus Note: 31
+Welltory: 31
+Wink: Aros: 31
+Atmoph: 31
+Webex: 30
+Somfy myLink: 29
+Meross: 29
+Home Connect Coffee Machine: 29
+Wink: Pivot Power Genius: 29
+Chatwork: 29
+SkylinkNet: 29
+Sensibo: 28
+Nature Remo: 28
+Zuluhood: 28
+Myfox HomeControl: 28
+Hive Active Light™: 27
+GitHub: 27
+Brilliant Nexus: 27
+tadoº Heating: 27
+Honeywell Single-zone Thermostat: 26
+FL-1000 Leak Detector: 26
+LightwaveRF Power: 25
+QNAP: 25
+openHAB: 25
+Garageio: 24
+Remember The Milk: 24
+Blink (Europe): 24
+Hubitat: 24
+Home Connect Hood: 24
+ThermoSmart: 24
+MSmartHome AC: 23
+Home Connect Fridge Freezer: 23
+Vimar VIEW: 23
+Bitmark: 22
+ClickSend SMS: 22
+Amba: 22
+MyQ: 22
+Wattio SmartHome: 21
+Microsoft Teams: 21
+INSTAR: 21
+Husqvarna Automower®: 21
+BroadLink: 21
+My Leviton: 21
+MESH: 20
+(more:trees): 20
+Notion.so: 20
+Home Connect Dishwasher: 20
+WIFIPLUG: 20
+Ultraloq: 20
+Mailchimp: 19
+Panasonic Home Navigation: 19
+Caleo: 19
+AduroSmart: 19
+Nuki Smart Lock: 18
+VeSync Outlet: 18
+Honeywell Home: 18
+Withings Home: 18
+WeMo Coffeemaker: 18
+Automate Shades: 18
+Ambi Climate: 18
+iDevices: 18
+Google Wifi: 18
+LinkedIn: 17
+GarageWiFi & Gates: 17
+Orion - Voice for Teams: 17
+Automate Shades V2: 17
+RainMachine: 17
+AL-KO Smart Garden: 17
+BDR Thermea Group: 17
+Sonic: 17
+GARDENA smart system: 17
+MeisterTask: 17
+GE Appliances GeoSpring™: 17
+SkyBell HD: 17
+TMT Chow: 17
+Neato: 16
+Raindrop.io: 16
+iSecurity+: 16
+Lexi: 16
+Noonlight: 16
+Oco Camera: 16
+RATOC Remocon: 15
+Indego Connect: 15
+Telldus Live!: 15
+Home Connect Oven: 15
+OSUM SMART: 15
+LightwaveRF Events: 15
+SL-BUS Technology: 15
+Routee: 15
+iOS Health: 15
+Connexoon Asia & Oceania: 15
+SmartLiving Home Automation: 15
+FollowUp.cc: 14
+Nefit Easy: 14
+Fanimation: 14
+GE Appliances Window AC: 14
+Misfit: 14
+Zoho Cliq: 14
+Wemo Dimmer: 14
+Wiser Air: 14
+Connexoon: 13
+Home Connect Dryer: 13
+Dozens: 13
+domovea: 13
+BOCCO emo: 13
+Warmup Smart Thermostat: 13
+Zoho Cliq (China): 13
+data.world: 13
+Zoho Cliq (Australia): 13
+LIVISI Home: 13
+TP-Link Router: 13
+Alpaca: 13
+Zoho Cliq (Europe): 13
+Zoho Cliq (India): 13
+Angelcam: 13
+Vestaboard: 13
+MagicLight WiFi: 13
+BlueLink Smart Connect: 12
+put.io: 12
+ATLANTIC Cozytouch: 12
+Tesco: 12
+Lytmi: 12
+BOCCO: 12
+THERMOR Cozytouch: 12
+EasyFTP: 12
+BOSMA: 12
+Philips HearLink: 12
+Smappee: 12
+Asana: 12
+Smitch: 12
+Airtable: 12
+TaHoma North America: 12
+energeasy connect: 12
+AQUAREA Smart Cloud: 12
+SAUTER Cozytouch: 12
+uSign: 12
+Stockimo: 12
+AirPatrol WiFi: 11
+Zoho Notebook: 11
+Connector: 11
+ThingaOS: 11
+Link Shades: 11
+GroupLotse: 11
+Invoxia Triby: 11
+Niko Home Control: 11
+Cloud Intelligence: 11
+VeSync Bulb: 11
+Hive Active Plug™: 11
+tadoº Air Conditioning: 11
+VeSync Dimmer: 11
+Levoit Air Purifier: 11
+Home Connect Washer: 11
+VeSync Switch: 11
+Ai-Sync: 10
+Moodo & Moodo AIR: 10
+CLOVA: 10
+Camio: 10
+RoosterMoney: 10
+Hopscotch Social Media Management: 10
+Mysa Thermostat: 10
+Tumblr: 10
+Sesame by CANDY HOUSE: 10
+Samsung Robot Vacuum: 10
+Planex: 10
+BG Home: 10
+AirTouch: 10
+Danalock: 10
+Musixmatch: 10
+Logitech Circle : 10
+Hive View: 10
+smanos connect: 10
+
+TRIGGER CHANNELS STATISTICS
+----------------------------------------
+Total unique trigger channels: 482
+Trigger channels >= 10: 246
+Trigger channels < 10: 236
+
+Top 10 Trigger Channels:
+Date & Time: 5949
+Aura: 5152
+RSS Feed: 4824
+Twitter: 4773
+Harvest: 3988
+Weather Underground: 3890
+Instagram: 3114
+Amazon Alexa: 2144
+Location: 2066
+Facebook: 2002
+
+Full distribution (>= threshold) sorted:
+Date & Time: 5949
+Aura: 5152
+RSS Feed: 4824
+Twitter: 4773
+Harvest: 3988
+Weather Underground: 3890
+Instagram: 3114
+Amazon Alexa: 2144
+Location: 2066
+Facebook: 2002
+IFTTT: 1814
+YouTube: 1763
+Google Assistant: 1348
+reddit: 1267
+Facebook Pages: 1120
+Google Calendar: 1040
+WordPress: 1027
+iOS Photos: 938
+Pocket: 883
+Button widget: 847
+Email: 734
+Android Phone Call: 652
+Android SMS: 599
+Android Device: 584
+Space: 544
+Feedly: 535
+Fitbit: 488
+Dropbox: 465
+iOS Contacts: 465
+SoundCloud: 463
+Spotify: 369
+Finance: 355
+Todoist: 347
+iOS Reminders: 342
+Android Photos: 319
+Trello: 261
+Nest Thermostat: 254
+The New York Times: 254
+SmartThings: 240
+Foursquare: 239
+Netatmo Weather Station: 212
+Nest Protect: 211
+Ring: 199
+Flickr: 195
+Note widget: 193
+Android Battery: 184
+Instapaper: 168
+Evernote: 167
+GitHub: 161
+Arlo: 127
+Vimeo: 124
+Apilio: 123
+WeMo Smart Plug: 120
+Camera widget: 119
+Medium: 113
+Flic: 112
+WeMo Light Switch: 101
+ecobee: 95
+Giphy: 94
+Misfit: 93
+littleBits: 93
+Fiverr: 90
+Inoreader: 90
+ProPublica: 89
+Buffer: 87
+Telegram: 87
+Phone Call (US only): 85
+Bitly: 84
+Wyze: 81
+Bernafon: 81
+Twitch: 79
+Google Wifi: 78
+Delicious: 77
+Wireless Tag: 72
+eWeLink Smart Home: 70
+WeMo Motion: 66
+Toodledo: 66
+Diigo: 65
+WeMo Insight Switch: 65
+Nest Cam: 65
+August: 65
+Ooma: 60
+Knocki: 60
+Square: 59
+Muslim Prayer Time: 54
+Particle: 54
+SpotCam: 54
+Netatmo Security: 52
+RescueTime: 50
+ComEd: 49
+Google Sheets: 48
+Google Contacts: 46
+Mailchimp: 46
+Strava: 43
+MESH: 42
+Is It Christmas?: 41
+tadoº Heating: 41
+abode: 41
+Vimar VIEW: 40
+Myfox HomeControl: 40
+SMS: 38
+BrainyQuote: 38
+Scout Alarm: 38
+NPR: 38
+Dailymotion: 38
+SkyBell HD: 36
+Zoom: 34
+NewsBlur: 34
+Domino's: 33
+iRobot: 33
+Tempest Weather System : 33
+Awair: 31
+Agile Octopus: 31
+MyQ: 30
+GO: 30
+iHome Control: 30
+Withings Sleep: 29
+Uplink Remote: 29
+Somfy Protect: 28
+TP-Link Router: 28
+UbiBot: 28
+Jotform: 28
+Smart Life: 28
+Salesforce: 27
+Fing: 27
+Home Connect Oven: 27
+Rachio: 26
+Monzo: 26
+Oticon: 25
+AL-KO Smart Garden: 25
+BloomSky Weather: 25
+Google Drive: 25
+True Energy Smart Home Norway: 24
+Stockimo: 24
+iOS Calendar: 23
+Weebly: 23
+Litter-Robot by Whisker: 23
+Nuki Smart Lock: 22
+Apple App Store: 22
+EDF : vos plages tarifaires: 22
+Invoxia GPS Tracker: 22
+Adafruit: 22
+True Energy Smart Home Denmark: 22
+Blink: 21
+BDR Thermea Group: 21
+Beeminder: 21
+Pinboard: 21
+Garadget: 21
+Homey: 21
+Swann Security: 20
+Product Hunt: 20
+Fort Collins Utilities Time of Day Pricing: 20
+Zoom Phone: 20
+Zubie: 20
+WeMo Maker: 19
+Envoy: 19
+iHome Enhance: 19
+Fox News: 19
+Ambient Weather: 19
+Smappee: 19
+Netatmo Thermostat: 18
+Niko Home Control: 18
+Airthings: 18
+Home Connect Washer: 18
+Notion: 18
+Blue by ADT: 17
+Boundary: 17
+Hacker News: 17
+Kronaby: 17
+Foobot: 17
+WeMo Lighting: 17
+Airtable: 16
+Smart Louisville: 16
+Logitech POP: 16
+Withings Home: 16
+Bouncie: 16
+SimCam: 16
+U.S. Independence Day: 16
+Filtrete™ Smart: 15
+mydlink: 15
+SurveyMonkey: 15
+Hubitat: 15
+OhmConnect: 15
+EZVIZ: 15
+woopla phone calls: 15
+EasyCSV: 14
+NAACP: 14
+Kaiterra: 14
+ACLU: 14
+RATOC Remocon: 14
+Kubu Smart: 14
+Works With Cavius: 14
+Wink: Spotter: 14
+Daikin Online Controller: 13
+Home Connect Dishwasher: 13
+Orion - Voice for Teams: 13
+Jaguar Watches: 13
+Lotus Watches: 13
+HAVEN IAQ: 13
+Home Connect Dryer: 13
+AC Cloud Control: 13
+nemy: 13
+uHoo: 13
+Futurehome: 13
+ThingaOS: 13
+Sonic: 13
+Festina Watches: 13
+Smart Home Solution: 13
+Powered by Viva: 13
+Home Connect Coffee Machine: 12
+Heatzy: 12
+Tecan Connect: 12
+iHaus smoke detector: 12
+Asana: 12
+We Work Remotely: 12
+Netro: 12
+Songkick: 12
+EasyControl of Bosch: 12
+Link My Pet: 12
+Musixmatch: 11
+Gira Smart Home: 11
+Sighthound Video: 11
+Home Connect Cookit: 11
+SkylinkNet: 11
+Sense Energy Monitor: 11
+put.io: 11
+Total Connect 2.0: 11
+Swidget: 11
+Library of Congress: 11
+iDevices: 11
+Rust: 11
+Honeywell Home: 11
+ASUS Router: 11
+QNAP: 11
+HomeSeer: 11
+Samsung Washer: 10
+Longreads: 10
+SwitchBot: 10
+Home Connect Fridge Freezer: 10
+Telldus Live!: 10
+ClinicalTrials.gov: 10
+Livy: 10
+VeSync Bulb: 10
+World Health Organization: 10
+Phyn: 10
+Epion: 10
+
+PLOT FILES:
+Action channels plot: plots\action_channels_distribution.svg
+Trigger channels plot: plots\trigger_channels_distribution.svg
