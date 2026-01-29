@@ -1,0 +1,28 @@
+=== REPORT for Device Category: Generic/Other ===
+Total rows: 1435
+
+Unique trigger channels: 127
+Top trigger channels:
+  Weather Underground: 221 (15.40%)
+  Date & Time: 170 (11.85%)
+  Location: 115 (8.01%)
+  Google Assistant: 100 (6.97%)
+  Amazon Alexa: 74 (5.16%)
+  Button widget: 66 (4.60%)
+  Email: 65 (4.53%)
+  Nest Thermostat: 36 (2.51%)
+  WeMo Smart Plug: 31 (2.16%)
+  Google Calendar: 26 (1.81%)
+
+Unique action channels: 27
+Top action channels:
+  WeMo Smart Plug: 572 (39.86%)
+  Smart Life: 180 (12.54%)
+  TP-Link Kasa: 161 (11.22%)
+  WeMo Insight Switch: 137 (9.55%)
+  iRobot: 65 (4.53%)
+  Heatzy: 34 (2.37%)
+  Energenie Mi|Home: 34 (2.37%)
+  SwitchBot: 31 (2.16%)
+  Wink: Pivot Power Genius: 29 (2.02%)
+  Lutron Caséta and RA2 Select: 28 (1.95%)

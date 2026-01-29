@@ -145,3 +145,9 @@ Generic/Other: 1052
 Thermostat/Heating: 342
 
 Righe rimanenti se si eliminano tutte le entry oltre il 50° valore unico sia di trigger che di action: 8295
+
+=== ANALISI COPPIE TRIGGER + ACTION ===
+Coppie uniche totali: 2760
+Coppie duplicate uniche: 781
+Righe totali duplicate: 8984
+CSV generato: duplicate_trigger_action_pairs.csv

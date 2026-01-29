@@ -1,0 +1,29 @@
+=== DATA GENERATION REPORT ===
+Original rows: 1168
+Generated rows: 10512
+Total new rows: 9344
+
+=== TRIGGER TYPE DISTRIBUTION (BEFORE / AFTER) ===
+audio: 216 → 1944
+weather: 214 → 1926
+other: 200 → 1800
+external_service: 165 → 1485
+schedule: 161 → 1449
+motion: 117 → 1053
+device_state: 95 → 855
+
+=== ACTION TYPE DISTRIBUTION (BEFORE / AFTER) ===
+turn_on_off: 452 → 4068
+set_mode: 308 → 2772
+set_value: 176 → 1584
+other: 107 → 963
+start_stop: 99 → 891
+toggle: 23 → 207
+notify: 3 → 27
+
+=== DEVICE CATEGORY DISTRIBUTION (BEFORE / AFTER) ===
+Light: 524 → 4716
+Generic/Other: 174 → 1566
+Thermostat/Heating: 170 → 1530
+Air/Climate: 150 → 1350
+Appliance: 150 → 1350

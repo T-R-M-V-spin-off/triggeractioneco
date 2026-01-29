@@ -1,0 +1,19 @@
+=== DEVICE OVERSAMPLING REPORT ===
+Initial rows: 898
+Final rows: 1168
+Rows added: 270
+Target per deviceCategory: 150
+
+=== DEVICE CATEGORY OVERSAMPLING DETAILS ===
+Light: 524 → 524 (+0)
+Generic/Other: 174 → 174 (+0)
+Thermostat/Heating: 170 → 170 (+0)
+Appliance: 18 → 150 (+132)
+Air/Climate: 12 → 150 (+138)
+
+=== DEVICE CATEGORY DISTRIBUTION (AFTER) ===
+Light: 524
+Generic/Other: 174
+Thermostat/Heating: 170
+Air/Climate: 150
+Appliance: 150

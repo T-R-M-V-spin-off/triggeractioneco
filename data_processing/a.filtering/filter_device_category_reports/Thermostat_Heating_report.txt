@@ -1,0 +1,28 @@
+=== REPORT for Device Category: Thermostat/Heating ===
+Total rows: 794
+
+Unique trigger channels: 91
+Top trigger channels:
+  Location: 117 (14.74%)
+  Amazon Alexa: 113 (14.23%)
+  Weather Underground: 84 (10.58%)
+  Google Assistant: 77 (9.70%)
+  Date & Time: 51 (6.42%)
+  Button widget: 48 (6.05%)
+  Google Calendar: 26 (3.27%)
+  Apilio: 24 (3.02%)
+  ComEd: 20 (2.52%)
+  Nest Thermostat: 16 (2.02%)
+
+Unique action channels: 24
+Top action channels:
+  Nest Thermostat: 260 (32.75%)
+  ecobee: 138 (17.38%)
+  Honeywell Total Connect Comfort: 75 (9.45%)
+  Netatmo Thermostat: 44 (5.54%)
+  Hive Active Heating™ - UK and Europe: 41 (5.16%)
+  tadoº Heating: 27 (3.40%)
+  Heatmiser: 24 (3.02%)
+  Home Connect Fridge Freezer: 20 (2.52%)
+  BDR Thermea Group: 17 (2.14%)
+  Heatzy: 17 (2.14%)

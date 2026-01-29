@@ -1,0 +1,69 @@
+SMART HOME DATASET - INTERSECTION REPORT
+==================================================
+
+GENERAL STATISTICS
+-------------------------
+Raw dataset entries: 67697
+Keyword filtered entries: 10147
+Action filtered entries: 11568
+Intersection entries: 5834
+
+FILTER COVERAGE
+-------------------------
+Coverage of keyword filter: 57.49%
+Coverage of action filter: 50.43%
+Coverage of full pipeline: 8.62%
+
+CHANNEL STATISTICS
+-------------------------
+Unique action channels: 62
+Unique trigger channels: 269
+
+Top action channels:
+  Philips Hue: 2415
+  LIFX: 507
+  WeMo Smart Plug: 409
+  Nest Thermostat: 260
+  Smart Life: 197
+  Yeelight: 193
+  WeMo Light Switch: 170
+  SmartThings: 164
+  TP-Link Kasa: 145
+  WiZ: 116
+  WeMo Insight Switch: 97
+  WeMo Lighting: 93
+  ecobee: 76
+  Honeywell Total Connect Comfort: 60
+  MagicHue: 54
+
+Top trigger channels:
+  Weather Underground: 832
+  Date & Time: 781
+  Amazon Alexa: 694
+  Google Assistant: 449
+  Location: 362
+  Button widget: 213
+  YouTube: 98
+  Ring: 89
+  Email: 86
+  Nest Thermostat: 83
+  Nest Protect: 74
+  Android Device: 72
+  SmartThings: 70
+  Netatmo Weather Station: 68
+  Facebook: 66
+
+DEVICE TYPE DISTRIBUTION
+------------------------------
+  Light: 3781 (64.81%)
+  Generic/Other: 1263 (21.65%)
+  Thermostat/Heating: 641 (10.99%)
+  Air/Climate: 90 (1.54%)
+  Appliance: 59 (1.01%)
+
+DATA LOSS ANALYSIS
+------------------------------
+Entries lost after intersection (from keyword set): 4313
+Entries lost after intersection (from action set): 5734
+
+END OF REPORT

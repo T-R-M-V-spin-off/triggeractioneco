@@ -1,0 +1,47 @@
+SMART HOME DATASET - KEYWORD FILTER REPORT
+=============================================
+
+GENERAL STATISTICS
+-------------------------
+Total dataset entries: 67697
+Filtered entries: 10147
+Coverage: 14.99%
+
+KEYWORD STATISTICS
+-------------------------
+  lights: 5036 (49.63% of rows)
+  turn on: 2877 (28.35% of rows)
+  turn off: 1677 (16.53% of rows)
+  light: 1594 (15.71% of rows)
+  temperature: 1515 (14.93% of rows)
+  close: 659 (6.49% of rows)
+  smart: 657 (6.47% of rows)
+  open: 548 (5.40% of rows)
+  ac: 217 (2.14% of rows)
+  cool: 209 (2.06% of rows)
+  heat: 162 (1.60% of rows)
+  a/c: 128 (1.26% of rows)
+  coffee: 122 (1.20% of rows)
+  air conditioner: 112 (1.10% of rows)
+  heater: 67 (0.66% of rows)
+  oven: 66 (0.65% of rows)
+  pollution: 28 (0.28% of rows)
+  turn-on: 7 (0.07% of rows)
+  turn-off: 7 (0.07% of rows)
+
+COLUMN MATCH DISTRIBUTION
+------------------------------
+  title: 5656 (55.74%)
+  desc: 6473 (63.79%)
+  triggerDesc: 2827 (27.86%)
+  actionDesc: 6028 (59.41%)
+
+DEVICE TYPE DISTRIBUTION
+------------------------------
+  Generic/Other: 5233 (51.57%)
+  Light: 3890 (38.34%)
+  Thermostat/Heating: 775 (7.64%)
+  Air/Climate: 169 (1.67%)
+  Appliance: 80 (0.79%)
+
+END OF REPORT

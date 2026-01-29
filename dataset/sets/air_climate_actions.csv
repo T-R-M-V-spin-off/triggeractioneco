@@ -1,0 +1,24 @@
+actionDesc,percentage,actionType
+"this action changes modes (auto, sleep).",1.04,set_mode
+this action turns off your air purifier.,3.12,turn_on_off
+this action turns on your air purifier.,3.12,turn_on_off
+this action turns the display on or off.,1.04,turn_on_off
+"this action turns the fan to a designated speed (low, medium, high).",1.04,set_value
+this action will disable the indicated timer.,3.12,turn_on_off
+this action will enable the indicated timer.,2.08,turn_on_off
+"this action will enable/disable econo mode on your daikin ac unit. it will be executed within 1 minute and will only work in combination with the new r32 outdoor (rxm or mxm) units. if your unit does not support this function, then it will not show up in the device dropdown list.",1.04,set_value
+this action will enable/disable holiday mode on all your daikin ac units. it will be executed within 1 minute.,4.17,set_value
+this action will execute the indicated scene.,14.58,set_mode
+this action will set the mode of the air conditioner unit.,1.04,set_mode
+this action will turn off the air conditioner unit.,1.04,turn_on_off
+this action will turn off your a/c in the specified room.,4.17,set_value
+"this action will turn off your air conditioner.
+
+note: please use the control home appliances actions for the button registered by learning mode.",5.21,set_mode
+this action will turn off your air conditioner.note: please use the control home appliances actions for the button registered by learning mode.,3.12,set_mode
+this action will turn off your daikin ac unit. it will be executed within 1 minute.,12.5,set_value
+this action will turn on the air conditioner unit.,1.04,turn_on_off
+"this action will turn on your a/c in the specified room, and run it in comfort mode.",8.33,set_value
+"this action will turn on your daikin ac unit, or change its settings. it will be executed within 1 minute.",14.58,set_value
+this action will turn your intesishome a/c off.,5.21,turn_on_off
+this action will turn your intesishome a/c on.,9.38,turn_on_off

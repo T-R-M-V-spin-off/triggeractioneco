@@ -1,0 +1,24 @@
+=== REPORT for Device Category: Air/Climate ===
+Total rows: 105
+
+Unique trigger channels: 24
+Top trigger channels:
+  Button widget: 18 (17.14%)
+  Location: 14 (13.33%)
+  Amazon Alexa: 12 (11.43%)
+  Weather Underground: 10 (9.52%)
+  Google Assistant: 7 (6.67%)
+  Date & Time: 7 (6.67%)
+  Android Device: 5 (4.76%)
+  Vimar VIEW: 4 (3.81%)
+  Google Calendar: 3 (2.86%)
+  AC Cloud Control: 3 (2.86%)
+
+Unique action channels: 6
+Top action channels:
+  AC Cloud Control: 33 (31.43%)
+  Daikin Online Controller: 32 (30.48%)
+  Ambi Climate: 18 (17.14%)
+  Levoit Air Purifier: 11 (10.48%)
+  Nature Remo: 8 (7.62%)
+  GE Appliances Window AC: 3 (2.86%)

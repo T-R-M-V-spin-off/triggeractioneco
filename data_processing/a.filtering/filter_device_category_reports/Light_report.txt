@@ -1,0 +1,28 @@
+=== REPORT for Device Category: Light ===
+Total rows: 8919
+
+Unique trigger channels: 245
+Top trigger channels:
+  Aura: 5117 (57.37%)
+  Date & Time: 576 (6.46%)
+  Weather Underground: 523 (5.86%)
+  Amazon Alexa: 454 (5.09%)
+  Google Assistant: 294 (3.30%)
+  Location: 180 (2.02%)
+  Button widget: 111 (1.24%)
+  YouTube: 97 (1.09%)
+  Ring: 68 (0.76%)
+  Facebook: 64 (0.72%)
+
+Unique action channels: 21
+Top action channels:
+  Aura: 5123 (57.44%)
+  Philips Hue: 2415 (27.08%)
+  LIFX: 515 (5.77%)
+  Yeelight: 193 (2.16%)
+  WeMo Light Switch: 170 (1.91%)
+  WiZ: 116 (1.30%)
+  WeMo Lighting: 93 (1.04%)
+  MagicHue: 54 (0.61%)
+  Nanoleaf Smarter Series: 50 (0.56%)
+  LightwaveRF Lighting: 35 (0.39%)

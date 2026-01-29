@@ -1,0 +1,152 @@
+=== TRIGGER DESCRIPTION DISTRIBUTION ===
+--- Device Category: Generic/Other ---
+Totale righe: 1672
+Valori unici (triggerDesc primi 64 caratteri): 263
+Top 10 valori unici:
+  This Trigger fires every single day at a specific time set by yo: 127 (7.60%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 119 (7.12%)
+  This Trigger fires within 15 minutes of the sunset in your locat: 108 (6.46%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 81 (4.84%)
+  This trigger fires every time you press the button.: 70 (4.19%)
+  This Trigger fires every time you enter an area you specify.: 62 (3.71%)
+  This Trigger fires every time you exit an area you specify.: 57 (3.41%)
+  This Trigger monitors your local temperature and fires whenever : 54 (3.23%)
+  This Trigger fires only on specific days of the week at the time: 51 (3.05%)
+  This Trigger fires within 15 minutes of the sunrise in your loca: 42 (2.51%)
+
+--- Device Category: Light ---
+Totale righe: 8924
+Valori unici (triggerDesc primi 64 caratteri): 502
+Top 10 valori unici:
+  This trigger fires if Aura detects motion when set to the Away s: 2150 (24.09%)
+  This trigger fires when a selected member arrives.: 1189 (13.32%)
+  This trigger fires when the scene is changed to the selected sce: 1096 (12.28%)
+  This trigger fires if Aura detects motion. Note: this trigger on: 341 (3.82%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 326 (3.65%)
+  This Trigger fires every single day at a specific time set by yo: 301 (3.37%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 294 (3.29%)
+  This Trigger fires within 15 minutes of the sunset in your locat: 259 (2.90%)
+  This trigger fires if Aura detects motion when set to Night scen: 230 (2.58%)
+  This Trigger fires only on specific days of the week at the time: 166 (1.86%)
+
+--- Device Category: Thermostat/Heating ---
+Totale righe: 794
+Valori unici (triggerDesc primi 64 caratteri): 139
+Top 10 valori unici:
+  This trigger fires every time you say 'Alexa trigger' + the phra: 91 (11.46%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 77 (9.70%)
+  This Trigger fires every time you enter an area you specify.: 71 (8.94%)
+  This Trigger monitors your local temperature and fires whenever : 67 (8.44%)
+  This trigger fires every time you press the button.: 48 (6.05%)
+  This Trigger fires every time you exit an area you specify.: 44 (5.54%)
+  This Trigger fires a set number of minutes before the starting t: 26 (3.27%)
+  This Trigger fires every single day at a specific time set by yo: 25 (3.15%)
+  This trigger fires every time IFTTT receives a specific event fr: 24 (3.02%)
+  This Trigger fires every time you add an item to your To Do List: 21 (2.64%)
+
+--- Device Category: Air/Climate ---
+Totale righe: 105
+Valori unici (triggerDesc primi 64 caratteri): 35
+Top 10 valori unici:
+  This trigger fires every time you press the button.: 18 (17.14%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 12 (11.43%)
+  This Trigger fires every time you exit an area you specify.: 9 (8.57%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 7 (6.67%)
+  This Trigger fires every single day at a specific time set by yo: 7 (6.67%)
+  This Trigger fires every time you enter an area you specify.: 5 (4.76%)
+  This Trigger monitors your local temperature and fires whenever : 4 (3.81%)
+  This Trigger fires every time your Android device disconnects fr: 3 (2.86%)
+  This Trigger fires a set number of minutes before the starting t: 3 (2.86%)
+  This Trigger fires every time your A/C unit detects temperatures: 3 (2.86%)
+
+--- Device Category: Appliance ---
+Totale righe: 73
+Valori unici (triggerDesc primi 64 caratteri): 31
+Top 10 valori unici:
+  This trigger fires when you say “Ok Google” to the Google Assist: 12 (16.44%)
+  This trigger fires every time you press the button.: 10 (13.70%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 8 (10.96%)
+  This trigger fires at the hours where electricity in Denmark is : 5 (6.85%)
+  This trigger fires at the hours where electricity in Norway is c: 4 (5.48%)
+  This Trigger fires every single day at a specific time set by yo: 3 (4.11%)
+  This Trigger fires every time the Nest Protect you specify detec: 2 (2.74%)
+  This Trigger fires every time you exit an area you specify.: 2 (2.74%)
+  This trigger fires when the exchanged power satisfies a conditio: 2 (2.74%)
+  This Trigger fires within 15 minutes of the sunrise in your loca: 2 (2.74%)
+
+
+=== ACTION DESCRIPTION DISTRIBUTION ===
+--- Device Category: Generic/Other ---
+Totale righe: 1672
+Valori unici (actionDesc primi 64 caratteri): 87
+Top 10 valori unici:
+  This Action will turn a WeMo Switch on. If the WeMo Switch is al: 292 (17.46%)
+  This Action will turn a WeMo Switch off. If the WeMo Switch is a: 209 (12.50%)
+  This Action will turn on your SmartThings devices that support s: 98 (5.86%)
+  This action will turn on the device/group of your choosing.: 83 (4.96%)
+  This action will turn on a device.: 79 (4.72%)
+  This Action will toggle a WeMo Switch on or off.: 73 (4.37%)
+  This Action will turn a WeMo Insight Switch on. If the WeMo Insi: 68 (4.07%)
+  This action will turn off the device/group of your choosing.: 62 (3.71%)
+  This Action will turn off your SmartThings devices that support : 51 (3.05%)
+  This action will activate the specified scene.: 41 (2.45%)
+
+--- Device Category: Light ---
+Totale righe: 8924
+Valori unici (actionDesc primi 64 caratteri): 82
+Top 10 valori unici:
+  This action will set your Aura to Guardian scene. : 2342 (26.24%)
+  This action will set your Aura to Away scene. : 2107 (23.61%)
+  This Action will turn on your hue lights.: 587 (6.58%)
+  This action will set your Aura to Home scene. : 566 (6.34%)
+  This Action will change the color of your hue lights. NOTE: Acce: 468 (5.24%)
+  This Action will turn off your hue lights.: 438 (4.91%)
+  This Action will briefly turn your hue lights off then back on.: 404 (4.53%)
+  This Action will turn your lights on.: 153 (1.71%)
+  This Action will turn on a slow color loop effect for your hue l: 140 (1.57%)
+  This Action will dim or brighten your hue lights to a value betw: 120 (1.34%)
+
+--- Device Category: Thermostat/Heating ---
+Totale righe: 794
+Valori unici (actionDesc primi 64 caratteri): 66
+Top 10 valori unici:
+  This Action will set a Nest Thermostat to the temperature you sp: 204 (25.69%)
+  This Action will set the thermostat into a hold using the settin: 76 (9.57%)
+  This Action will turn on your HVAC system fan for the amount of : 43 (5.42%)
+  This Action will set your Honeywell thermostat to hold a tempera: 32 (4.03%)
+  This Action removes the currently running event on the selected : 24 (3.02%)
+  This action will set the thermostat into a hold with the specifi: 19 (2.39%)
+  This Action will set your Honeywell thermostat to permanently ho: 19 (2.39%)
+  This action will set the thermostat into an indefinite hold with: 18 (2.27%)
+  This Action will set your Honeywell thermostat to resume the cur: 18 (2.27%)
+  This Action will turn your Aros A/C on and set to a temperature : 17 (2.14%)
+
+--- Device Category: Air/Climate ---
+Totale righe: 105
+Valori unici (actionDesc primi 64 caratteri): 22
+Top 10 valori unici:
+  This Action will turn on your Daikin AC unit, or change its sett: 15 (14.29%)
+  This Action will execute the indicated scene.: 14 (13.33%)
+  This Action will turn off your Daikin AC unit. It will be execut: 12 (11.43%)
+  This Action will turn your IntesisHome A/C on.: 9 (8.57%)
+  This Action will turn on your A/C in the specified room, and run: 8 (7.62%)
+  This Action will provide Comfort feedback for the device that yo: 6 (5.71%)
+  This Action will turn your IntesisHome A/C off.: 5 (4.76%)
+  This action will turn off your air conditioner.  Note: Please : 5 (4.76%)
+  This action turns off your air purifier.: 5 (4.76%)
+  This Action will enable/disable Holiday mode on all your Daikin : 4 (3.81%)
+
+--- Device Category: Appliance ---
+Totale righe: 73
+Valori unici (actionDesc primi 64 caratteri): 18
+Top 10 valori unici:
+  This action will turn on your coffee machine.: 13 (17.81%)
+  This action will start the selected dishwasher program.: 11 (15.07%)
+  This action will turn on your dishwasher.: 6 (8.22%)
+  This action will preheat your oven using the hot air program wit: 6 (8.22%)
+  This action will start the selected coffee program with your pre: 6 (8.22%)
+  This action will turn off your oven.: 5 (6.85%)
+  This action will turn off your hood.: 4 (5.48%)
+  This action will turn off your coffee machine.: 4 (5.48%)
+  This action will start the selected coffee world program with yo: 3 (4.11%)
+  This action will turn on your oven.: 3 (4.11%)

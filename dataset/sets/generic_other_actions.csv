@@ -1,0 +1,77 @@
+actionDesc,percentage,actionType
+the action will activate home mode on your neohub.,0.07,set_mode
+this action will activate a selected scene from your account.,2.25,set_mode
+this action will activate a timer boost on the selected heatmiser timer.,0.07,turn_on_off
+this action will activate away mode on your neohub,0.14,set_mode
+this action will activate the specified scene.,2.88,set_value
+this action will activate your scene.,0.07,set_mode
+this action will allow you to switch on the selected neoplug.,0.21,turn_on_off
+this action will change a device's dimmer level.,0.07,set_mode
+this action will change brightness of a dimmer to a specified level/percentage.,0.28,set_value
+this action will change hubitat's mode.,0.28,set_mode
+this action will change the brightness of a dimmer to a specified level/percentage.,0.35,set_value
+this action will close a hubitat device.,0.28,turn_on_off
+this action will dock your robot.,0.56,turn_on_off
+this action will execute a scene to control multiple appliances at once.,0.07,set_mode
+this action will lock a hubitat device.,0.07,turn_on_off
+this action will lock a specific device,0.28,turn_on_off
+this action will open a hubitat device.,0.21,turn_on_off
+this action will pause your robot.,0.49,turn_on_off
+this action will pause your thermosmart.,0.63,turn_on_off
+this action will resume your robot.,0.21,turn_on_off
+this action will send an infrared signal to control your home appliances.,0.63,notify
+this action will set a lutron dimmer or switch to the level you specify.,1.62,set_value
+this action will set a lutron shade to the position you specify.,0.35,set_value
+this action will set a specific device on auto mode,0.42,set_mode
+this action will set a specific device on eco mode,0.49,set_mode
+this action will set a specific device on manual mode,0.35,set_mode
+this action will set the operating mode of your ge water heater.,0.42,set_mode
+this action will set the percentage of brightness for the specified product.,0.14,set_value
+this action will set your device in quiet mode.,0.14,set_mode
+this action will set your ge water heater to vacation mode for the desired number of days.,0.14,set_value
+"this action will set your nefit easy to auto mode. the auto mode (e.g. clock mode, holiday mode) sets the temperatures accordingly.",0.07,set_mode
+this action will set your nefit easy to manual mode.,0.07,set_mode
+this action will start your robot.,2.6,turn_on_off
+this action will stop your robot.,0.35,turn_on_off
+this action will toggle a device.,0.77,turn_on_off
+this action will toggle a wemo insight switch on or off.,1.19,turn_on_off
+this action will toggle a wemo switch on or off.,5.13,turn_on_off
+this action will toggle the pivot power genius outlet you specific on or off.,0.42,turn_on_off
+this action will trigger the specified bot to press the switch.,0.98,set_value
+this action will trigger the specified bot to turn off the switch.,0.28,set_value
+this action will trigger the specified bot to turn on the switch.,0.84,set_value
+"this action will turn a wemo dimmer off. if the wemo dimmer is already off, it will remain off.",0.28,turn_on_off
+"this action will turn a wemo dimmer on. if the wemo dimmer is already on, it will remain on.",0.42,turn_on_off
+this action will turn a wemo insight switch on then immediately back off.,0.21,turn_on_off
+"this action will turn a wemo insight switch on. if the wemo insight switch is already on, it will remain on.",4.78,turn_on_off
+"this action will turn a wemo maker off then on. if the wemo maker is already off, it will remain off.",0.07,turn_on_off
+"this action will turn a wemo maker off. if the wemo maker is already off, it will remain off.",0.14,turn_on_off
+this action will turn a wemo maker on for 300 milliseconds. note: wemo maker must be in 'momentary' mode for this action to work.,0.28,set_mode
+this action will turn a wemo switch off then immediately back on.,1.19,turn_on_off
+"this action will turn a wemo switch off. if the wemo switch is already off, it will remain off.",14.61,turn_on_off
+this action will turn a wemo switch on then immediately back off.,2.11,turn_on_off
+"this action will turn a wemo switch on. if the wemo switch is already on, it will remain on.",20.44,turn_on_off
+this action will turn off a device.,0.35,turn_on_off
+this action will turn off a plug for the specified duration.,0.28,set_value
+this action will turn off a selected device.,2.67,turn_on_off
+this action will turn off a specific device,0.49,turn_on_off
+this action will turn off a whole group of mi|home devices simultaneously.,0.28,turn_on_off
+this action will turn off one of your mi|home devices.,0.7,turn_on_off
+this action will turn off the device/group of your choosing.,4.35,turn_on_off
+"this action will turn off the pivot power genius outlet you specify. if the outlet is already off, it will remain off.",0.7,set_value
+this action will turn on a device attached to your hubitat elevation system.,0.56,turn_on_off
+this action will turn on a device.,5.48,turn_on_off
+this action will turn on a plug for the specified duration.,0.56,set_value
+this action will turn on a specific device,0.07,turn_on_off
+this action will turn on a whole group of mi|home devices simultaneously.,0.21,turn_on_off
+this action will turn on one of your mi|home devices.,1.19,turn_on_off
+this action will turn on the device/group of your choosing.,5.83,turn_on_off
+"this action will turn on the pivot power genius outlet you specify. if the outlet is already on, it will remain on.",0.91,set_value
+this action will turn on/off my projector.,0.42,turn_on_off
+this action will turn the specified product off.,0.28,set_value
+this action will turn the specified product on.,0.42,set_value
+this action will turn your aros a/c off.,0.98,turn_on_off
+"this action will turn your wemo maker on. if the wemo maker is already on, it will remain on.",0.07,turn_on_off
+this action will unlock a specific device,0.28,turn_on_off
+"this action will unpause your thermosmart, i.e. set it to either a scheduled program or an exception if there is one for the current time.",0.56,turn_on_off
+turn your a/c off,0.91,turn_on_off

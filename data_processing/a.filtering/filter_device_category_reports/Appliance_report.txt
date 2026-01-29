@@ -1,0 +1,23 @@
+=== REPORT for Device Category: Appliance ===
+Total rows: 73
+
+Unique trigger channels: 25
+Top trigger channels:
+  Google Assistant: 12 (16.44%)
+  Button widget: 10 (13.70%)
+  Amazon Alexa: 9 (12.33%)
+  True Energy Smart Home Denmark: 5 (6.85%)
+  Date & Time: 4 (5.48%)
+  Location: 4 (5.48%)
+  True Energy Smart Home Norway: 4 (5.48%)
+  Watts: 3 (4.11%)
+  Nest Protect: 2 (2.74%)
+  Vimar VIEW: 2 (2.74%)
+
+Unique action channels: 5
+Top action channels:
+  Home Connect Coffee Machine: 29 (39.73%)
+  Home Connect Dishwasher: 20 (27.40%)
+  Home Connect Oven: 14 (19.18%)
+  Home Connect Hood: 7 (9.59%)
+  Home Connect Fridge Freezer: 3 (4.11%)

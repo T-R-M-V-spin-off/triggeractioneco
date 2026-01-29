@@ -1,0 +1,90 @@
+SMART HOME DATASET - ACTION CHANNEL REPORT
+=============================================
+
+GENERAL STATISTICS
+-------------------------
+Total dataset entries: 67697
+Filtered entries: 11326
+Dataset coverage: 16.73%
+
+CHANNEL COVERAGE
+-------------------------
+Total unique channels in dataset: 455
+Unique channels covered by whitelist: 60
+Channel coverage: 13.19%
+
+Whitelist size: 60
+Whitelist channels found: 60
+
+ENTRIES PER CHANNEL
+-------------------------
+  Aura: 5123
+  Philips Hue: 2415
+  WeMo Smart Plug: 572
+  LIFX: 515
+  Nest Thermostat: 260
+  Smart Life: 205
+  Yeelight: 193
+  TP-Link Kasa: 179
+  WeMo Light Switch: 170
+  ecobee: 146
+  WeMo Insight Switch: 137
+  WiZ: 116
+  WeMo Lighting: 93
+  Honeywell Total Connect Comfort: 75
+  iRobot: 65
+  Lutron Caséta and RA2 Select: 56
+  MagicHue: 55
+  Heatzy: 51
+  Nanoleaf Smarter Series: 50
+  Netatmo Thermostat: 44
+  Hive Active Heating™ - UK and Europe: 41
+  LightwaveRF Lighting: 35
+  Energenie Mi|Home: 34
+  AC Cloud Control: 33
+  Daikin Online Controller: 32
+  Wink: Aros: 31
+  SwitchBot: 31
+  Heatmiser: 31
+  Wink: Pivot Power Genius: 29
+  Home Connect Coffee Machine: 29
+  Nature Remo: 28
+  Sensibo: 28
+  tadoº Heating: 27
+  Hive Active Light™: 27
+  Home Connect Hood: 24
+  Hubitat: 24
+  ThermoSmart: 24
+  Home Connect Fridge Freezer: 23
+  Home Connect Dishwasher: 20
+  iDevices: 18
+  Ambi Climate: 18
+  BDR Thermea Group: 17
+  GE Appliances GeoSpring™: 17
+  Home Connect Oven: 15
+  Nefit Easy: 14
+  Wemo Dimmer: 14
+  GE Appliances Window AC: 14
+  Warmup Smart Thermostat: 13
+  MagicLight WiFi: 13
+  Smappee: 12
+  AQUAREA Smart Cloud: 12
+  VeSync Dimmer: 11
+  Levoit Air Purifier: 11
+  Mysa Thermostat: 10
+  Sengled: 9
+  Optoma: 9
+  WeMo Maker: 8
+  nVent Nuheat Signature Thermostat: 7
+  LightwaveRF Heating: 7
+  Brilliant Smart: 6
+
+DEVICE TYPE DISTRIBUTION
+------------------------------
+  Light: 8919 (78.75%)
+  Generic/Other: 1435 (12.67%)
+  Thermostat/Heating: 794 (7.01%)
+  Air/Climate: 105 (0.93%)
+  Appliance: 73 (0.64%)
+
+END OF REPORT
