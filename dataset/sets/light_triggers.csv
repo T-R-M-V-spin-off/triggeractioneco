@@ -1,537 +1,537 @@
 triggerDesc,percentage,triggerType
-"A trigger that monitors changes in your facebook profile information. it works with these facebook profile fields: name, profile picture, location, website, and bio.",0.01,external_service
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-Child has had money added,0.01,manual_interaction
-Child has had money removed,0.01,other
-Fires when a new incident gets assigned to the current user.,0.01,other
-Indicates whether the carbon is clean or dirty,0.02,weather
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires when a message containing a key phrase is sent.,0.15,manual_interaction
-This trigger fires when a message containing a key phrase is sent.,0.18,manual_interaction
-This trigger fires when a message containing a key phrase is sent.,0.21,manual_interaction
-This trigger fires when a message containing a key phrase is sent.,0.13,manual_interaction
-The otiom tag has entered an alarm state,0.01,external_service
-The trigger fires every time your home enters away mode.,0.02,device_state
-The trigger fires when motion sensor detects occupancy.,0.01,motion
-The trigger fires when the swann video doorbell button is pressed.,0.03,manual_interaction
-The trigger fires when there is a breaking news alert.,0.01,external_service
-This trigger fires when a smoke detector detects smoke.,0.02,external_service
-This trigger activates whenever peak time savings hours are announced and during various stages of an event.,0.01,schedule
-This trigger fires 30 minutes after the end of a dryer cycle.,0.01,schedule
-This trigger fires 30 minutes after the end of a wash cycle.,0.01,schedule
-"This trigger fires a set number of minutes before the starting time of an event on your calendar that contains a specific keyword or phrase in the event’s title, description, or location. ingredient will be based on the zone set in google.",0.02,external_service
-This trigger fires shortly before a calendar event with a specific keyword.,0.16,external_service
-This trigger fires a set number of minutes before the starting time of any event on your google calendar.,0.09,external_service
-This trigger fires a set number of minutes before the starting time of any event on your google calendar. note: the time in the ingredient will be based on the timezone set in google calendar.,0.11,external_service
-This trigger fires actions when a run on the selected tecan instrument is completed,0.02,device_state
-"This trigger fires actions when the selected tecan instrument's state changes to idle, running, paused, error, user interaction required, software not running, not connected and stopped",0.02,other
-This trigger fires after any door is left open for 18 minutes.,0.02,motion
-This trigger fires an alert when your alarm panel has an alarm.,0.02,external_service
-This trigger fires and retrieves air quality from louisville metro air sensors.,0.02,weather
-This trigger fires at the hours where electricity in denmark is cheap.,0.02,schedule
-This trigger fires at the hours where electricity in norway is cheap.,0.02,schedule
-This trigger fires during alarms,0.07,other
-This trigger fires ever time the gust speed rises above a value you specify.,0.02,other
-This trigger fires evert time the nest protect you specify detects low batteries.,0.01,other
-This trigger fires every day after the markets close and a stock's price drops from the previous closing price by at least the percentage you specify.,0.02,pricing
-This trigger fires every day after the markets close and a stock's price rises from the previous closing price by at least the percentage you specify.,0.04,pricing
-This trigger fires every day after the markets close and a stock’s closing price drops below an amount you specify.,0.01,pricing
-This trigger fires every day after the markets close and a stock’s closing price rises above an amount you specify.,0.03,pricing
-This trigger fires every day at a specified time.,3.38,schedule
-This trigger fires every time a client device connects to the d-link router.,0.01,schedule
-This trigger fires every time a device connects to google wifi.,0.06,external_service
-This trigger fires every time a device disconnects from google wifi.,0.02,external_service
-This trigger fires every time a device in your house turns on or off.,0.01,device_state
-This trigger fires every time a group decision or direct action has been taken,0.01,schedule
-This trigger fires every time a motion event is detected.,0.13,motion
-This trigger fires every time a motion is detected at the given doorbell.,0.37,motion
-This trigger fires every time a new book is added to the best sellers list you specify. note: limited to 20 items per check.,0.01,manual_interaction
-This trigger fires every time a new item in the feed you specify contains a particular keyword or simple phrase.,0.06,schedule
-This trigger fires every time a new item is added to the feed you specify.,0.13,manual_interaction
-This trigger fires when a message containing a key phrase is sent.,0.16,external_service
-This trigger fires every time a new photo is added to your camera roll.,0.07,manual_interaction
-This trigger fires every time a new photo is taken on your android device in an area you specify.,0.01,external_service
-This trigger fires every time a new post becomes one of the ten hottest posts in the subreddit you specify.,0.01,external_service
-This trigger fires every time a new reminder is added to the list you specify.,0.03,manual_interaction
-This trigger fires every time a new reminder is completed in a list you specify.,0.01,schedule
-This trigger fires every time a new track is added to a playlist you specify.,0.07,manual_interaction
-This trigger fires every time a new tweet matches your search query. note: limited to 15 tweets per check.,0.07,external_service
-This trigger fires every time a new user starts following you.,0.07,device_state
-This trigger fires every time a previously-connected device connects to your tp-link router.,0.01,schedule
-This trigger fires every time a previously-connected device disconnects from your tp-link router.,0.01,schedule
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires every time a smoke sensor senses smoke.,0.01,schedule
-"This trigger fires every time a song is played on amazon prime music. note: this trigger does not apply to songs provided by spotify, pandora, podcasts and sample clips.",0.13,external_service
-This trigger fires every time a specific channel publishes a video.,0.01,schedule
-This trigger fires every time a specific device connects to asus router.,0.01,schedule
-This trigger fires every time a specific person arrives home.,0.03,schedule
-This trigger fires every time a specific user you are subscribed to makes a new video public.,0.24,schedule
-This trigger fires every time a specified camera detects motion.,0.06,motion
-This trigger fires every time a stream is going live for the specified channel that you follow.,0.06,schedule
-This trigger fires every time a tag detects vibrations.,0.01,schedule
-This trigger fires every time a watering time starts for the device your specify.,0.01,device_state
-This trigger fires every time an air quality alert is raised by your withings home.,0.02,weather
-This trigger fires every time an alarm is detected.,0.02,external_service
-This trigger fires every time an alarm is triggered on your system.,0.03,external_service
-This trigger fires every time an astronaut enters space.,0.04,schedule
-This trigger fires every time an audio event is detected.,0.11,audio
-This trigger fires every time an event matches the specified criteria.,0.02,schedule
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires every time any friend checks in on foursquare or swarm in an area you specify.,0.01,motion
-This trigger fires every time any issue is closed in a repository you own or collaborate on.,0.01,device_state
-This trigger fires when a message containing a key phrase is sent.,0.03,external_service
-This trigger fires every time any reminder is completed.,0.02,schedule
-This trigger fires every time arlo reports low battery level on the selected arlo device.,0.01,device_state
-This trigger fires when a message containing a key phrase is sent.,0.31,external_service
-This trigger fires every time it is christmas in the time zone you specify.,0.09,schedule
-This trigger fires every time motion is no longer detected in a room.,0.01,motion
-This trigger fires every time nasa posts a new astronomy picture of the day.,0.01,schedule
-This trigger fires every time nasa posts to the image of the day gallery.,0.01,schedule
-This trigger fires every time netatmo welcome detects a specific person already known by the camera.,0.01,schedule
-This trigger fires every time smoke is detected,0.03,device_state
-This trigger fires every time somebody rings your ring doorbell.,0.39,schedule
-This trigger fires every time someone already identified by the camera arrives home.,0.02,schedule
-This trigger fires when a button is pressed.,0.01,device_state
-This trigger fires every time someone unknown rings the doorbell connected to the opener.,0.01,schedule
-This trigger fires every time someone unlocks the door with auto unlock.,0.02,schedule
-This trigger fires every time the ambient air pressure rises above a value you specify.,0.01,weather
-This trigger fires every time the button is pressed on your skybell hd.,0.1,manual_interaction
-This trigger fires every time the camera detects a motion event.,0.12,motion
-This trigger fires every time the camera detects a sound or motion event.,0.03,audio
-This trigger fires every time the camera detects motion. requires motion detection to be enabled on your camera.,0.01,motion
-This trigger fires every time the carbon dioxide drops below a value you specify.,0.06,weather
-This trigger fires every time the carbon dioxide rises above a value you specify.,0.12,weather
-This trigger fires every time the clock timer on your cooktop has elapsed.,0.03,device_state
-This trigger fires every time the clock timer on your oven has elapsed.,0.03,device_state
-This trigger fires every time the door is locked.,0.01,device_state
-This trigger fires every time the door is unlocked.,0.02,device_state
-This trigger fires every time the home you specify is set to away.,0.21,schedule
-This trigger fires every time the home you specify is set to home.,0.11,schedule
-This trigger fires every time the humidity drops below a percentage you specify.,0.01,weather
-This trigger fires when a message containing a key phrase is sent.,0.02,external_service
-This trigger fires every time the international space station passes over a location you specify. note: the iss completes 15.5 orbits per day.,0.11,schedule
-This trigger fires every time the laundry cycle ends.,0.03,device_state
-This trigger fires every time the nest protect you specify detects dangerous carbon monoxide levels.,0.12,weather
-This trigger fires when a smoke detector detects smoke.,0.24,schedule
-This trigger fires every time the nest protect you specify detects warning carbon monoxide levels.,0.07,weather
-This trigger fires every time the nest protect you specify detects warning smoke levels.,0.16,schedule
-This trigger fires every time the netatmo welcome detects a person that has already been identified.,0.03,schedule
-This trigger fires every time the netatmo welcome detects an unknown person.,0.04,schedule
-This trigger fires every time the noise rises above a decibel value you specify.,0.03,schedule
-This trigger fires every time the power rises above the specified value in watts.,0.01,schedule
-This trigger fires every time the preheating phase has finished. please note that you have to start the heating program with enabled fast preheat.,0.04,schedule
-This trigger fires every time the president signs a new bill into law.,0.01,schedule
-This trigger fires every time the specified lock is locked.,0.01,device_state
-This trigger fires every time the specified lock is unlocked.,0.06,device_state
-This trigger fires every time the temperature at your weatherflow tempest station drops below a value that you select.,0.01,weather
-This trigger fires every time the temperature drops below a threshold you specify.,0.03,weather
-This trigger fires every time the temperature drops below a value you specify.,0.06,weather
-This trigger fires every time the temperature drops below the chosen value.,0.01,weather
-This trigger fires every time the temperature measured by your spotter rises above the value you specify.,0.01,weather
-This trigger fires every time the temperature rises above a threshold you specify.,0.03,weather
-This trigger fires every time the temperature rises above a value you specify.,0.07,weather
-This trigger fires every time the temperature rises above the chosen value.,0.01,weather
-This trigger fires every time the thermostat you specify is set to a certain heating mode.,0.02,device_state
-This trigger fires every time the twitter user you specify tweets.,0.1,schedule
-This trigger fires every time the wind speed rises above a value you specify in your location.,0.01,schedule
-This trigger fires every time the wind speed rises above a value you specify.,0.01,schedule
-This trigger fires every time the you ask alexa what's on your shopping list.,0.02,audio
-This trigger fires every time the you ask alexa what's on your to do list.,0.1,audio
-This trigger fires every time there is a new follower of your channel.,0.11,schedule
-This trigger fires every time there is a new survey response for the survey you specify.,0.01,schedule
-This trigger fires every time tomorrow’s forecasted low temperature drops below a value you provide.,0.01,weather
-This trigger fires every time when a low battery event is detected by spotcam ring video doorbell or spotcam solo.,0.01,device_state
-This trigger fires every time when a person is detected.,0.01,device_state
-This trigger fires every time when a virtual fence is crossed,0.01,schedule
-This trigger fires every time when audio is detected on your arlo device.,0.01,audio
-This trigger fires every time when spotcam ring battery cover is removed.,0.01,schedule
-This trigger fires every time when spotcam ring video doorbell is pressed.,0.01,manual_interaction
-This trigger fires every time when your alarm panel is armed,0.02,external_service
-This trigger fires every time when your alarm panel is disarmed.,0.02,external_service
-This trigger fires every time you achieve your daily distance goal.,0.03,schedule
-This trigger fires every time you achieve your daily point goal.,0.01,schedule
-This trigger fires every time you achieve your daily step goal.,0.08,schedule
-This trigger fires every time you add a new reminder.,0.09,manual_interaction
-This trigger fires every time you add an item to your shopping list.,0.01,manual_interaction
-This trigger fires every time you add an item to your to do list.,0.15,manual_interaction
-This trigger fires every time you add money to your porkfolio.,0.01,manual_interaction
-This trigger fires every time you answer a phone call on your android device from a number you specify.,0.01,external_service
-This trigger fires every time you are @mentioned in a tweet.,0.12,external_service
-This trigger fires when a message containing a key phrase is sent.,0.42,external_service
-"This trigger fires every time you ask alexa for a team's next game. for example, 'alexa, when do the toronto blue jays play?'",0.01,audio
-"This trigger fires every time you check in on foursquare or swarm
+"a trigger that monitors changes in your facebook profile information. it works with these facebook profile fields: name, profile picture, location, website, and bio.",0.01,external_service
+"any new record in your 'ifttt event' sobject can cause this trigger to fire. you can use the salesforce ui (web or mobile), apex triggers, process builder, etc to insert new records thus causing this ifttt trigger to fire. note: you or your salesforce adm",0.01,external_service
+child has had money added,0.01,manual_interaction
+child has had money removed,0.01,other
+fires when a new incident gets assigned to the current user.,0.01,other
+indicates whether the carbon is clean or dirty,0.02,weather
+send ifttt a tagged sms by adding a hashtag symbol anywhere in the message (e.g. #ifttt). ,0.01,external_service
+send ifttt an email at trigger@applet.ifttt.com with a hashtag in the subject (e.g. #ifttt) and this trigger fires. you can optionally add a single file attachment (up to 30mb) and ifttt will create a public url to the file as an ingredient.,0.15,manual_interaction
+send ifttt an email at trigger@applet.ifttt.com with a hashtag in the subject (e.g. #ifttt) and this trigger fires. you can optionally add a single file attachment and ifttt will create a public url to the file as an ingredient.,0.18,manual_interaction
+send ifttt any email at trigger@applet.ifttt.com and this trigger fires. you can optionally add a single file attachment and ifttt will create a public url to the file as an ingredient. ,0.21,manual_interaction
+send ifttt any email at trigger@applet.ifttt.com and this trigger fires. you can optionally add a single file attachment and ifttt will create a public url to the file as an ingredient. this trigger will reject emails with attachments over 30mb.,0.13,manual_interaction
+the otiom tag has entered an alarm state,0.01,external_service
+the trigger fires every time your home enters away mode.,0.02,device_state
+the trigger fires when motion sensor detects occupancy.,0.01,motion
+the trigger fires when the swann video doorbell button is pressed.,0.03,manual_interaction
+the trigger fires when there is a breaking news alert.,0.01,external_service
+the trigger fires when your smoke detector detects a smoke alarm.,0.02,external_service
+this trigger activates whenever peak time savings hours are announced and during various stages of an event.,0.01,schedule
+this trigger fires 30 minutes after the end of a dryer cycle.,0.01,schedule
+this trigger fires 30 minutes after the end of a wash cycle.,0.01,schedule
+"this trigger fires a set number of minutes before the starting time of an event on your calendar that contains a specific keyword or phrase in the event’s title, description, or location. ingredient will be based on the zone set in google.",0.02,external_service
+"this trigger fires a set number of minutes before the starting time of an event on your google calendar that contains a specific keyword or phrase. the search looks at the event’s title, description, and location.",0.16,external_service
+this trigger fires a set number of minutes before the starting time of any event on your google calendar.,0.09,external_service
+this trigger fires a set number of minutes before the starting time of any event on your google calendar. note: the time in the ingredient will be based on the timezone set in google calendar.,0.11,external_service
+this trigger fires actions when a run on the selected tecan instrument is completed,0.02,device_state
+"this trigger fires actions when the selected tecan instrument's state changes to idle, running, paused, error, user interaction required, software not running, not connected and stopped",0.02,other
+this trigger fires after any door is left open for 18 minutes.,0.02,motion
+this trigger fires an alert when your alarm panel has an alarm.,0.02,external_service
+this trigger fires and retrieves air quality from louisville metro air sensors.,0.02,weather
+this trigger fires at the hours where electricity in denmark is cheap.,0.02,schedule
+this trigger fires at the hours where electricity in norway is cheap.,0.02,schedule
+this trigger fires during alarms,0.07,other
+this trigger fires ever time the gust speed rises above a value you specify.,0.02,other
+this trigger fires evert time the nest protect you specify detects low batteries.,0.01,other
+this trigger fires every day after the markets close and a stock's price drops from the previous closing price by at least the percentage you specify.,0.02,pricing
+this trigger fires every day after the markets close and a stock's price rises from the previous closing price by at least the percentage you specify.,0.04,pricing
+this trigger fires every day after the markets close and a stock’s closing price drops below an amount you specify.,0.01,pricing
+this trigger fires every day after the markets close and a stock’s closing price rises above an amount you specify.,0.03,pricing
+this trigger fires every single day at a specific time set by you.,3.38,schedule
+this trigger fires every time a client device connects to the d-link router.,0.01,schedule
+this trigger fires every time a device connects to google wifi.,0.06,external_service
+this trigger fires every time a device disconnects from google wifi.,0.02,external_service
+this trigger fires every time a device in your house turns on or off.,0.01,device_state
+this trigger fires every time a group decision or direct action has been taken,0.01,schedule
+this trigger fires every time a motion event is detected.,0.13,motion
+this trigger fires every time a motion is detected at the given doorbell.,0.37,motion
+this trigger fires every time a new book is added to the best sellers list you specify. note: limited to 20 items per check.,0.01,manual_interaction
+this trigger fires every time a new item in the feed you specify contains a particular keyword or simple phrase.,0.06,schedule
+this trigger fires every time a new item is added to the feed you specify.,0.13,manual_interaction
+this trigger fires every time a new notification is received on your android device from an app that you specify. note: will not fire for ifttt app notifications.,0.16,external_service
+this trigger fires every time a new photo is added to your camera roll.,0.07,manual_interaction
+this trigger fires every time a new photo is taken on your android device in an area you specify.,0.01,external_service
+this trigger fires every time a new post becomes one of the ten hottest posts in the subreddit you specify.,0.01,external_service
+this trigger fires every time a new reminder is added to the list you specify.,0.03,manual_interaction
+this trigger fires every time a new reminder is completed in a list you specify.,0.01,schedule
+this trigger fires every time a new track is added to a playlist you specify.,0.07,manual_interaction
+this trigger fires every time a new tweet matches your search query. note: limited to 15 tweets per check.,0.07,external_service
+this trigger fires every time a new user starts following you.,0.07,device_state
+this trigger fires every time a previously-connected device connects to your tp-link router.,0.01,schedule
+this trigger fires every time a previously-connected device disconnects from your tp-link router.,0.01,schedule
+this trigger fires every time a rule on a sighthound video camera you specify sends an event. you must first configure rules in sighthound video to “send an ifttt event”.,0.01,external_service
+this trigger fires every time a sighthound video rule you specify sends an event. you must first configure the rule in sighthound video to “send an ifttt event”.,0.01,external_service
+this trigger fires every time a smoke sensor senses smoke.,0.01,schedule
+"this trigger fires every time a song is played on amazon prime music. note: this trigger does not apply to songs provided by spotify, pandora, podcasts and sample clips.",0.13,external_service
+this trigger fires every time a specific channel publishes a video.,0.01,schedule
+this trigger fires every time a specific device connects to asus router.,0.01,schedule
+this trigger fires every time a specific person arrives home.,0.03,schedule
+this trigger fires every time a specific user you are subscribed to makes a new video public.,0.24,schedule
+this trigger fires every time a specified camera detects motion.,0.06,motion
+this trigger fires every time a stream is going live for the specified channel that you follow.,0.06,schedule
+this trigger fires every time a tag detects vibrations.,0.01,schedule
+this trigger fires every time a watering time starts for the device your specify.,0.01,device_state
+this trigger fires every time an air quality alert is raised by your withings home.,0.02,weather
+this trigger fires every time an alarm is detected.,0.02,external_service
+this trigger fires every time an alarm is triggered on your system.,0.03,external_service
+this trigger fires every time an astronaut enters space.,0.04,schedule
+this trigger fires every time an audio event is detected.,0.11,audio
+this trigger fires every time an event matches the specified criteria.,0.02,schedule
+"this trigger fires every time an opportunity changes to the 'closed won' stage. note: for realtime notifications, you or your salesforce administrator must install the ifttt salesforce package. for more details see: ift.tt/salesforce",0.01,external_service
+this trigger fires every time any friend checks in on foursquare or swarm in an area you specify. ,0.01,motion
+this trigger fires every time any issue is closed in a repository you own or collaborate on.,0.01,device_state
+this trigger fires every time any new notification is received on your android device. note: will not fire for ifttt app notifications.,0.03,external_service
+this trigger fires every time any reminder is completed.,0.02,schedule
+this trigger fires every time arlo reports low battery level on the selected arlo device.,0.01,device_state
+this trigger fires every time ifttt receives a specific event from apilio.,0.31,external_service
+this trigger fires every time it is christmas in the time zone you specify.,0.09,schedule
+this trigger fires every time motion is no longer detected in a room.,0.01,motion
+this trigger fires every time nasa posts a new astronomy picture of the day. ,0.01,schedule
+this trigger fires every time nasa posts to the image of the day gallery.,0.01,schedule
+this trigger fires every time netatmo welcome detects a specific person already known by the camera.,0.01,schedule
+this trigger fires every time smoke is detected,0.03,device_state
+this trigger fires every time somebody rings your ring doorbell.,0.39,schedule
+this trigger fires every time someone already identified by the camera arrives home.,0.02,schedule
+this trigger fires every time someone locks the door with lock 'n' go by pressing the button on the smart lock twice.,0.01,device_state
+this trigger fires every time someone unknown rings the doorbell connected to the opener.,0.01,schedule
+this trigger fires every time someone unlocks the door with auto unlock.,0.02,schedule
+this trigger fires every time the ambient air pressure rises above a value you specify.,0.01,weather
+this trigger fires every time the button is pressed on your skybell hd.,0.1,manual_interaction
+this trigger fires every time the camera detects a motion event.,0.12,motion
+this trigger fires every time the camera detects a sound or motion event.,0.03,audio
+this trigger fires every time the camera detects motion. requires motion detection to be enabled on your camera.,0.01,motion
+this trigger fires every time the carbon dioxide drops below a value you specify.,0.06,weather
+this trigger fires every time the carbon dioxide rises above a value you specify.,0.12,weather
+this trigger fires every time the clock timer on your cooktop has elapsed.,0.03,device_state
+this trigger fires every time the clock timer on your oven has elapsed.,0.03,device_state
+this trigger fires every time the door is locked.,0.01,device_state
+this trigger fires every time the door is unlocked.,0.02,device_state
+this trigger fires every time the home you specify is set to away.,0.21,schedule
+this trigger fires every time the home you specify is set to home.,0.11,schedule
+this trigger fires every time the humidity drops below a percentage you specify.,0.01,weather
+this trigger fires every time the ifttt blog posts something tagged 'updates.' it's an easy way to stay on top of new services or features.,0.02,external_service
+this trigger fires every time the international space station passes over a location you specify. note: the iss completes 15.5 orbits per day.,0.11,schedule
+this trigger fires every time the laundry cycle ends.,0.03,device_state
+this trigger fires every time the nest protect you specify detects dangerous carbon monoxide levels.,0.12,weather
+this trigger fires every time the nest protect you specify detects dangerous smoke levels.,0.24,schedule
+this trigger fires every time the nest protect you specify detects warning carbon monoxide levels.,0.07,weather
+this trigger fires every time the nest protect you specify detects warning smoke levels.,0.16,schedule
+this trigger fires every time the netatmo welcome detects a person that has already been identified.,0.03,schedule
+this trigger fires every time the netatmo welcome detects an unknown person.,0.04,schedule
+this trigger fires every time the noise rises above a decibel value you specify.,0.03,schedule
+this trigger fires every time the power rises above the specified value in watts.,0.01,schedule
+this trigger fires every time the preheating phase has finished. please note that you have to start the heating program with enabled fast preheat.,0.04,schedule
+this trigger fires every time the president signs a new bill into law.,0.01,schedule
+this trigger fires every time the specified lock is locked.,0.01,device_state
+this trigger fires every time the specified lock is unlocked.,0.06,device_state
+this trigger fires every time the temperature at your weatherflow tempest station drops below a value that you select.,0.01,weather
+this trigger fires every time the temperature drops below a threshold you specify.,0.03,weather
+this trigger fires every time the temperature drops below a value you specify.,0.06,weather
+this trigger fires every time the temperature drops below the chosen value.,0.01,weather
+this trigger fires every time the temperature measured by your spotter rises above the value you specify.,0.01,weather
+this trigger fires every time the temperature rises above a threshold you specify.,0.03,weather
+this trigger fires every time the temperature rises above a value you specify.,0.07,weather
+this trigger fires every time the temperature rises above the chosen value.,0.01,weather
+this trigger fires every time the thermostat you specify is set to a certain heating mode.,0.02,device_state
+this trigger fires every time the twitter user you specify tweets.,0.1,schedule
+this trigger fires every time the wind speed rises above a value you specify in your location.,0.01,schedule
+this trigger fires every time the wind speed rises above a value you specify.,0.01,schedule
+this trigger fires every time the you ask alexa what's on your shopping list.,0.02,audio
+this trigger fires every time the you ask alexa what's on your to do list.,0.1,audio
+this trigger fires every time there is a new follower of your channel.,0.11,schedule
+this trigger fires every time there is a new survey response for the survey you specify.,0.01,schedule
+this trigger fires every time tomorrow’s forecasted low temperature drops below a value you provide.,0.01,weather
+this trigger fires every time when a low battery event is detected by spotcam ring video doorbell or spotcam solo.,0.01,device_state
+this trigger fires every time when a person is detected.,0.01,device_state
+this trigger fires every time when a virtual fence is crossed,0.01,schedule
+this trigger fires every time when audio is detected on your arlo device.,0.01,audio
+this trigger fires every time when spotcam ring battery cover is removed.,0.01,schedule
+this trigger fires every time when spotcam ring video doorbell is pressed.,0.01,manual_interaction
+this trigger fires every time when your alarm panel is armed,0.02,external_service
+this trigger fires every time when your alarm panel is disarmed.,0.02,external_service
+this trigger fires every time you achieve your daily distance goal.,0.03,schedule
+this trigger fires every time you achieve your daily point goal.,0.01,schedule
+this trigger fires every time you achieve your daily step goal.,0.08,schedule
+this trigger fires every time you add a new reminder.,0.09,manual_interaction
+this trigger fires every time you add an item to your shopping list.,0.01,manual_interaction
+this trigger fires every time you add an item to your to do list.,0.15,manual_interaction
+this trigger fires every time you add money to your porkfolio.,0.01,manual_interaction
+this trigger fires every time you answer a phone call on your android device from a number you specify.,0.01,external_service
+this trigger fires every time you are @mentioned in a tweet.,0.12,external_service
+this trigger fires every time you are tagged you in a new photo. note: facebook privacy settings may block ifttt’s access to some photos you are tagged in.,0.42,external_service
+"this trigger fires every time you ask alexa for a team's next game. for example, 'alexa, when do the toronto blue jays play?'",0.01,audio
+"this trigger fires every time you check in on foursquare or swarm
 with a single hashtag in the shout (e.g. #ifttt).",0.01,external_service
-This trigger fires every time you check in to a venue in a specific category on foursquare or swarm. it only works with public check-ins.,0.02,device_state
-This trigger fires when a button is pressed.,0.03,manual_interaction
-This trigger fires every time you click the selected flic.,0.25,manual_interaction
-This trigger fires every time you complete an item on your to do list.,0.04,device_state
-This trigger fires every time you create a new link post on facebook.,0.01,external_service
-This trigger fires every time you create a new plain text status message on facebook with a specific hashtag.,0.01,external_service
-This trigger fires every time you create a new plain text status message on facebook.,0.22,external_service
-This trigger fires every time you create a new status message on your facebook page.,0.01,external_service
-This trigger fires when a button is pressed.,0.01,manual_interaction
-This trigger fires when a button is pressed.,0.01,manual_interaction
-This trigger fires every time you do not achieve a daily goal you choose at the time you specify. note: updated on the first fitbit tracker sync after the time you specify.,0.01,device_state
-This trigger fires when a button is pressed.,0.03,manual_interaction
-This trigger fires when the user enters a specified area.,1.23,motion
-This trigger fires when the user enters a specified area.,0.03,motion
-This trigger fires when the user exits a specified area.,0.75,motion
-This trigger fires every time you favorite a public photo on flickr.,0.01,device_state
-This trigger fires every time you follow a new show on spotify.,0.01,external_service
-This trigger fires every time you have a new weight from your withings scale.,0.01,schedule
-This trigger fires when a message containing a key phrase is sent.,0.02,external_service
-This trigger fires every time you like a tweet.,0.03,external_service
-This trigger fires every time you like a video on youtube.,0.04,external_service
-This trigger fires every time you log sleep above the target hours you specify.,0.04,external_service
-This trigger fires every time you log your weight in the fitbit app or with the aria scale.,0.03,external_service
-This trigger fires every time you miss a phone call on your android device from a number you specify.,0.09,external_service
-This trigger fires every time you miss a phone call on your android device.,0.18,external_service
-This trigger fires every time you or someone in your orion group says a particular word or phrase.,0.02,schedule
-This trigger fires every time you place a phone call on your android device.,0.07,external_service
-This trigger fires every time you post a new photo on facebook.,0.03,external_service
-This trigger fires every time you post a new tweet with a specific hashtag.,0.07,external_service
-This trigger fires every time you post a new tweet.,0.03,external_service
-This trigger fires every time you post on facebook at a location you specify.,0.01,external_service
-This trigger fires when a button is pressed.,0.02,manual_interaction
-This trigger fires when a button is pressed.,1.25,manual_interaction
-This trigger fires every time you press the stone.,0.03,manual_interaction
-This trigger fires every time you publish a new post on your public wordpress blog.,0.01,external_service
-This trigger fires every time you receive a new notification from a specific repository on github.,0.02,device_state
-This trigger fires every time you receive a new voicemail.,0.02,schedule
-This trigger fires every time you receive an incoming call from a number that is not in your contact list.,0.02,schedule
-This trigger fires every time you receive an incoming call from a phone number in your contact list.,0.03,schedule
-This trigger fires every time you receive an incoming call.,0.04,schedule
-This trigger fires every time you receive an sms on your android device from a phone number you specify.,0.03,external_service
-This trigger fires every time you receive an sms on your android device that matches a search you specify.,0.03,external_service
-This trigger fires every time you receive any new sms on your android device.,0.24,external_service
-This trigger fires every time you save a new track to your music on spotify.,0.11,external_service
-This trigger fires when a voice assistant is activated with a custom phrase.,3.66,audio
-This trigger fires every time you send an sms on your android device that matches a search you specify.,0.02,external_service
-This trigger fires every time you send an sms on your android device to a phone number you specify.,0.01,external_service
-This trigger fires every time you send an sms on your android device.,0.02,external_service
-This trigger fires every time you share a photo on instagram with a hashtag you specify.,0.01,external_service
-This trigger fires every time you share any new photo on instagram.,0.08,device_state
-This trigger fires every time you share any new video on instagram.,0.01,device_state
-This trigger fires when a button is pressed.,0.01,manual_interaction
-This trigger fires every time you start a live event on vimeo. note: vimeo's live api is available only to vimeo enterprise customers.,0.01,device_state
-This trigger fires every time you submit any new note.,0.02,schedule
-This trigger fires every time you take a photo with the front camera.,0.02,schedule
-This trigger fires every time you take a photo with the rear camera.,0.01,schedule
-This trigger fires every time you take any new photo via do camera.,0.01,schedule
-This trigger fires when a button is pressed.,0.01,manual_interaction
-This trigger fires every time you upload a new public video to youtube.,0.03,external_service
-"This trigger fires every time your air purifier registers an air quality you specify (poor, moderate, good).",0.01,weather
-This trigger fires every time your alarm goes off.,0.59,external_service
-This trigger fires every time your android device connects to a wifi network you specify.,0.12,external_service
-This trigger fires every time your android device connects to any wifi network.,0.02,external_service
-This trigger fires every time your android device disconnects from a wifi network you specify.,0.09,external_service
-This trigger fires every time your android device disconnects from any wifi network.,0.01,external_service
-This trigger fires every time your android device is plugged in.,0.08,external_service
-This trigger fires every time your android device is unplugged.,0.01,external_service
-This trigger fires every time your android device's battery drops below 15%.,0.08,external_service
-This trigger fires every time your cloudbit receives an input signal from another littlebits module.,0.02,schedule
-This trigger fires when a smart cooking device finishes successfully.,0.03,schedule
-This trigger fires every time your d-link camera detects a sound event.,0.01,audio
-This trigger fires every time your d-link device detects a motion event.,0.02,motion
-This trigger fires every time your d-link water sensor detects a leak event.,0.01,schedule
-This trigger fires every time your device is nearly out of battery.,0.01,schedule
-This trigger fires every time your dishwasher cycle is complete.,0.03,schedule
-This trigger fires every time your dishwasher door has been opened.,0.01,device_state
-"This trigger fires every time your dryer cycle is complete. this requires both the drying and wrinkle guard to be finished, in case you were using wrinkle guard.",0.03,schedule
-This trigger fires every time your ecobee light switch is turned off.,0.01,device_state
-This trigger fires every time your ecobee light switch is turned on.,0.01,device_state
-This trigger fires every time your ecobee thermostat and room sensors change to smart home or smart away comfort profiles.,0.02,schedule
-This trigger fires every time your fitbit logs new sleep.,0.1,external_service
-This trigger fires every time your ge dishwasher finishes a cycle.,0.02,schedule
-This trigger fires every time your ge dryer finishes a cycle.,0.02,schedule
-This trigger fires every time your ge washer finishes a cycle.,0.01,schedule
-This trigger fires every time your home exits away mode.,0.01,device_state
-This trigger fires every time your hood is turned off.,0.01,device_state
-This trigger fires every time your hood is turned on.,0.01,device_state
-This trigger fires when a message containing a key phrase is sent.,0.04,external_service
-This trigger fires every time your lock is locked by a specific person.,0.02,device_state
-This trigger fires every time your lock is unlocked by a specific person.,0.03,device_state
-This trigger fires every time your misfit shine logs sleep with a duration above the target hours you specify.,0.01,external_service
-This trigger fires every time your myfox security system detects an intrusion.,0.02,external_service
-This trigger fires every time your myfox security system is armed.,0.01,external_service
-This trigger fires every time your myfox security system is disarmed.,0.02,external_service
-"This trigger fires every time your myfox security system receives an alarm (detection, intrusion, silent alert, ...).",0.06,external_service
-This trigger fires every time your netatmo presence detects a person outside.,0.02,schedule
-This trigger fires every time your netatmo presence detects a vehicle outside.,0.02,schedule
-This trigger fires every time your netatmo rain gauge detects that it is no longer raining.,0.02,weather
-This trigger fires every time your netatmo rain gauge detects that it is raining.,0.07,weather
-This trigger fires every time your oven door has been closed.,0.01,device_state
-This trigger fires every time your oven door has been opened.,0.01,device_state
-This trigger fires every time your oven has finished successfully.,0.06,schedule
-This trigger fires every time your oven is turned on.,0.02,device_state
-This trigger fires every time your oven turns off after the cooking timer reaches zero.,0.01,device_state
-This trigger fires every time your refrigerator door is opened.,0.01,device_state
-This trigger fires when a freezer door is opened.,0.01,schedule
-This trigger fires every time your roxxter has started.,0.01,schedule
-This trigger fires every time your site changes modes.,0.02,schedule
-This trigger fires every time your skybell hd detects motions.,0.07,schedule
-This trigger fires every time your smartthings device detects temperatures above a value you specify.,0.01,weather
-This trigger fires every time your smartthings device detects temperatures below a value you specify.,0.02,weather
-This trigger fires every time your smartthings device is opened.,0.06,device_state
-This trigger fires every time your smartthings device is switched off.,0.01,device_state
-This trigger fires every time your smartthings device is switched on.,0.02,device_state
-This trigger fires every time your smartthings device senses motion.,0.08,motion
-This trigger fires every time your smartthings device's presence is detected.,0.04,device_state
-This trigger fires every time your smartthings device's presence is no longer detected.,0.03,device_state
-This trigger fires every time your thermostat is nearly out of battery.,0.01,schedule
-This trigger fires every time your timer goes off.,0.37,device_state
-This trigger fires every time your washer cycle is complete.,0.06,schedule
-This trigger fires every time your weatherflow tempest station detects the start of rain.,0.02,weather
-This trigger fires every time your wemo insight switch enters standby mode. the switch enters standby mode when the device attached to it is manually powered off or stops drawing power.,0.01,device_state
-This trigger fires every time your wemo insight switch is turned off.,0.01,device_state
-This trigger fires every time your wemo insight switch is turned on.,0.03,device_state
-This trigger fires every time your wemo light switch is turned off.,0.08,device_state
-This trigger fires every time your wemo light switch is turned on or off with a long press over two seconds.,0.25,manual_interaction
-This trigger fires every time your wemo light switch is turned on.,0.12,device_state
-This trigger fires every time your wemo light switches off.,0.03,device_state
-This trigger fires every time your wemo light switches on.,0.04,device_state
-This trigger fires every time your wemo motion sensor detects new motion after a specific period of inactivity.,0.01,motion
-This trigger fires every time your wemo motion sensor detects new motion.,0.12,motion
-This trigger fires every time your wemo switch is turned off.,0.1,device_state
-This trigger fires every time your wemo switch is turned on.,0.06,device_state
-This trigger fires every time your wine cooler door has been opened.,0.01,device_state
-This trigger fires every time your withings home detects motion.,0.1,motion
-"This trigger fires every time your withings sleep detects that you get into bed, within the start and end time parameters that you specify.",0.06,schedule
-This trigger fires when a sleep tracking device detects the user leaving the bed.,0.06,schedule
-This trigger fires every year on the fourth of july at the time you specify.,0.02,device_state
-"This trigger fires for a given combination of iot device, zone and action",0.01,other
-This trigger fires for an account that is on a dynamic pricing plan such as the residential hourly pricing program or other real time market rates whenever the average price changes.,0.03,pricing
-This trigger fires if aura detects motion when set to night scene.,2.58,motion
-This trigger fires if aura detects motion when set to the away scene.,24.14,motion
-This trigger fires if aura detects motion. note: this trigger only works with the first generation of aura devices (sold prior to october 2017).,3.83,motion
-This trigger fires if the concentration of carbon dioxide (co₂) measured from your awair device rises above the threshold you specified for more than 30 seconds.,0.07,weather
-This trigger fires if the thermostat encounters an error.,0.01,other
-This trigger fires when a message containing a key phrase is sent.,0.17,external_service
-This trigger fires once a year on the date and time you specify.,0.8,device_state
-"This trigger fires once an hour at :00, :15, :30, or :45 minutes past the hour.",0.43,schedule
-This trigger fires on specific days of the week at a specified time.,1.86,device_state
-This trigger fires when a blue by adt alarm event occurs.,0.01,external_service
-This trigger fires when a blue by adt sensor notices activity in the home.,0.01,other
-This trigger fires when a contact sensor closes.,0.01,device_state
-This trigger fires when a contact sensor opens.,0.02,device_state
-This trigger fires when a device attached to your homeseer system is turned off.,0.01,device_state
-This trigger fires when a door is closed.,0.03,device_state
-This trigger fires when a door is open. this trigger will only work with 'garage mode'. remote access must be enabled.,0.01,device_state
-This trigger fires when a door is opened.,0.04,device_state
-"This trigger fires when a door opens, closes, or moves.",0.01,device_state
-This trigger fires when a given parameter exceed a given threshold.,0.01,other
-This trigger fires when a given parameter falls below a certain threshold.,0.01,other
-This trigger fires when a human is detected by beseye camera.,0.01,device_state
-This trigger fires when a knx device or binary switch is turned off.,0.01,device_state
-This trigger fires when a knx scene is started.,0.01,other
-This trigger fires when a leak is detected by the specified device.,0.01,device_state
-This trigger fires when a mode is armed.,0.01,device_state
-This trigger fires when a mode is disarmed.,0.01,device_state
-This trigger fires when a motion sensor becomes clear.,0.04,motion
-This trigger fires when a motion sensor detects motion.,0.06,motion
-This trigger fires when a new deal is posted on the frontpage at slickdeals,0.01,device_state
-This trigger fires when a new disease outbreak update is posted the by world health organization.,0.01,other
-This trigger fires when a new iot podcast episode is published.,0.01,other
-This trigger fires when a nexia automation runs.,0.03,external_service
-This trigger fires when a noonlight alarm is triggered.,0.01,external_service
-This trigger fires when a particular cell is updated within the spreadsheet you specify.,0.01,external_service
-This trigger fires when a person is detected on your swann security device,0.01,external_service
-This trigger fires when a pet is detected on the selected swann security device.,0.01,external_service
-This trigger fires when a routine is activated.,0.04,external_service
-This trigger fires when a scheduled meeting ends.,0.03,device_state
-This trigger fires when a scheduled meeting starts.,0.03,device_state
-This trigger fires when a selected member arrives.,13.35,motion
-This trigger fires when a selected member leaves.,1.25,motion
-This trigger fires when a sound is detected by the selected swann security device.,0.01,audio
-This trigger fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is open.,0.01,motion
-This trigger fires when a task in a given list is completed,0.01,other
-This trigger fires when a task is completed.,0.03,other
-This trigger fires when a user is detected in or nearby your network.,0.02,device_state
-This trigger fires when a message containing a key phrase is sent.,0.02,external_service
-This trigger fires when a vehicle enters one of its geo-circles.,0.01,other
-This trigger fires when a vehicle exits one of its geo-circles,0.01,other
-This trigger fires when a vehicle is detected by the selected swann security device.,0.01,external_service
-This trigger fires when a watering event is executed.,0.01,other
-This trigger fires when a smoke detector detects smoke.,0.01,external_service
-This trigger fires when a wyze cam detects motion. the minimum firmware version required is v3.9.3.62 for v1 and v4.9.1.60 for v2.,0.08,motion
-This trigger fires when a wyze cam detects sound. the minimum firmware version required is v3.9.3.62 for v1 and v4.9.1.60 for v2.,0.01,audio
-This trigger fires when adaptors detect intrusion,0.01,other
-This trigger fires when an abode alarm is active.,0.08,external_service
-This trigger fires when an alarm event occurs.,0.02,external_service
-This trigger fires when an alarm sounds.,0.02,external_service
-This trigger fires when an event is triggered from your litter robot. ie. clean cycle completes,0.04,other
-This trigger fires when an event related to the eight alarm happens.,0.01,external_service
-This trigger fires when an ihome enhance button is pressed,0.1,manual_interaction
-This trigger fires when an interesting event comes from a particular device. send events using particle.publish.,0.01,other
-"This trigger fires when an issue occurs, such as low battery, device offline, etc.",0.02,other
-This trigger fires when an ohmhour starts,0.01,device_state
-This trigger fires when any goal moves into the red (imminent derailment).,0.01,other
-This trigger fires when any or a specific door panel is opened.,0.02,device_state
-This trigger fires when any or a specific motion sensor detects motion. your scout system must be in an armed state.,0.01,motion
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires when at least one family member has come home.,0.01,other
-This trigger fires when away mode is canceled on my thermostat.,0.01,device_state
-This trigger fires when away mode is on.,0.01,device_state
-This trigger fires when bart is delayed at a station,0.01,other
-This trigger fires when battery levels fall below normal levels for any vehicle in your account. the vehicle ingredient specifies the name of the vehicle with the problem.,0.01,other
-This trigger fires when button is pressed.,0.01,manual_interaction
-This trigger fires when caavo control center is turned on.,0.01,device_state
-This trigger fires when caavo control center performs any search query.,0.02,other
-This trigger fires when co2 emissions level is low,0.01,weather
-This trigger fires when every family member has left.,0.01,motion
-This trigger fires when everyone has gone to sleep.,0.01,other
-This trigger fires when fetch-it button is pressed or long pressed.,0.01,manual_interaction
-This trigger fires when global air pollution is higher than 50.,0.02,weather
-This trigger fires when home mode is on.,0.01,device_state
-This trigger fires when it's time for fast.,0.03,other
-This trigger fires when it's time for prayer.,0.15,manual_interaction
-This trigger fires when lock is unlocked,0.02,device_state
-This trigger fires when motion is detected on the selected camera.,0.01,motion
-This trigger fires when motion is detected.,0.01,motion
-This trigger fires when my thermostat enters away mode.,0.01,device_state
-This trigger fires when my total connect security panel receives an alarm,0.01,external_service
-This trigger fires when no one of a user group is detected in or nearby your network.,0.02,device_state
-This trigger fires when phyn detects an alert.,0.01,other
-This trigger fires when pir detects person.,0.01,other
-"This trigger fires when simcam detects a person in a specific area.(if you select 'special time', this trigger will run once in this time period. if you do not fill in this value, the trigger will run normally)",0.01,motion
-This trigger fires when simcam recognizes a face id that set up.,0.02,motion
-This trigger fires when sound is detected on the selected microphone,0.01,audio
-This trigger fires when specified pir kumosensor detects movement.,0.02,motion
-This trigger fires when tado⁠° switches to away mode.,0.06,device_state
-This trigger fires when tado⁠° switches to home mode.,0.04,device_state
-This trigger fires when the air quality goes below a given value.,0.01,weather
-This trigger fires when the air quality measured from your air monitor is unhealthy. (indoor air quality value rises higher than 150 or your threshold setting),0.02,weather
-This trigger fires when the alarm for a specific mode is dismissed.,0.01,external_service
-This trigger fires when the alarm for a specific mode is triggered.,0.04,external_service
-"This trigger fires when the alarm has changed mode. i.e. armed, disarmed or set to home shield mode.",0.01,external_service
-This trigger fires when the alarm is armed.,0.01,external_service
-This trigger fires when the alarm is disarmed.,0.01,external_service
-This trigger fires when the alarm is triggered,0.03,external_service
-This trigger fires when the amount of renewable generation in the grid changes.,0.03,other
-This trigger fires when the aqi of your device exceeds a selected threshold.,0.01,other
-This trigger fires when the aqi of your device is updated.,0.02,other
-This trigger fires when carbon intensity is lowest within a time window.,0.01,weather
-This trigger fires when the cost of the device attached to your wemo insight switch rises above the daily value you specify.,0.01,other
-This trigger fires when the co₂ level for a specific devices becomes lower than the specified threshold.,0.01,other
-This trigger fires when the co₂ level for a specific devices exceeded a specified threshold.,0.02,other
-This trigger fires when the daily rain measurement rises above a given threshold.,0.02,weather
-This trigger fires when the device connected to fibaro home center detects motion.,0.01,motion
-"This trigger fires when the ema/metrosafe city agency in louisville, ky sends an emergency notification to the surrounding area.",0.01,motion
-This trigger fires when the energy saving mode scene is activated,0.01,device_state
-This trigger fires when the filtrete™ outdoor air quality scale level changes; for example: from good to fair.,0.01,weather
-This trigger fires when the filtrete™ outdoor air quality value becomes higher (i.e. worse) than a chosen value.,0.01,weather
-This trigger fires when the garage door starts to open.,0.02,device_state
-This trigger fires when the gate start opening,0.01,other
-This trigger fires when the goal is close to derailing. it will begin firing according to the goal's reminder settings.,0.01,other
-This trigger fires when the home security device enters away mode.,0.01,external_service
-This trigger fires when the hub is in a specific state.,0.01,other
-This trigger fires when the humidity of a device rises above the provided threshold.,0.01,weather
-This trigger fires when the number of your smartphone screen unlocks exceeds your specified daily limit.,0.01,other
-This trigger fires when the outdoor temperature rises above a given value.,0.01,weather
-This trigger fires when the price of electricity changes.,0.03,pricing
-This trigger fires when the radon level for a device rises above the provided threshold.,0.02,other
-This trigger fires when the remaining life of any of your filtrete smart air filter drops below your chosen percentage.,0.01,weather
-This trigger fires when the room temperature falls below a user-defined threshold.,0.01,weather
-This trigger fires when the room temperature rises above a user-defined value.,0.01,weather
-This trigger fires when the scene in a room is changed.,0.04,other
-This trigger fires when the scene is changed to the selected scene.,12.3,device_state
-This trigger fires when the selected swann security device detects  motion.,0.01,external_service
-This trigger fires when the smart alert detects that a smoke or carbon monoxide alarm has gone off in your home.,0.01,weather
-This trigger fires when the smarter coffee 2.0 has finished brewing.,0.02,other
-This trigger fires when the smarter ikettle 3.0 has finished boiling.,0.02,other
-"This trigger fires when the specified camera detects motion. to use this trigger, camera’s motion detection should be turned on.",0.01,motion
-This trigger fires when the specified device is set to cool mode,0.01,device_state
-This trigger fires when the specified device is set to eco mode,0.01,device_state
-This trigger fires when the specified device is set to heat mode,0.01,device_state
-This trigger fires when the specified device is turned off,0.01,device_state
-This trigger fires when the specified product turns off.,0.01,device_state
-This trigger fires when the specified product turns on.,0.01,device_state
-This trigger fires when the state of selected door sensor is open or closed.,0.01,device_state
-This trigger fires when the system detects a water leak.,0.01,other
-This trigger fires when the uv index rises above a given value.,0.02,other
-This trigger fires when there is a new dart rider alert.,0.01,other
-This trigger fires when there is a new membership for your channel.,0.36,other
-This trigger fires when there is a new super chat message in a live chat during a live stream on your channel.,0.34,device_state
-This trigger fires when there is a new super sticker in a live chat during a live stream on your channel.,0.07,device_state
-This trigger fires when there is a new user voicemail.,0.01,other
-This trigger fires when time-of-day peak rates start or end.,0.02,schedule
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-"This trigger fires when you are scheduled to be away and nobody is in the house.  
+this trigger fires every time you check in to a venue in a specific category on foursquare or swarm. it only works with public check-ins.,0.02,device_state
+this trigger fires every time you click a button on thinga.,0.03,manual_interaction
+this trigger fires every time you click the selected flic.,0.25,manual_interaction
+this trigger fires every time you complete an item on your to do list.,0.04,device_state
+this trigger fires every time you create a new link post on facebook.,0.01,external_service
+this trigger fires every time you create a new plain text status message on facebook with a specific hashtag.,0.01,external_service
+this trigger fires every time you create a new plain text status message on facebook.,0.22,external_service
+this trigger fires every time you create a new status message on your facebook page.,0.01,external_service
+this trigger fires every time you do a long press on the configured logi button.,0.01,manual_interaction
+this trigger fires every time you do a short press on the configured logi button.,0.01,manual_interaction
+this trigger fires every time you do not achieve a daily goal you choose at the time you specify. note: updated on the first fitbit tracker sync after the time you specify.,0.01,device_state
+this trigger fires every time you double press your misfit flash button.,0.03,manual_interaction
+this trigger fires every time you enter an area you specify.,1.23,motion
+this trigger fires every time you enter or exit an area you specify.,0.03,motion
+this trigger fires every time you exit an area you specify.,0.75,motion
+this trigger fires every time you favorite a public photo on flickr.,0.01,device_state
+this trigger fires every time you follow a new show on spotify.,0.01,external_service
+this trigger fires every time you have a new weight from your withings scale.,0.01,schedule
+this trigger fires every time you leave any voicemail at your ifttt phone number.,0.02,external_service
+this trigger fires every time you like a tweet.,0.03,external_service
+this trigger fires every time you like a video on youtube.,0.04,external_service
+this trigger fires every time you log sleep above the target hours you specify.,0.04,external_service
+this trigger fires every time you log your weight in the fitbit app or with the aria scale.,0.03,external_service
+this trigger fires every time you miss a phone call on your android device from a number you specify.,0.09,external_service
+this trigger fires every time you miss a phone call on your android device.,0.18,external_service
+this trigger fires every time you or someone in your orion group says a particular word or phrase.,0.02,schedule
+this trigger fires every time you place a phone call on your android device.,0.07,external_service
+this trigger fires every time you post a new photo on facebook.,0.03,external_service
+this trigger fires every time you post a new tweet with a specific hashtag.,0.07,external_service
+this trigger fires every time you post a new tweet.,0.03,external_service
+this trigger fires every time you post on facebook at a location you specify. ,0.01,external_service
+this trigger fires every time you press the action button on lametric time.,0.02,manual_interaction
+this trigger fires every time you press the button.,1.25,manual_interaction
+this trigger fires every time you press the stone.,0.03,manual_interaction
+this trigger fires every time you publish a new post on your public wordpress blog.,0.01,external_service
+this trigger fires every time you receive a new notification from a specific repository on github.,0.02,device_state
+this trigger fires every time you receive a new voicemail.,0.02,schedule
+this trigger fires every time you receive an incoming call from a number that is not in your contact list.,0.02,schedule
+this trigger fires every time you receive an incoming call from a phone number in your contact list.,0.03,schedule
+this trigger fires every time you receive an incoming call.,0.04,schedule
+this trigger fires every time you receive an sms on your android device from a phone number you specify.,0.03,external_service
+this trigger fires every time you receive an sms on your android device that matches a search you specify.,0.03,external_service
+this trigger fires every time you receive any new sms on your android device.,0.24,external_service
+this trigger fires every time you save a new track to your music on spotify.,0.11,external_service
+"this trigger fires every time you say 'alexa trigger' + the phrase that you have defined. for instance, if you set 'party time' as the phrase, you can say 'alexa trigger party time' to have your lights loop colors.",3.66,audio
+this trigger fires every time you send an sms on your android device that matches a search you specify.,0.02,external_service
+this trigger fires every time you send an sms on your android device to a phone number you specify.,0.01,external_service
+this trigger fires every time you send an sms on your android device.,0.02,external_service
+this trigger fires every time you share a photo on instagram with a hashtag you specify.,0.01,external_service
+this trigger fires every time you share any new photo on instagram.,0.08,device_state
+this trigger fires every time you share any new video on instagram.,0.01,device_state
+this trigger fires every time you single press your misfit flash button.,0.01,manual_interaction
+this trigger fires every time you start a live event on vimeo. note: vimeo's live api is available only to vimeo enterprise customers.,0.01,device_state
+this trigger fires every time you submit any new note.,0.02,schedule
+this trigger fires every time you take a photo with the front camera.,0.02,schedule
+this trigger fires every time you take a photo with the rear camera.,0.01,schedule
+this trigger fires every time you take any new photo via do camera.,0.01,schedule
+this trigger fires every time you triple press your misfit flash button.,0.01,manual_interaction
+this trigger fires every time you upload a new public video to youtube.,0.03,external_service
+"this trigger fires every time your air purifier registers an air quality you specify (poor, moderate, good).",0.01,weather
+this trigger fires every time your alarm goes off.,0.59,external_service
+this trigger fires every time your android device connects to a wifi network you specify.,0.12,external_service
+this trigger fires every time your android device connects to any wifi network.,0.02,external_service
+this trigger fires every time your android device disconnects from a wifi network you specify.,0.09,external_service
+this trigger fires every time your android device disconnects from any wifi network.,0.01,external_service
+this trigger fires every time your android device is plugged in.,0.08,external_service
+this trigger fires every time your android device is unplugged.,0.01,external_service
+this trigger fires every time your android device's battery drops below 15%.,0.08,external_service
+this trigger fires every time your cloudbit receives an input signal from another littlebits module.,0.02,schedule
+this trigger fires every time your cookit has finished successfully.,0.03,schedule
+this trigger fires every time your d-link camera detects a sound event.,0.01,audio
+this trigger fires every time your d-link device detects a motion event.,0.02,motion
+this trigger fires every time your d-link water sensor detects a leak event.,0.01,schedule
+this trigger fires every time your device is nearly out of battery.,0.01,schedule
+this trigger fires every time your dishwasher cycle is complete.,0.03,schedule
+this trigger fires every time your dishwasher door has been opened.,0.01,device_state
+"this trigger fires every time your dryer cycle is complete. this requires both the drying and wrinkle guard to be finished, in case you were using wrinkle guard.",0.03,schedule
+this trigger fires every time your ecobee light switch is turned off.,0.01,device_state
+this trigger fires every time your ecobee light switch is turned on.,0.01,device_state
+this trigger fires every time your ecobee thermostat and room sensors change to smart home or smart away comfort profiles.,0.02,schedule
+this trigger fires every time your fitbit logs new sleep.,0.1,external_service
+this trigger fires every time your ge dishwasher finishes a cycle.,0.02,schedule
+this trigger fires every time your ge dryer finishes a cycle.,0.02,schedule
+this trigger fires every time your ge washer finishes a cycle.,0.01,schedule
+this trigger fires every time your home exits away mode.,0.01,device_state
+this trigger fires every time your hood is turned off.,0.01,device_state
+this trigger fires every time your hood is turned on.,0.01,device_state
+this trigger fires every time your ifttt tag on mesh app receives an input signal from the other tag.,0.04,external_service
+this trigger fires every time your lock is locked by a specific person.,0.02,device_state
+this trigger fires every time your lock is unlocked by a specific person.,0.03,device_state
+this trigger fires every time your misfit shine logs sleep with a duration above the target hours you specify.,0.01,external_service
+this trigger fires every time your myfox security system detects an intrusion.,0.02,external_service
+this trigger fires every time your myfox security system is armed.,0.01,external_service
+this trigger fires every time your myfox security system is disarmed.,0.02,external_service
+"this trigger fires every time your myfox security system receives an alarm (detection, intrusion, silent alert, ...).",0.06,external_service
+this trigger fires every time your netatmo presence detects a person outside.,0.02,schedule
+this trigger fires every time your netatmo presence detects a vehicle outside.,0.02,schedule
+this trigger fires every time your netatmo rain gauge detects that it is no longer raining.,0.02,weather
+this trigger fires every time your netatmo rain gauge detects that it is raining.,0.07,weather
+this trigger fires every time your oven door has been closed.,0.01,device_state
+this trigger fires every time your oven door has been opened.,0.01,device_state
+this trigger fires every time your oven has finished successfully.,0.06,schedule
+this trigger fires every time your oven is turned on.,0.02,device_state
+this trigger fires every time your oven turns off after the cooking timer reaches zero.,0.01,device_state
+this trigger fires every time your refrigerator door is opened.,0.01,device_state
+this trigger fires every time your refrigerator or freezer doors are open.,0.01,schedule
+this trigger fires every time your roxxter has started.,0.01,schedule
+this trigger fires every time your site changes modes.,0.02,schedule
+this trigger fires every time your skybell hd detects motions.,0.07,schedule
+this trigger fires every time your smartthings device detects temperatures above a value you specify.,0.01,weather
+this trigger fires every time your smartthings device detects temperatures below a value you specify.,0.02,weather
+this trigger fires every time your smartthings device is opened.,0.06,device_state
+this trigger fires every time your smartthings device is switched off.,0.01,device_state
+this trigger fires every time your smartthings device is switched on.,0.02,device_state
+this trigger fires every time your smartthings device senses motion.,0.08,motion
+this trigger fires every time your smartthings device's presence is detected.,0.04,device_state
+this trigger fires every time your smartthings device's presence is no longer detected.,0.03,device_state
+this trigger fires every time your thermostat is nearly out of battery.,0.01,schedule
+this trigger fires every time your timer goes off.,0.37,device_state
+this trigger fires every time your washer cycle is complete.,0.06,schedule
+this trigger fires every time your weatherflow tempest station detects the start of rain.,0.02,weather
+this trigger fires every time your wemo insight switch enters standby mode. the switch enters standby mode when the device attached to it is manually powered off or stops drawing power.,0.01,device_state
+this trigger fires every time your wemo insight switch is turned off.,0.01,device_state
+this trigger fires every time your wemo insight switch is turned on.,0.03,device_state
+this trigger fires every time your wemo light switch is turned off.,0.08,device_state
+this trigger fires every time your wemo light switch is turned on or off with a long press over two seconds.,0.25,manual_interaction
+this trigger fires every time your wemo light switch is turned on.,0.12,device_state
+this trigger fires every time your wemo light switches off.,0.03,device_state
+this trigger fires every time your wemo light switches on.,0.04,device_state
+this trigger fires every time your wemo motion sensor detects new motion after a specific period of inactivity.,0.01,motion
+this trigger fires every time your wemo motion sensor detects new motion.,0.12,motion
+this trigger fires every time your wemo switch is turned off.,0.1,device_state
+this trigger fires every time your wemo switch is turned on.,0.06,device_state
+this trigger fires every time your wine cooler door has been opened.,0.01,device_state
+this trigger fires every time your withings home detects motion.,0.1,motion
+"this trigger fires every time your withings sleep detects that you get into bed, within the start and end time parameters that you specify. ",0.06,schedule
+"this trigger fires every time your withings sleep detects that you get out of bed, within the start and end time parameters that you specify.",0.06,schedule
+this trigger fires every year on the fourth of july at the time you specify.,0.02,device_state
+"this trigger fires for a given combination of iot device, zone and action",0.01,other
+this trigger fires for an account that is on a dynamic pricing plan such as the residential hourly pricing program or other real time market rates whenever the average price changes.,0.03,pricing
+this trigger fires if aura detects motion when set to night scene.,2.58,motion
+this trigger fires if aura detects motion when set to the away scene.,24.14,motion
+this trigger fires if aura detects motion. note: this trigger only works with the first generation of aura devices (sold prior to october 2017).,3.83,motion
+this trigger fires if the concentration of carbon dioxide (co₂) measured from your awair device rises above the threshold you specified for more than 30 seconds.,0.07,weather
+this trigger fires if the thermostat encounters an error.,0.01,other
+this trigger fires if you tap a gesture with a custom ifttt task matching the id of this trigger.,0.17,external_service
+this trigger fires once a year on the date and time you specify.,0.8,device_state
+"this trigger fires once an hour at :00, :15, :30, or :45 minutes past the hour.",0.43,schedule
+this trigger fires only on specific days of the week at the time you provide.,1.86,device_state
+this trigger fires when a blue by adt alarm event occurs.,0.01,external_service
+this trigger fires when a blue by adt sensor notices activity in the home.,0.01,other
+this trigger fires when a contact sensor closes.,0.01,device_state
+this trigger fires when a contact sensor opens.,0.02,device_state
+this trigger fires when a device attached to your homeseer system is turned off.,0.01,device_state
+this trigger fires when a door is closed.,0.03,device_state
+this trigger fires when a door is open. this trigger will only work with 'garage mode'. remote access must be enabled.,0.01,device_state
+this trigger fires when a door is opened.,0.04,device_state
+"this trigger fires when a door opens, closes, or moves.",0.01,device_state
+this trigger fires when a given parameter exceed a given threshold.,0.01,other
+this trigger fires when a given parameter falls below a certain threshold.,0.01,other
+this trigger fires when a human is detected by beseye camera.,0.01,device_state
+this trigger fires when a knx device or binary switch is turned off.,0.01,device_state
+this trigger fires when a knx scene is started.,0.01,other
+this trigger fires when a leak is detected by the specified device.,0.01,device_state
+this trigger fires when a mode is armed.,0.01,device_state
+this trigger fires when a mode is disarmed.,0.01,device_state
+this trigger fires when a motion sensor becomes clear.,0.04,motion
+this trigger fires when a motion sensor detects motion.,0.06,motion
+this trigger fires when a new deal is posted on the frontpage at slickdeals,0.01,device_state
+this trigger fires when a new disease outbreak update is posted the by world health organization.,0.01,other
+this trigger fires when a new iot podcast episode is published.,0.01,other
+this trigger fires when a nexia automation runs.,0.03,external_service
+this trigger fires when a noonlight alarm is triggered.,0.01,external_service
+this trigger fires when a particular cell is updated within the spreadsheet you specify.,0.01,external_service
+this trigger fires when a person is detected on your swann security device,0.01,external_service
+this trigger fires when a pet is detected on the selected swann security device.,0.01,external_service
+this trigger fires when a routine is activated.,0.04,external_service
+this trigger fires when a scheduled meeting ends.,0.03,device_state
+this trigger fires when a scheduled meeting starts.,0.03,device_state
+this trigger fires when a selected member arrives.,13.35,motion
+this trigger fires when a selected member leaves.,1.25,motion
+this trigger fires when a sound is detected by the selected swann security device.,0.01,audio
+this trigger fires when a specified motion sensor tag(s) or reed sensor(s) detect that a door or window is open.,0.01,motion
+this trigger fires when a task in a given list is completed,0.01,other
+this trigger fires when a task is completed.,0.03,other
+this trigger fires when a user is detected in or nearby your network.,0.02,device_state
+this trigger fires when a user sends a message with the /ifttt command and a key phrase to the source group.,0.02,external_service
+this trigger fires when a vehicle enters one of its geo-circles.,0.01,other
+this trigger fires when a vehicle exits one of its geo-circles,0.01,other
+this trigger fires when a vehicle is detected by the selected swann security device.,0.01,external_service
+this trigger fires when a watering event is executed.,0.01,other
+this trigger fires when a wyze cam detects a smoke alarm. the minimum firmware version required is v3.9.3.62 for v1 and v4.9.1.60 for v2.,0.01,external_service
+this trigger fires when a wyze cam detects motion. the minimum firmware version required is v3.9.3.62 for v1 and v4.9.1.60 for v2.,0.08,motion
+this trigger fires when a wyze cam detects sound. the minimum firmware version required is v3.9.3.62 for v1 and v4.9.1.60 for v2.,0.01,audio
+this trigger fires when adaptors detect intrusion,0.01,other
+this trigger fires when an abode alarm is active.,0.08,external_service
+this trigger fires when an alarm event occurs.,0.02,external_service
+this trigger fires when an alarm sounds.,0.02,external_service
+this trigger fires when an event is triggered from your litter robot. ie. clean cycle completes,0.04,other
+this trigger fires when an event related to the eight alarm happens.,0.01,external_service
+this trigger fires when an ihome enhance button is pressed,0.1,manual_interaction
+this trigger fires when an interesting event comes from a particular device. send events using particle.publish.,0.01,other
+"this trigger fires when an issue occurs, such as low battery, device offline, etc.",0.02,other
+this trigger fires when an ohmhour starts,0.01,device_state
+this trigger fires when any goal moves into the red (imminent derailment).,0.01,other
+this trigger fires when any or a specific door panel is opened.,0.02,device_state
+this trigger fires when any or a specific motion sensor detects motion. your scout system must be in an armed state.,0.01,motion
+this trigger fires when any user sends the /ifttt command to the source group.,0.01,external_service
+this trigger fires when at least one family member has come home.,0.01,other
+this trigger fires when away mode is canceled on my thermostat.,0.01,device_state
+this trigger fires when away mode is on.,0.01,device_state
+this trigger fires when bart is delayed at a station,0.01,other
+this trigger fires when battery levels fall below normal levels for any vehicle in your account. the vehicle ingredient specifies the name of the vehicle with the problem.,0.01,other
+this trigger fires when button is pressed.,0.01,manual_interaction
+this trigger fires when caavo control center is turned on.,0.01,device_state
+this trigger fires when caavo control center performs any search query.,0.02,other
+this trigger fires when co2 emissions level is low,0.01,weather
+this trigger fires when every family member has left.,0.01,motion
+this trigger fires when everyone has gone to sleep.,0.01,other
+this trigger fires when fetch-it button is pressed or long pressed.,0.01,manual_interaction
+this trigger fires when global air pollution is higher than 50.,0.02,weather
+this trigger fires when home mode is on.,0.01,device_state
+this trigger fires when it's time for fast.,0.03,other
+this trigger fires when it's time for prayer.,0.15,manual_interaction
+this trigger fires when lock is unlocked,0.02,device_state
+this trigger fires when motion is detected on the selected camera.,0.01,motion
+this trigger fires when motion is detected.,0.01,motion
+this trigger fires when my thermostat enters away mode.,0.01,device_state
+this trigger fires when my total connect security panel receives an alarm,0.01,external_service
+this trigger fires when no one of a user group is detected in or nearby your network.,0.02,device_state
+this trigger fires when phyn detects an alert.,0.01,other
+this trigger fires when pir detects person.,0.01,other
+"this trigger fires when simcam detects a person in a specific area.(if you select 'special time', this trigger will run once in this time period. if you do not fill in this value, the trigger will run normally)",0.01,motion
+this trigger fires when simcam recognizes a face id that set up.,0.02,motion
+this trigger fires when sound is detected on the selected microphone,0.01,audio
+this trigger fires when specified pir kumosensor detects movement.,0.02,motion
+this trigger fires when tado⁠° switches to away mode.,0.06,device_state
+this trigger fires when tado⁠° switches to home mode.,0.04,device_state
+this trigger fires when the air quality goes below a given value.,0.01,weather
+this trigger fires when the air quality measured from your air monitor is unhealthy. (indoor air quality value rises higher than 150 or your threshold setting),0.02,weather
+this trigger fires when the alarm for a specific mode is dismissed.,0.01,external_service
+this trigger fires when the alarm for a specific mode is triggered.,0.04,external_service
+"this trigger fires when the alarm has changed mode. i.e. armed, disarmed or set to home shield mode. ",0.01,external_service
+this trigger fires when the alarm is armed.,0.01,external_service
+this trigger fires when the alarm is disarmed.,0.01,external_service
+this trigger fires when the alarm is triggered,0.03,external_service
+this trigger fires when the amount of renewable generation in the grid changes.,0.03,other
+this trigger fires when the aqi of your device exceeds a selected threshold.,0.01,other
+this trigger fires when the aqi of your device is updated.,0.02,other
+this trigger fires when the co2 intensity in the electricity production is lowest between a starting time and a finish time and for a duration specified by you.,0.01,weather
+this trigger fires when the cost of the device attached to your wemo insight switch rises above the daily value you specify.,0.01,other
+this trigger fires when the co₂ level for a specific devices becomes lower than the specified threshold.,0.01,other
+this trigger fires when the co₂ level for a specific devices exceeded a specified threshold.,0.02,other
+this trigger fires when the daily rain measurement rises above a given threshold.,0.02,weather
+this trigger fires when the device connected to fibaro home center detects motion.,0.01,motion
+"this trigger fires when the ema/metrosafe city agency in louisville, ky sends an emergency notification to the surrounding area.",0.01,motion
+this trigger fires when the energy saving mode scene is activated,0.01,device_state
+this trigger fires when the filtrete™ outdoor air quality scale level changes; for example: from good to fair.,0.01,weather
+this trigger fires when the filtrete™ outdoor air quality value becomes higher (i.e. worse) than a chosen value.,0.01,weather
+this trigger fires when the garage door starts to open.,0.02,device_state
+this trigger fires when the gate start opening,0.01,other
+this trigger fires when the goal is close to derailing. it will begin firing according to the goal's reminder settings.,0.01,other
+this trigger fires when the home security device enters away mode.,0.01,external_service
+this trigger fires when the hub is in a specific state.,0.01,other
+this trigger fires when the humidity of a device rises above the provided threshold.,0.01,weather
+this trigger fires when the number of your smartphone screen unlocks exceeds your specified daily limit.,0.01,other
+this trigger fires when the outdoor temperature rises above a given value.,0.01,weather
+this trigger fires when the price of electricity changes.,0.03,pricing
+this trigger fires when the radon level for a device rises above the provided threshold.,0.02,other
+this trigger fires when the remaining life of any of your filtrete smart air filter drops below your chosen percentage.,0.01,weather
+this trigger fires when the room temperature falls below a user-defined threshold.,0.01,weather
+this trigger fires when the room temperature rises above a user-defined value.,0.01,weather
+this trigger fires when the scene in a room is changed.,0.04,other
+this trigger fires when the scene is changed to the selected scene.,12.3,device_state
+this trigger fires when the selected swann security device detects  motion.,0.01,external_service
+this trigger fires when the smart alert detects that a smoke or carbon monoxide alarm has gone off in your home.,0.01,weather
+this trigger fires when the smarter coffee 2.0 has finished brewing.,0.02,other
+this trigger fires when the smarter ikettle 3.0 has finished boiling.,0.02,other
+"this trigger fires when the specified camera detects motion. to use this trigger, camera’s motion detection should be turned on.",0.01,motion
+this trigger fires when the specified device is set to cool mode,0.01,device_state
+this trigger fires when the specified device is set to eco mode,0.01,device_state
+this trigger fires when the specified device is set to heat mode,0.01,device_state
+this trigger fires when the specified device is turned off,0.01,device_state
+this trigger fires when the specified product turns off.,0.01,device_state
+this trigger fires when the specified product turns on.,0.01,device_state
+this trigger fires when the state of selected door sensor is open or closed.,0.01,device_state
+this trigger fires when the system detects a water leak.,0.01,other
+this trigger fires when the uv index rises above a given value.,0.02,other
+this trigger fires when there is a new dart rider alert.,0.01,other
+this trigger fires when there is a new membership for your channel.,0.36,other
+this trigger fires when there is a new super chat message in a live chat during a live stream on your channel.,0.34,device_state
+this trigger fires when there is a new super sticker in a live chat during a live stream on your channel.,0.07,device_state
+this trigger fires when there is a new user voicemail.,0.01,other
+this trigger fires when time-of-day peak rates start or end.,0.02,schedule
+this trigger fires when we receive your phone call. enter a 3-digit code to distinguish events. dial-in numbers at https://woop.la/ifttt,0.01,external_service
+"this trigger fires when you are scheduled to be away and nobody is in the house.  
 note: smartgeo™ needs to be active",0.01,other
-"This trigger fires when you are scheduled to be home and somebody is at home.  
+"this trigger fires when you are scheduled to be home and somebody is at home.  
 note: smartgeo™ needs to be active",0.01,other
-"This trigger fires when you are scheduled to be in sleep mode and somebody is at home.
+"this trigger fires when you are scheduled to be in sleep mode and somebody is at home.
 note: smartgeo™ needs to be active",0.01,device_state
-This trigger fires when you enter a room.,0.01,motion
-This trigger fires when you leave a room.,0.01,other
-This trigger fires when a button is pressed.,0.01,manual_interaction
-This trigger fires when a voice assistant is activated with a custom phrase.,0.01,audio
-This trigger fires when a voice assistant is activated with a custom phrase.,0.2,audio
-This trigger fires when a voice assistant is activated with a custom phrase.,0.03,audio
-This trigger fires when a voice assistant is activated with a custom phrase.,3.05,audio
-This trigger fires when a message containing a key phrase is sent.,0.02,external_service
-This trigger fires when a message containing a key phrase is sent.,0.01,external_service
-This trigger fires when you tap the 'night mode' or 'day mode' buttons in the eight app.,0.02,device_state
-This trigger fires when you turn on the alarm in the livy app.,0.01,external_service
-This trigger fires when you were killed in rust while you were not playing the game.,0.02,other
-"This trigger fires when your abode system mode is changed (away, home, standby).",0.01,device_state
-This trigger fires when your air quality goes above or below the target level.,0.01,weather
-This trigger fires when your arlo device detects motion.,0.43,motion
-This trigger fires when your blink camera detects motion.,0.08,motion
-This trigger fires when your device detects the humidity is above the threshold you specified.,0.01,weather
-This trigger fires when your device detects the temperature is above the threshold you specified.,0.01,weather
-This trigger fires when your device detects the temperature is below the threshold you specified.,0.01,weather
-This trigger fires when your ewelink support 1-channel switch is turned on or off.,0.02,device_state
-This trigger fires when your livy protect device reports a fire or motion alarm.,0.01,external_service
-This trigger fires when your local room temperature exceeds a given threshold.,0.01,weather
-This trigger fires when your mui board turned off night mode.,0.01,device_state
-This trigger fires when your mui board turned on night mode.,0.01,device_state
-This trigger fires when your order is being prepped.,0.01,other
-This trigger fires when your order is being quality-checked.,0.01,other
-This trigger fires when your order is in the oven.,0.02,other
-This trigger fires when your order is out for delivery.,0.07,other
-This trigger fires when your order is ready for pickup.,0.02,other
-This trigger fires when your robot completes a job.,0.01,other
-This trigger fires when your robot finishes cleaning a room.,0.03,other
-This trigger fires when your robot starts a job.,0.01,device_state
-This trigger fires when your robot starts cleaning a room.,0.03,device_state
-This trigger fires when your smanos system is armed to away mode with no one in the house.,0.02,device_state
-This trigger fires when your smart bed alarm clock  is activated,0.01,external_service
-This trigger fires when your smart bed alarm clock is activated,0.01,external_service
-This trigger fires when your water heater exceeds its energy use threshold.,0.01,other
-This trigger fires whenever a motion sensor detects movement nearby.,0.01,motion
-This trigger fires whenever someone posts a new message in the selected room.,0.01,other
-"This trigger fires whenever the carbon intensity changes for the comed service territory, use this trigger to help lower your carbon footprint by reducing your energy during high carbon times",0.02,weather
-This trigger fires whenever there is a new blog post in a specific aclu feed that contains a specified search term.,0.01,external_service
-This trigger fires whenever there is breaking news from the aclu.,0.01,external_service
-This trigger fires when a button is pressed.,0.02,manual_interaction
-"This trigger fires whenever you spend money at a particular merchant, and the transaction goes through.",0.01,other
-This trigger fires within 15 minutes of the ending time of an event on your google calendar.,0.01,external_service
-This trigger fires shortly before sunrise at the user's location.,1.08,schedule
-This trigger fires within 15 minutes of the sunset in your location.,2.91,schedule
-This trigger is fired from the assigned pusher on your festina watch.,0.02,external_service
-This trigger is fired from the assigned pusher on your jaguar watch.,0.02,external_service
-This trigger is fired from the assigned pusher on your kronaby watch.,0.03,external_service
-This trigger is fired from the assigned pusher on your lotus watch.,0.02,external_service
-This trigger is fired when a low battery is detected on the selected swann wireless security device.,0.01,external_service
-This trigger is fired when an enrolled or selected face is detected by the swann security device.,0.01,external_service
-"This trigger monitors changes in the current weather condition. when one of those conditions is met the trigger fires. currently only these simple conditions are supported: rain, snow, cloudy, clear.",1.08,weather
-This trigger monitors changes in tomorrow’s forecasted weather condition.,0.11,weather
-This trigger monitors changes in your thermostat's heating mode and fires if it is set to a certain mode.,0.01,device_state
-This trigger monitors changes in your thermostat's measured temperature and fires if it exceeds a certain threshold.,0.02,weather
-This trigger monitors changes in your thermostat's set temperature and fires if it exceeds a certain threshold.,0.02,weather
-This trigger monitors changes in your thermostat's set temperature and fires whenever it changes.,0.01,weather
-This trigger monitors the ubibot device's built-in light sensor readings and fires whenever the light level rises above or drops below the value in lux you provide.,0.03,other
-This trigger monitors your local pollen levels and fires every time the pollen count rises above the value you specify (1-12). note: available only in the usa.,0.03,schedule
-This trigger monitors your local temperature and fires whenever the temperature drops below the value you provide.,0.15,weather
-This trigger monitors your local temperature and fires whenever the temperature rises above the value you provide.,0.1,weather
-This trigger monitors your local uv levels and fires every time the uv index rises above the value you specify (0-16).,0.02,schedule
-This trigger recommends a new applet every day at the time you specify.,0.01,schedule
-This trigger retrieves today's current weather report within 5 minutes of the time you specify. note: pollen count available only in the usa.,0.34,weather
-"This trigger retrieves tomorrow's weather report within 5 minutes of the time you specify, depending on when forecast data is updated.",0.03,weather
-This triggers fires every time the child lock has deactivated.,0.01,schedule
-Trigger an applet when the door is locked,0.02,device_state
-Trigger an applet when the door is unlocked,0.03,device_state
-Use this trigger to fire something when your electricity price falls or rises past your set threshold and between your preferred time settings.,0.01,pricing
-"You can create tags and give them to your flics, so multiple flics can be used with a single recipe.",0.03,other
+this trigger fires when you enter a room.,0.01,motion
+this trigger fires when you leave a room.,0.01,other
+this trigger fires when you press a given button on your triby io.,0.01,manual_interaction
+this trigger fires when you say “ok google” to the google assistant followed by a phrase like “block time for ‘exercise’ at 6 pm.” **use the # symbol to specify where you'll say the number ingredient and $ where you'll say the text ingredient,0.01,audio
+this trigger fires when you say “ok google” to the google assistant followed by a phrase like “post a tweet saying ‘new high score.’” **use the $ symbol to specify where you'll say the text ingredient,0.2,audio
+this trigger fires when you say “ok google” to the google assistant followed by a phrase like “set nest thermostat to 68.” **use the # symbol to specify where you'll say the number ingredient,0.03,audio
+"this trigger fires when you say “ok google” to the google assistant followed by a phrase you choose. for example, say “ok google, i’m running late” to text a family member that you’re on your way home.",3.05,audio
+this trigger fires when you send a text message with a key phrase to the @ifttt bot on telegram.,0.02,external_service
+this trigger fires when you send an ifttt-command from your xtactor wristband.,0.01,external_service
+this trigger fires when you tap the 'night mode' or 'day mode' buttons in the eight app.,0.02,device_state
+this trigger fires when you turn on the alarm in the livy app.,0.01,external_service
+this trigger fires when you were killed in rust while you were not playing the game.,0.02,other
+"this trigger fires when your abode system mode is changed (away, home, standby).",0.01,device_state
+this trigger fires when your air quality goes above or below the target level.,0.01,weather
+this trigger fires when your arlo device detects motion.,0.43,motion
+this trigger fires when your blink camera detects motion.,0.08,motion
+this trigger fires when your device detects the humidity is above the threshold you specified.,0.01,weather
+this trigger fires when your device detects the temperature is above the threshold you specified.,0.01,weather
+this trigger fires when your device detects the temperature is below the threshold you specified.,0.01,weather
+this trigger fires when your ewelink support 1-channel switch is turned on or off.,0.02,device_state
+this trigger fires when your livy protect device reports a fire or motion alarm.,0.01,external_service
+this trigger fires when your local room temperature exceeds a given threshold.,0.01,weather
+this trigger fires when your mui board turned off night mode.,0.01,device_state
+this trigger fires when your mui board turned on night mode.,0.01,device_state
+this trigger fires when your order is being prepped.,0.01,other
+this trigger fires when your order is being quality-checked.,0.01,other
+this trigger fires when your order is in the oven.,0.02,other
+this trigger fires when your order is out for delivery.,0.07,other
+this trigger fires when your order is ready for pickup.,0.02,other
+this trigger fires when your robot completes a job.,0.01,other
+this trigger fires when your robot finishes cleaning a room.,0.03,other
+this trigger fires when your robot starts a job.,0.01,device_state
+this trigger fires when your robot starts cleaning a room.,0.03,device_state
+this trigger fires when your smanos system is armed to away mode with no one in the house.,0.02,device_state
+this trigger fires when your smart bed alarm clock  is activated,0.01,external_service
+this trigger fires when your smart bed alarm clock is activated,0.01,external_service
+this trigger fires when your water heater exceeds its energy use threshold.,0.01,other
+this trigger fires whenever a motion sensor detects movement nearby.,0.01,motion
+this trigger fires whenever someone posts a new message in the selected room.,0.01,other
+"this trigger fires whenever the carbon intensity changes for the comed service territory, use this trigger to help lower your carbon footprint by reducing your energy during high carbon times",0.02,weather
+this trigger fires whenever there is a new blog post in a specific aclu feed that contains a specified search term.,0.01,external_service
+this trigger fires whenever there is breaking news from the aclu.,0.01,external_service
+this trigger fires whenever you press the selected button on your wink relay.,0.02,manual_interaction
+"this trigger fires whenever you spend money at a particular merchant, and the transaction goes through.",0.01,other
+this trigger fires within 15 minutes of the ending time of an event on your google calendar.,0.01,external_service
+this trigger fires within 15 minutes of the sunrise in your location.,1.08,schedule
+this trigger fires within 15 minutes of the sunset in your location.,2.91,schedule
+this trigger is fired from the assigned pusher on your festina watch.,0.02,external_service
+this trigger is fired from the assigned pusher on your jaguar watch.,0.02,external_service
+this trigger is fired from the assigned pusher on your kronaby watch.,0.03,external_service
+this trigger is fired from the assigned pusher on your lotus watch.,0.02,external_service
+this trigger is fired when a low battery is detected on the selected swann wireless security device.,0.01,external_service
+this trigger is fired when an enrolled or selected face is detected by the swann security device.,0.01,external_service
+"this trigger monitors changes in the current weather condition. when one of those conditions is met the trigger fires. currently only these simple conditions are supported: rain, snow, cloudy, clear. ",1.08,weather
+this trigger monitors changes in tomorrow’s forecasted weather condition.,0.11,weather
+this trigger monitors changes in your thermostat's heating mode and fires if it is set to a certain mode.,0.01,device_state
+this trigger monitors changes in your thermostat's measured temperature and fires if it exceeds a certain threshold.,0.02,weather
+this trigger monitors changes in your thermostat's set temperature and fires if it exceeds a certain threshold.,0.02,weather
+this trigger monitors changes in your thermostat's set temperature and fires whenever it changes.,0.01,weather
+this trigger monitors the ubibot device's built-in light sensor readings and fires whenever the light level rises above or drops below the value in lux you provide. ,0.03,other
+this trigger monitors your local pollen levels and fires every time the pollen count rises above the value you specify (1-12). note: available only in the usa.,0.03,schedule
+this trigger monitors your local temperature and fires whenever the temperature drops below the value you provide.,0.15,weather
+this trigger monitors your local temperature and fires whenever the temperature rises above the value you provide.,0.1,weather
+this trigger monitors your local uv levels and fires every time the uv index rises above the value you specify (0-16).,0.02,schedule
+this trigger recommends a new applet every day at the time you specify.,0.01,schedule
+this trigger retrieves today's current weather report within 5 minutes of the time you specify. note: pollen count available only in the usa.,0.34,weather
+"this trigger retrieves tomorrow's weather report within 5 minutes of the time you specify, depending on when forecast data is updated.",0.03,weather
+this triggers fires every time the child lock has deactivated.,0.01,schedule
+trigger an applet when the door is locked,0.02,device_state
+trigger an applet when the door is unlocked,0.03,device_state
+use this trigger to fire something when your electricity price falls or rises past your set threshold and between your preferred time settings.,0.01,pricing
+"you can create tags and give them to your flics, so multiple flics can be used with a single recipe.",0.03,other

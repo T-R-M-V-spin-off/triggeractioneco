@@ -1,5 +1,6 @@
+from statistics import mean
+
 import pandas as pd
-import re
 
 # ================= CONFIG =================
 
@@ -10,20 +11,17 @@ OUTPUT_FILE = "final_with_eco_score.csv"
 # ================= KEYWORDS =================
 
 OCCUPANCY_KEYWORDS = [
-    "enter", "exit", "away", "home", "presence", "location", "arrive", "leave",
+    "enter", "exit", "away", "home", "presence", "location", "arrive", "leave", "left", "motion", "arrives", "leaves", "person"
 ]
 
 ENERGY_SAVE_KEYWORDS = [
-    "turn off", "off", "sleep", "eco", "low", "disable", "stop", "reduce"
-]
-
-ENERGY_WASTE_KEYWORDS = [
-    "high", "max", "boost", "full", "start"
+    "sleep", "eco", "low", "disable", "stop", "reduce", "specified", "threshold", "specific", "temporarily"
 ]
 
 AUTOMATION_KEYWORDS = [
     "every day", "schedule", "sunrise", "sunset", "time", "calendar",
-    "weather", "temperature", "humidity"
+    "weather", "above", "below", "specific day", "scheduled",
+    "specific day"
 ]
 
 
@@ -63,10 +61,6 @@ def compute_energy_saving(row):
         if k in text:
             score += 1
 
-    for k in ENERGY_WASTE_KEYWORDS:
-        if k in text:
-            score -= 1
-
     return max(min(score, 2), -2) / 2   # normalizza tra -1 e +1
 
 
@@ -83,18 +77,6 @@ def compute_automation(row):
     return 0.0
 
 
-def compute_waste_risk(row):
-    text = " ".join([
-        normalize(row.get("actionTitle")),
-        normalize(row.get("actionDesc"))
-    ])
-
-    if any(k in text for k in ["on", "start", "max", "boost"]):
-        return 1.0
-
-    return 0.0
-
-
 # ================= MAIN SCORE =================
 
 def compute_eco_numeric(row):
@@ -102,15 +84,9 @@ def compute_eco_numeric(row):
     occ = compute_occupancy_awareness(row)
     energy = compute_energy_saving(row)
     auto = compute_automation(row)
-    waste = compute_waste_risk(row)
 
     # Pesi (puoi modificarli per esperimenti)
-    score = (
-        0.35 * occ +
-        0.35 * energy +
-        0.20 * auto -
-        0.30 * waste
-    )
+    score = mean([occ, energy, auto])
 
     # Normalizza in 0-100
     score_100 = (score + 1) * 50
@@ -127,33 +103,10 @@ def map_to_label(score):
         return "Neutra"
 
     else:
-        return "Non-Eco"
-
-
-# ================= RUN =================
-
-def main():
-
-    print("Caricamento dataset...")
-    df = pd.read_csv(INPUT_FILE)
-
-    print("Calcolo eco-metriche...")
-
-    df["eco_score_value"] = df.apply(compute_eco_numeric, axis=1)
+        return 0.5
 
     df["eco_score"] = df["eco_score_value"].apply(map_to_label)
 
     # Statistiche
     print("\nDistribuzione Eco Score:")
     print(df["eco_score"].value_counts(normalize=True) * 100)
-
-    print("\nMedia score:", df["eco_score_value"].mean())
-
-    # Salvataggio
-    df.to_csv(OUTPUT_FILE, index=False)
-
-    print(f"\nFile salvato in: {OUTPUT_FILE}")
-
-
-if __name__ == "__main__":
-    main()

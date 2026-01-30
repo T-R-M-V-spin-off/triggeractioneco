@@ -72,7 +72,6 @@ ACTION_CHANNEL_WHITELIST = [
     "VeSync Dimmer",
     "Sengled",
     "Nefit Easy",
-    "Aura"
 ]
 
 # Device classification keywords

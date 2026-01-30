@@ -4,21 +4,20 @@ SMART HOME DATASET - ACTION CHANNEL REPORT
 GENERAL STATISTICS
 -------------------------
 Total dataset entries: 67697
-Filtered entries: 11326
-Dataset coverage: 16.73%
+Filtered entries: 6203
+Dataset coverage: 9.16%
 
 CHANNEL COVERAGE
 -------------------------
 Total unique channels in dataset: 455
-Unique channels covered by whitelist: 60
-Channel coverage: 13.19%
+Unique channels covered by whitelist: 59
+Channel coverage: 12.97%
 
-Whitelist size: 60
-Whitelist channels found: 60
+Whitelist size: 59
+Whitelist channels found: 59
 
 ENTRIES PER CHANNEL
 -------------------------
-  Aura: 5123
   Philips Hue: 2415
   WeMo Smart Plug: 572
   LIFX: 515
@@ -81,10 +80,10 @@ ENTRIES PER CHANNEL
 
 DEVICE TYPE DISTRIBUTION
 ------------------------------
-  Light: 8919 (78.75%)
-  Generic/Other: 1435 (12.67%)
-  Thermostat/Heating: 794 (7.01%)
-  Air/Climate: 105 (0.93%)
-  Appliance: 73 (0.64%)
+  Light: 3796 (61.20%)
+  Generic/Other: 1435 (23.13%)
+  Thermostat/Heating: 794 (12.80%)
+  Air/Climate: 105 (1.69%)
+  Appliance: 73 (1.18%)
 
 END OF REPORT
