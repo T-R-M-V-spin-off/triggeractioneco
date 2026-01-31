@@ -9,40 +9,39 @@ import re
 
 INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Air_Climate.csv"
 
-
 # ===============================
 # NORMALIZATION RULES
 # ===============================
 
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on"),
-    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword"),
-    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"),
+    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"),
+    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase [FREE]"),
     (r".*before.*time-of-day.*peak rates.*start.*", "IF before time-of-day peak rates start"),
-    (r".*every day at a specified time.*", "IF every day at a specified time"),
-    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent"),
+    (r".*every day at a specified time.*", "IF every day at a specified time [FREE]"),
+    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent [FREE]"),
     (r".*home.*set to away.*", "IF every time no one is at home"),
     (r".*home.*set to home.*", "IF every time someone is at home"),
     (r".*user enters a specified area.*", "IF the user enters a specified area"),
     (r".*user exits a specified area.*", "IF the user exits a specified area"),
-    (r".*button.*pressed.*", "IF a button is pressed"),
+    (r".*button.*pressed.*", "IF a button is pressed [FREE]"),
     (r".*enter.*area.*", "IF the user enters a specified area"),
     (r".*exit.*area.*", "IF the user exits a specified area"),
-    (r".*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase"),
+    (r".*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase [FREE]"),
     (r".*a/c unit.*temperature.*above.*value.*", "IF an AC unit detects temperature above a specified value"),
     (r".*a/c unit.*temperature.*below.*value.*", "IF an AC unit detects temperature below a specified value"),
     (r".*android device.*connects to wifi.*", "IF an Android device connects to a specified Wi-Fi network"),
     (r".*android device.*disconnects from wifi.*", "IF an Android device disconnects from a specified Wi-Fi network"),
     (r".*fitbit.*logs.*sleep.*", "IF a device logs new sleep data"),
-    (r".*every.*day.*specific time.*", "IF every day at a specified time"),
+    (r".*every.*day.*specific time.*", "IF every day at a specified time [FREE]"),
     (r".*every time.*connects.*", "IF your Android device connects to a specified wifi network"),
     (r".*every time.*disconnects.*", "IF your Android device disconnects from a specified wifi network"),
-    (r".*press the button.*", "IF a specified button is pressed"),
-    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service"),
+    (r".*press the button.*", "IF a specified button is pressed [FREE]"),
+    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service [FREE]"),
     (r".*myfox.*security system.*partially armed.*", "IF a security system is partially armed"),
-    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off"),
-    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on"),
-    (r".*routine.*activated.*", "IF a routine is activated"),
+    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off [FREE]"),
+    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on [FREE]"),
+    (r".*routine.*activated.*", "IF a routine is activated [FREE]"),
     (r".*air purifier.*air quality.*", "IF an air purifier detects a specific air quality level"),
     (r".*room temperature.*condition.*threshold.*", "IF the room temperature satisfies a threshold condition"),
     (r".*solar power.*drops below.*", "IF solar power drops below a specified value"),
@@ -56,7 +55,7 @@ TRIGGER_RULES = [
     (r".*sunset.*", "IF a set number of minutes before sunset"),
     (r".*unit.*turned on.*", "IF a set number of minutes after a unit has been turned on"),
     (r".*current weather condition.*rain|snow|cloudy|clear.*", "IF the weather conditions change"),
-    (r".*local humidity.*above.*value.*", "IF local humidity and fires when above a specified value"),
+    (r".*local humidity.*above.*value.*", "IF local humidity is above a specified value"),
     (r".*local temperature.*drops below.*value.*", "IF local temperature is below a specified value"),
     (r".*local temperature.*rises above.*value.*", "IF local temperature is above a specified value"),
     (r".*room enters manual mode.*", "IF every time a room enters manual mode"),
@@ -68,22 +67,21 @@ ACTION_RULES = [
     (r".*changes modes.*auto.*sleep.*", ", THEN change the AC unit mode to sleep."),
     (r".*turns off.*air purifier.*", ", THEN turns off the air purifier."),
     (r".*turns on.*air purifier.*", ", THEN turns on the air purifier."),
-    (r".*turns.*display.*on or off.*", ", THEN turns the display on."),
-    (r".*turns.*fan.*speed.*low.*medium.*high.*", ", THEN sets the fan to a specified speed."),
+    (r".*turns.*display.*on or off.*", ", THEN turns the AC unit display on."),
+    (r".*turns.*fan.*speed.*low.*", ", THEN sets the fan to low speed."),
+    (r".*turns.*fan.*medium.*", ", THEN sets the fan to medium speed."),
+    (r".*turns.*fan.*high.*", ", THEN sets the fan to high speed."),
     (r".*disable.*timer.*", ", THEN disable the indicated timer."),
     (r".*enable.*timer.*", ", THEN enable the indicated timer."),
-    (r".*econo mode.*enable|disable.*", ", THEN disable eco mode on the AC unit."),
-    (r".*holiday mode.*enable|disable.*", ", THEN disable eco mode on AC units."),
+    (r".*econo mode.*enable|disable.*|.*holiday mode.*enable|disable.*", ", THEN disable eco mode on the AC unit."),
     (r".*execute.*scene.*", ", THEN set the mode of the air conditioner to turbo."),
     (r".*set.*mode.*air conditioner.*", ", THEN set the mode of the air conditioner to eco."),
     (r".*turn off.*air conditioner.*", ", THEN turn off the air conditioner."),
     (r".*turn off.*a/c.*specified room.*", ", THEN turn off the air conditioner in a specified room."),
-    (r".*turn off.*daikin.*ac unit.*", ", THEN turn off the AC unit."),
+    (r".*turn off.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit."),
     (r".*turn on.*air conditioner.*", ", THEN turn on the air conditioner."),
     (r".*turn on.*a/c.*specified room.*comfort mode.*", ", THEN turn on the air conditioner in a specified room in comfort mode."),
-    (r".*turn on.*daikin.*ac unit.*", ", THEN turn on the AC unit."),
-    (r".*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit."),
-    (r".*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit.")
+    (r".*turn on.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit."),
 ]
 
 # ===============================
@@ -124,7 +122,7 @@ filtered_df = df
 
 filtered_df = filtered_df[
     ~filtered_df["triggerDesc"].str.contains(
-        "NaN",
+        r"NaN",
         case=False,
         na=False
     )

@@ -1,19 +1,19 @@
 actionDesc,percentage,actionType
-this action will deactivate eco mode on your appliance.,1.39,set_mode
-this action will deactivate fresh mode on your appliance.,1.39,set_mode
-this action will deactivate vacation mode on your appliance.,1.39,set_mode
-this action will preheat your oven using the hot air program with the fast preheat option.,8.33,set_value
-this action will start the dishwasher program that is currently selected on the appliance.,1.39,turn_on_off
-this action will start the selected coffee milk mix program with your preferred settings.,4.17,set_mode
-this action will start the selected coffee program with your preferred settings.,8.33,set_mode
-this action will start the selected coffee world program with your preferred settings.,4.17,set_mode
-this action will start the selected dishwasher program.,13.89,turn_on_off
-this action will start the selected hood program.,1.39,turn_on_off
-this action will turn off your coffee machine.,5.56,turn_on_off
-this action will turn off your dishwasher.,2.78,turn_on_off
-this action will turn off your hood.,5.56,turn_on_off
-this action will turn off your oven.,6.94,turn_on_off
-this action will turn on your coffee machine.,18.06,turn_on_off
-this action will turn on your dishwasher.,8.33,turn_on_off
-this action will turn on your hood with the default program.,2.78,set_mode
-this action will turn on your oven.,4.17,turn_on_off
+this action will deactivate eco mode on your appliance.,1.37,set_mode
+this action will deactivate fresh mode on your appliance.,1.37,set_mode
+this action will deactivate vacation mode on your appliance.,1.37,set_mode
+this action will preheat your oven using the hot air program with the fast preheat option.,8.22,set_value
+this action will start the dishwasher program that is currently selected on the appliance.,1.37,turn_on_off
+this action will start the selected coffee milk mix program with your preferred settings.,4.11,set_mode
+this action will start the selected coffee program with your preferred settings.,8.22,set_mode
+this action will start the selected coffee world program with your preferred settings.,4.11,set_mode
+this action will start the selected dishwasher program.,15.07,turn_on_off
+this action will start the selected hood program.,1.37,turn_on_off
+this action will turn off your coffee machine.,5.48,turn_on_off
+this action will turn off your dishwasher.,2.74,turn_on_off
+this action will turn off your hood.,5.48,turn_on_off
+this action will turn off your oven.,6.85,turn_on_off
+this action will turn on your coffee machine.,17.81,turn_on_off
+this action will turn on your dishwasher.,8.22,turn_on_off
+this action will turn on your hood with the default program.,2.74,set_mode
+this action will turn on your oven.,4.11,turn_on_off

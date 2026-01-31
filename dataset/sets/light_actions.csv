@@ -1,77 +1,72 @@
 actionDesc,percentage,actionType
-changes the brightness level of the selected group of wemo lights. if the group is off it will turn on with selected brightness level.,0.03,set_value
-changes the brightness level of the selected wemo light. if the light is off it will turn on with selected brightness level.,0.1,set_value
-sets sleep fader time for the selected group of wemo lights.,0.04,turn_on_off
-starts sleep fader for the selected wemo light.,0.03,turn_on_off
-this action turns off one of your light switches.,0.04,turn_on_off
-this action turns on one of your light switches.,0.04,turn_on_off
-"this action well set a scene on your hue lights. note: in order to add lights to a room, you must be using the newest version of the hue app",1.11,set_mode
-this action will activate a scene.,0.26,set_mode
-this action will activate the scene that you choose. you can choose from any scene that is listed in your nanoleaf smarter series app.,0.19,set_mode
-this action will adjust multiple lights and shades together by activating a scene created in the lutron app.,0.31,set_mode
-this action will apply the settings of the selected scene to your wiz lights.,0.06,set_mode
-this action will briefly turn your hue lights off then back on.,4.51,turn_on_off
-this action will change the brightness of a light bulb.,0.02,set_value
-this action will change the color of a light bulb.,0.17,set_mode
-this action will change the color of the nanoleaf light panels or canvas that you select from the device dropdown on this screen. you can enter either a hex value or a keyword for the color. need help choosing a color? bookmark nanoleaf.me/ifttt for easy access to a list and color picker.,0.15,set_mode
-this action will change the color of your hue lights to match the dominant colors found in an image you specify. note: not compatible with hue lux bulbs.,0.82,set_value
-this action will change the color of your hue lights. note: accepts color names and css hex color values. defaults to white if no color match is found. note: not compatible with hue lux bulbs.,5.22,set_mode
-this action will change the color of your lights.,1.05,set_mode
-this action will change the color temperature of a light bulb.,0.01,set_mode
-this action will change your hue lights to a randomly selected color. note: not compatible with hue lux bulbs.,0.35,set_mode
-this action will change your light's brightness to the specified level.,0.18,set_value
-this action will change your lights to a specified color.,0.2,set_value
-this action will change your lights to specified color temperature.,0.16,set_value
-"this action will change your lights to the requested dynamic mode such as light flashing, jumping, gradual change and strobe.",0.01,set_mode
-"this action will dim / brighten the selected light(s) by the step of your choice. ideal for your smart remotes, connected buttons, widgets and much more!",0.01,set_value
-this action will dim or brighten your hue lights to a value between 0-100.,1.35,set_value
-this action will make the selected light(s) pulse gently once.,0.03,effect
-this action will make your lights quickly blink the color of your choice.,1.23,set_mode
-this action will make your lights slowly breathe the color of your choice.,0.55,set_mode
-this action will set a dim level on your light.,0.1,set_value
-this action will set the light to specified color.,0.27,set_value
-this action will set your aura to away scene. ,23.65,set_mode
-this action will set your aura to guardian scene. ,26.29,set_mode
-this action will set your aura to home scene. ,6.35,set_mode
-this action will set your aura to night scene. ,1.07,set_mode
-this action will set your aura to pet scene. ,0.15,set_mode
-this action will set your light to a specified brightness.,0.01,set_value
-this action will set your lights to a pre-defined scene.,0.59,set_mode
-this action will set your lights to a specified brightness.,0.46,set_value
-this action will switch off your light.,0.12,turn_on_off
-this action will switch on your light.,0.17,turn_on_off
-this action will temporarily set your nanoleaf light panels or canvas to a solid or blinking color and then return to its previous state.,0.09,set_mode
-this action will toggle a wemo light switch on or off.,0.19,turn_on_off
-this action will toggle your hive light on or off.,0.03,turn_on_off
-this action will toggle your hue lights on or off.,0.62,turn_on_off
-this action will toggle your lights on or off.,0.01,turn_on_off
-this action will turn a wemo light switch off then immediately back on.,0.06,turn_on_off
-"this action will turn a wemo light switch off. if the wemo switch is already off, it will remain off.",0.55,turn_on_off
-this action will turn a wemo light switch on then immediately back off.,0.11,turn_on_off
-"this action will turn a wemo light switch on. if the wemo switch is already on, it will remain on.",1.0,turn_on_off
-this action will turn off the functional light of your hood.,0.04,turn_on_off
-this action will turn off the nanoleaf product that you select from the device dropdown on this screen.,0.06,turn_on_off
-this action will turn off the selected light(s).,0.2,turn_on_off
-"this action will turn off your hubitat switches, lights, sirens, strobes, etc.",0.03,turn_on_off
-this action will turn off your hue lights.,4.92,turn_on_off
-this action will turn off your sengled lights.,0.02,turn_on_off
-this action will turn on a slow color loop effect for your hue lights. note: not compatible with hue lux bulbs.,1.57,set_value
-this action will turn on the ambient light of your hood with the selected color. please note that this action is not supported by all hoods.,0.11,set_mode
-this action will turn on the functional light of your hood with the selected brightness.,0.03,set_value
-this action will turn on the nanoleaf product that you select from the device dropdown on this screen.,0.08,turn_on_off
-"this action will turn on the selected light(s). optionally, a light mode or pre-defined color can be applied, as well as a level of dimming.",0.95,set_mode
-this action will turn on your hue lights.,6.59,turn_on_off
-this action will turn on your sengled lights.,0.04,turn_on_off
-"this action will turn on, turn off or toggle your lights.",0.7,turn_on_off
-this action will turn on/off the led light of my projector.,0.03,turn_on_off
-this action will turn the specified product's night light off.,0.02,set_value
-this action will turn the specified product's night light on.,0.02,set_value
-this action will turn your hive light off for a specific duration,0.12,turn_on_off
-this action will turn your hive light on for a specific duration,0.15,turn_on_off
-"this action will turn your lights off if they are on, and turn them on if they are off.",0.36,turn_on_off
-this action will turn your lights off.,1.01,turn_on_off
-this action will turn your lights on.,1.95,turn_on_off
-turns off the selected group of wemo lights. if the group is already off it will remain off.,0.04,turn_on_off
-turns off the selected wemo light. if it is already off it stays off.,0.35,turn_on_off
-turns on the selected group of wemo lights. if the group is already on it will remain on.,0.1,turn_on_off
-turns on the selected wemo light. if it is already on it stays on.,0.34,turn_on_off
+changes the brightness level of the selected group of wemo lights. if the group is off it will turn on with selected brightness level.,0.08,set_value
+changes the brightness level of the selected wemo light. if the light is off it will turn on with selected brightness level.,0.24,set_value
+sets sleep fader time for the selected group of wemo lights.,0.11,turn_on_off
+starts sleep fader for the selected wemo light.,0.08,turn_on_off
+this action turns off one of your light switches.,0.11,turn_on_off
+this action turns on one of your light switches.,0.11,turn_on_off
+"this action well set a scene on your hue lights. note: in order to add lights to a room, you must be using the newest version of the hue app",2.61,set_mode
+this action will activate a scene.,0.61,set_mode
+this action will activate the scene that you choose. you can choose from any scene that is listed in your nanoleaf smarter series app.,0.45,set_mode
+this action will adjust multiple lights and shades together by activating a scene created in the lutron app.,0.74,set_mode
+this action will apply the settings of the selected scene to your wiz lights.,0.13,set_mode
+this action will briefly turn your hue lights off then back on.,10.64,turn_on_off
+this action will change the brightness of a light bulb.,0.05,set_value
+this action will change the color of a light bulb.,0.4,set_mode
+this action will change the color of the nanoleaf light panels or canvas that you select from the device dropdown on this screen. you can enter either a hex value or a keyword for the color. need help choosing a color? bookmark nanoleaf.me/ifttt for easy access to a list and color picker.,0.34,set_mode
+this action will change the color of your hue lights to match the dominant colors found in an image you specify. note: not compatible with hue lux bulbs.,1.92,set_value
+this action will change the color of your hue lights. note: accepts color names and css hex color values. defaults to white if no color match is found. note: not compatible with hue lux bulbs.,12.33,set_mode
+this action will change the color of your lights.,2.48,set_mode
+this action will change the color temperature of a light bulb.,0.03,set_mode
+this action will change your hue lights to a randomly selected color. note: not compatible with hue lux bulbs.,0.82,set_mode
+this action will change your light's brightness to the specified level.,0.42,set_value
+this action will change your lights to a specified color.,0.47,set_value
+this action will change your lights to specified color temperature.,0.37,set_value
+"this action will change your lights to the requested dynamic mode such as light flashing, jumping, gradual change and strobe.",0.03,set_mode
+"this action will dim / brighten the selected light(s) by the step of your choice. ideal for your smart remotes, connected buttons, widgets and much more!",0.03,set_value
+this action will dim or brighten your hue lights to a value between 0-100.,3.16,set_value
+this action will make the selected light(s) pulse gently once.,0.13,effect
+this action will make your lights quickly blink the color of your choice.,2.9,set_mode
+this action will make your lights slowly breathe the color of your choice.,1.29,set_mode
+this action will set a dim level on your light.,0.24,set_value
+this action will set the light to specified color.,0.63,set_value
+this action will set your light to a specified brightness.,0.03,set_value
+this action will set your lights to a pre-defined scene.,1.4,set_mode
+this action will set your lights to a specified brightness.,1.08,set_value
+this action will switch off your light.,0.29,turn_on_off
+this action will switch on your light.,0.4,turn_on_off
+this action will temporarily set your nanoleaf light panels or canvas to a solid or blinking color and then return to its previous state.,0.21,set_mode
+this action will toggle a wemo light switch on or off.,0.45,turn_on_off
+this action will toggle your hive light on or off.,0.08,turn_on_off
+this action will toggle your hue lights on or off.,1.45,turn_on_off
+this action will toggle your lights on or off.,0.03,turn_on_off
+this action will turn a wemo light switch off then immediately back on.,0.13,turn_on_off
+"this action will turn a wemo light switch off. if the wemo switch is already off, it will remain off.",1.29,turn_on_off
+this action will turn a wemo light switch on then immediately back off.,0.26,turn_on_off
+"this action will turn a wemo light switch on. if the wemo switch is already on, it will remain on.",2.34,turn_on_off
+this action will turn off the functional light of your hood.,0.11,turn_on_off
+this action will turn off the nanoleaf product that you select from the device dropdown on this screen.,0.13,turn_on_off
+this action will turn off the selected light(s).,0.47,turn_on_off
+"this action will turn off your hubitat switches, lights, sirens, strobes, etc.",0.08,turn_on_off
+this action will turn off your hue lights.,11.54,turn_on_off
+this action will turn off your sengled lights.,0.05,turn_on_off
+this action will turn on a slow color loop effect for your hue lights. note: not compatible with hue lux bulbs.,3.69,set_value
+this action will turn on the ambient light of your hood with the selected color. please note that this action is not supported by all hoods.,0.26,set_mode
+this action will turn on the functional light of your hood with the selected brightness.,0.08,set_value
+this action will turn on the nanoleaf product that you select from the device dropdown on this screen.,0.18,turn_on_off
+"this action will turn on the selected light(s). optionally, a light mode or pre-defined color can be applied, as well as a level of dimming.",2.29,set_mode
+this action will turn on your hue lights.,15.46,turn_on_off
+this action will turn on your sengled lights.,0.11,turn_on_off
+"this action will turn on, turn off or toggle your lights.",1.63,turn_on_off
+this action will turn on/off the led light of my projector.,0.08,turn_on_off
+this action will turn the specified product's night light off.,0.05,set_value
+this action will turn the specified product's night light on.,0.05,set_value
+this action will turn your hive light off for a specific duration,0.29,turn_on_off
+this action will turn your hive light on for a specific duration,0.34,turn_on_off
+"this action will turn your lights off if they are on, and turn them on if they are off.",0.84,turn_on_off
+this action will turn your lights off.,2.37,turn_on_off
+this action will turn your lights on.,4.58,turn_on_off
+turns off the selected group of wemo lights. if the group is already off it will remain off.,0.11,turn_on_off
+turns off the selected wemo light. if it is already off it stays off.,0.82,turn_on_off
+turns on the selected group of wemo lights. if the group is already on it will remain on.,0.24,turn_on_off
+turns on the selected wemo light. if it is already on it stays on.,0.79,turn_on_off

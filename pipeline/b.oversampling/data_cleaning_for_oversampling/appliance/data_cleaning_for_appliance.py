@@ -15,31 +15,27 @@ INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Appliance.c
 # ===============================
 
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on"),
-    (r".*electricity price.*lowest.*", "IF electricity prices are low"),
-    (r".*electricity.*cheap.*", "IF electricity prices are low"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"), #FREE
+    (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low"),
     (r".*(smoke detector|smoke alarm|dangerous smoke).*", "IF a smoke detector detects smoke"),
     (r".*every.*day.*specific time.*", "IF every day at a specified time"),
-    (r".*button.*pressed.*|.*press.*button.*|flic.*", "IF a button is pressed"),
-    (r".*to do list.*edit.*|.*edit.*to do list.*", "IF a to-do list item is edited"),
-    (r".*enter or exit.*area.*", "IF the user enters or exits a specified area"),
-    (r".*enter.*area.*", "IF the user enters a specified area"),
+    (r".*button.*pressed.*|.*press.*button.*|flic.*|.*lawnmower.*button.*", "IF a button is pressed [FREE]"), #FREE
+    (r".*to do list.*edit.*|.*edit.*to do list.*", "IF a to-do list item is edited [FREE]"), #FREE
+    (r".*enter.*area.*|.*enter or exit.*area.*", "IF the user enters a specified area"),
     (r".*exit.*area.*", "IF the user exits a specified area"),
-    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase"),
+    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase [FREE]"), #FREE
     (r".*cookit.*finished.*", "IF a smart cooking device finishes successfully"),
     (r".*cookit.*turned on.*", "IF a smart cooking device is turned on"),
-    (r".*binary switch.*turned on.*", "IF a binary switch is turned on"),
+    (r".*binary switch.*turned on.*", "IF a binary switch is turned on [FREE]"), #FREE
     (r".*freezer.*door.*open.*", "IF a freezer door is opened"),
     (r".*sleep.*out of bed.*", "IF a sleep tracking device detects the user leaving the bed"),
-    (r".*specific days.*week.*time.*", "IF on specific days of the week at a specified time"),
-    (r".*(homeseer|knx).*turned on.*", "IF a connected device is turned on."),
-    (r".*security panel.*armed|disarmed.*", "IF a security system is armed or disarmed"),
-    (r".*co2.*intensity.*lowest.*", "IF carbon intensity is lowest within a time window"),
+    (r".*specific days.*week.*time.*", "IF is one of the specific days of the week at a specified time [FREE]"), #FREE
+    (r".*(homeseer|knx).*turned on.*", "IF a connected device is turned on"),
+    (r".*co2.*intensity.*lowest.*", "IF carbon emissions is lowest within a time window"),
     (r".*exchanged power.*threshold.*", "IF power usage satisfies a threshold condition"),
-    (r".*(telegram|text message|ifttt).*", "IF a message containing a key phrase is sent"),
-    (r".*google calendar.*event.*", "IF shortly before a calendar event with a specific keyword"),
-    (r".*sunrise.*", "IF shortly before sunrise at the user's location"),
-    (r".*lawnmower.*button.*", "IF a lawn mower button is pressed")
+    (r".*(telegram|text message|ifttt).*", "IF a message containing a key phrase is sent [FREE]"), #FREE
+    (r".*google calendar.*event.*", "IF a calendar event with a specific keyword occurs [FREE]"), #FREE
+    (r".*sunrise.*", "IF it is sunrise")
 ]
 
 ACTION_RULES = [
@@ -100,7 +96,7 @@ filtered_df = df
 
 filtered_df = filtered_df[
     ~filtered_df["triggerDesc"].str.contains(
-        r".*particulate matter.*",
+        r".*particulate matter.*|.*security panel.*armed|disarmed.*",
         case=False,
         na=False
     )
@@ -108,7 +104,7 @@ filtered_df = filtered_df[
 
 filtered_df = filtered_df[
     ~filtered_df["actionDesc"].str.contains(
-        "NaN",
+        r"NaN",
         case=False,
         na=False
     )

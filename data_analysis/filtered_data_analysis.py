@@ -4,7 +4,7 @@ from pathlib import Path
 
 # ================= CONFIG =================
 
-INPUT_CSV = "../dataset/action_channel_filtered_dataset.csv"
+INPUT_CSV = "../dataset/filtered_data/action_channel_filtered_dataset.csv"
 OUTPUT_REPORT = "trigger_action_analysis_report.txt"
 
 TRIGGER_COL = "triggerDesc"

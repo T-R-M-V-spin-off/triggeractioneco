@@ -73,8 +73,479 @@ TRIGGER_RULES = [
 
     (r".*new notification.*android.*|.*app.*notification.*", "IF a notification is received from a mobile app"),
 
+    # ================= AIR / ENVIRONMENT / POLLUTION =================
 
+    (r".*(air pollution|air quality).*above.*|.*pm2\.5.*|.*particulate matter.*", 
+     "IF air pollution exceeds a threshold"),
 
+    (r".*(carbon dioxide|co2).*above.*", 
+     "IF carbon dioxide level exceeds a threshold"),
+
+    (r".*(voc|volatile organic).*above.*|.*below.*", 
+     "IF volatile organic compounds cross a threshold"),
+
+    (r".*uv index.*above.*", 
+     "IF UV index exceeds a threshold"),
+
+    (r".*(radon).*above.*|.*below.*", 
+     "IF radon level crosses a threshold"),
+
+    (r".*(wind speed|gust speed).*above.*", 
+     "IF wind speed exceeds a threshold"),
+
+    (r".*(humidity).*above.*|.*below.*|.*too dry.*|.*normal humidity.*", 
+     "IF humidity crosses a threshold"),
+
+    # ================= TEMPERATURE =================
+
+    (r".*(temperature).*above.*|.*rises above.*|.*greater than.*", 
+     "IF temperature rises above a threshold"),
+
+    (r".*(temperature).*below.*|.*drops below.*|.*less than.*", 
+     "IF temperature drops below a threshold"),
+
+    (r".*(ambient temperature).*above.*|.*below.*", 
+     "IF ambient temperature crosses a threshold"),
+
+    # ================= ENERGY / PRICE =================
+
+    (r".*(electricity price|price).*above.*|.*below.*|.*average price.*", 
+     "IF electricity price changes beyond a threshold"),
+
+    (r".*(dynamic pricing|hourly pricing|real time market).*", 
+     "IF dynamic energy pricing changes"),
+
+    (r".*(carbon intensity|carbon clean|carbon dirty).*", 
+     "IF carbon intensity changes"),
+
+    (r".*(ohmhour).*start.*|.*ohmhour.*end.*", 
+     "IF a demand response event starts or ends"),
+
+    # ================= POWER / CONSUMPTION =================
+
+    (r".*(power|watts).*above.*|.*consumption.*", 
+     "IF power consumption exceeds a threshold"),
+
+    (r".*(exporting solar).*", 
+     "IF solar power is exported to the grid"),
+
+    # ================= BATTERY / CHARGING =================
+
+    (r".*(battery).*below.*|.*drops below.*", 
+     "IF device battery drops below a threshold"),
+
+    (r".*(plugged in|unplugged).*", 
+     "IF device is plugged in or unplugged"),
+
+    # ================= CONNECTIVITY =================
+
+    (r".*(connects|disconnects).*wifi.*|.*google wifi.*", 
+     "IF device connects or disconnects from WiFi"),
+
+    (r".*(disconnects).*bluetooth.*", 
+     "IF device disconnects from Bluetooth"),
+
+    # ================= CALLS / SMS / VOICEMAIL =================
+
+    (r".*(receive|send).*sms.*", 
+     "IF an SMS is sent or received"),
+
+    (r".*(incoming call|answer call|miss call|phone call).*", 
+     "IF a phone call event occurs"),
+
+    (r".*(voicemail).*", 
+     "IF a voicemail is received"),
+
+    # ================= CALENDAR / MEETINGS =================
+
+    (r".*(calendar).*start.*|.*meeting starts.*", 
+     "IF a calendar event starts"),
+
+    (r".*(calendar).*end.*|.*meeting ends.*", 
+     "IF a calendar event ends"),
+
+    (r".*(minutes before).*calendar.*|.*before.*event.*", 
+     "IF shortly before a calendar event"),
+
+    (r".*(within 15 minutes).*calendar.*", 
+     "IF shortly after a calendar event"),
+
+    (r".*(new event).*calendar.*", 
+     "IF a new calendar event is added"),
+
+    # ================= PRESENCE / FAMILY =================
+
+    (r".*(everyone left|family member left).*", 
+     "IF everyone leaves home"),
+
+    (r".*(family member has come home|someone comes home).*", 
+     "IF someone arrives home"),
+
+    (r".*(presence).*detected.*|.*no longer detected.*", 
+     "IF user presence changes"),
+
+    # ================= DOORS / LOCKS / CONTACT =================
+
+    (r".*(door|contact sensor).*open.*|.*opened.*", 
+     "IF a door or contact sensor opens"),
+
+    (r".*(door|contact sensor).*close.*|.*closed.*", 
+     "IF a door or contact sensor closes"),
+
+    (r".*(lock).*locked.*|.*unlocked.*", 
+     "IF a lock is locked or unlocked"),
+
+    # ================= MOTION =================
+
+    (r".*(motion).*detect.*|.*movement.*|.*no movement.*", 
+     "IF motion is detected or stops"),
+
+    # ================= DEVICES ON / OFF =================
+
+    (r".*(device|switch|zone|product).*turn.*on.*|.*switched on.*", 
+     "IF a device is turned on"),
+
+    (r".*(device|switch|zone|product).*turn.*off.*|.*switched off.*", 
+     "IF a device is turned off"),
+
+    (r".*(on or off).*", 
+     "IF a device changes state"),
+
+    # ================= BUTTONS / WEARABLE =================
+
+    (r".*(press|double press|long press).*button.*|.*logi.*|.*flic.*|.*wink.*", 
+     "IF a button is pressed"),
+
+    (r".*(watch|kronaby|festina|jaguar|lotus).*pusher.*", 
+     "IF a smartwatch button is pressed"),
+
+    # ================= ROBOTS / AUTOMATION =================
+
+    (r".*(robot).*start.*job.*|.*completes job.*", 
+     "IF a robot starts or completes a task"),
+
+    (r".*(routine|flow|automation).*activated.*|.*runs.*", 
+     "IF an automation routine runs"),
+
+    # ================= SOCIAL / MEDIA =================
+
+    (r".*(tweet|twitter).*hashtag.*|.*post.*tweet.*", 
+     "IF a tweet is posted"),
+
+    (r".*@mentioned.*tweet.*", 
+     "IF mentioned on Twitter"),
+
+    (r".*(youtube|video).*new.*", 
+     "IF a new video is published"),
+
+    (r".*(super chat|membership).*", 
+     "IF a channel interaction occurs"),
+
+    (r".*(facebook).*status.*|.*photo.*tagged.*", 
+     "IF a Facebook post or tag occurs"),
+
+    # ================= REMINDERS / TODO =================
+
+    (r".*(to do|todo|reminder).*add.*|.*complete.*|.*delete.*", 
+     "IF a reminder or task changes"),
+
+    # ================= SECURITY / ALARMS =================
+
+    (r".*(alarm).*triggered.*|.*alarm event.*|.*armed.*|.*disarmed.*", 
+     "IF a security alarm changes state"),
+
+    (r".*(smoke|carbon monoxide).*detect.*", 
+     "IF dangerous gas or smoke is detected"),
+
+    (r".*(leak|water).*detect.*", 
+     "IF a water leak is detected"),
+
+    # ================= WEATHER FORECAST =================
+
+    (r".*(forecast|tomorrow).*weather.*", 
+     "IF weather forecast changes"),
+
+    # ================= SENSORS / GENERIC =================
+
+    (r".*(sensor).*activated.*|.*input signal.*", 
+     "IF a sensor is activated"),
+
+    (r".*(specific value).*sensor.*", 
+     "IF a sensor reaches a target value"),
+
+    # ================= SCHEDULED =================
+
+    (r".*(once a year|every month).*", 
+     "IF a scheduled periodic event occurs"),
+
+    (r".*(timer goes off).*", 
+     "IF a timer expires"),
+
+# ================= AIR POLLUTION / CARBON =================
+
+    (r".*(global air pollution|air pollution).*higher than.*|.*carbon.*clean.*|.*carbon.*dirty.*",
+     "IF air pollution or carbon intensity crosses a threshold"),
+
+    # ================= SPREADSHEET =================
+
+    (r".*(spreadsheet).*cell.*(updated|changed|modified).*",
+     "IF a spreadsheet cell is updated"),
+
+    # ================= WEBHOOK / EXTERNAL EVENT =================
+
+    (r".*(ifttt receives|receives).*event.*(apilio|webhook|external).*",
+     "IF an external webhook event is received"),
+
+    # ================= MOTION / SECURITY CAM =================
+
+    (r".*(senses motion|detects motion|motion sensor).*",
+     "IF motion is detected"),
+
+    # ================= ENERGY PRICE ADVANCED =================
+
+    (r".*(electricity price).*(falls|rises|threshold|time).*",
+     "IF electricity price changes within a time window"),
+
+    # ================= RELAY / TOGGLE =================
+
+    (r".*(relay).*turned on.*toggle.*|.*toggle mode.*relay.*",
+     "IF a relay is toggled on"),
+
+    # ================= PRESENCE FULL HOUSE =================
+
+    (r".*(every family member has left|everyone left).*",
+     "IF everyone leaves home"),
+
+    # ================= VOICE / KEYWORD =================
+
+    (r".*(says a particular word|keyword|phrase).*group.*|.*voice command.*",
+     "IF a specific keyword is spoken"),
+
+    # ================= SLEEP TRACKING =================
+
+    (r".*(sleep).*get (out of|into) bed.*|.*logs new sleep.*",
+     "IF sleep activity is detected"),
+
+    # ================= HOME AUTOMATION FLOWS =================
+
+    (r".*(flow).*started.*homey.*|.*automation.*started.*",
+     "IF an automation flow is started"),
+
+    # ================= TARIFF / PEAK / PRICING ZONE =================
+
+    (r".*(plage tarifaire|peak rates|tariff|time-of-day).*start.*|.*end.*",
+     "IF a tariff or peak rate period starts or ends"),
+
+    # ================= SMOKE / GAS =================
+
+    (r".*(smoke|carbon monoxide|co).*detects.*(dangerous|warning).*",
+     "IF dangerous smoke or gas is detected"),
+
+    # ================= LIGHT / SWITCH =================
+
+    (r".*(light|dimmer|switch).*switch(es)? (on|off)|.*turned (on|off).*",
+     "IF a light or switch changes state"),
+
+    # ================= AUDIO DETECTION =================
+
+    (r".*audio event.*detected.*|.*sound.*detected.*",
+     "IF an audio event is detected"),
+
+    # ================= SMARTWATCH BUTTON =================
+
+    (r".*(pusher).*watch.*|.*watch.*button.*",
+     "IF a smartwatch button is pressed"),
+
+    # ================= MODE SWITCH =================
+
+    (r".*(switches to|enters|changes).*mode.*(home|away|heat|security).*",
+     "IF a device changes operating mode"),
+
+    # ================= PRAYER / RELIGIOUS TIME =================
+
+    (r".*(time for prayer).*|.*prayer time.*",
+     "IF prayer time occurs"),
+
+    # ================= TEMPERATURE SENSOR TAG =================
+
+    (r".*(ambient temperature).*exceeds.*threshold.*|.*returns between.*thresholds.*",
+     "IF temperature crosses configured thresholds"),
+
+    # ================= TELEGRAM / MESSAGING BOT =================
+
+    (r".*(telegram).*key phrase.*|.*@ifttt.*bot.*",
+     "IF a keyword is sent via messaging bot"),
+
+    # ================= FITNESS / GOALS =================
+
+    (r".*(daily step goal).*achieve.*|.*do not achieve.*goal.*",
+     "IF a fitness goal is achieved or missed"),
+
+    # ================= VEHICLE / GEO =================
+
+    (r".*(vehicle).*exit.*geo.*|.*geofence.*exit.*",
+     "IF a vehicle exits a geofence"),
+
+    # ================= SECURITY PANEL =================
+
+    (r".*(security panel).*receives.*alarm.*|.*alarm activated.*",
+     "IF a security panel alarm occurs"),
+
+    # ================= GROUP DECISION =================
+
+    (r".*(group decision|direct action).*taken.*",
+     "IF a group decision is made"),
+
+    # ================= CHECK-IN / LOCATION =================
+
+    (r".*(check in).*foursquare.*|.*swarm.*|.*venue.*category.*|.*hashtag.*",
+     "IF a location check-in occurs"),
+
+    # ================= RSS / FEED =================
+
+    (r".*(new item).*feed.*|.*rss.*new.*",
+     "IF a new feed item is published"),
+
+    # ================= SMART DEVICE POWER =================
+
+    (r".*(powered on|power on).*device.*|.*enters standby.*",
+     "IF a device powers on or enters standby"),
+
+    # ================= DEVICE ISSUES =================
+
+    (r".*(low battery|device offline|issue occurs).*",
+     "IF a device problem occurs"),
+
+    # ================= YOUTUBE / VIDEO =================
+
+    (r".*(new video).*public.*|.*subscribed.*user.*video.*",
+     "IF a subscribed user publishes a video"),
+
+    # ================= TODO / NOTES =================
+
+    (r".*(add).*to do list.*|.*new task.*",
+     "IF a new task is added"),
+
+    # ================= SOCIAL STATUS =================
+
+    (r".*(facebook).*status.*message.*|.*plain text.*",
+     "IF a social status is posted"),
+
+    # ================= DOOR / LOCK =================
+
+    (r".*(door).*open.*|.*close.*|.*locked.*",
+     "IF a door or lock changes state"),
+
+    # ================= SCREENSHOT =================
+
+    (r".*(screenshot).*taken.*android.*",
+     "IF a screenshot is taken"),
+
+    # ================= ALEXA =================
+
+    (r".*(alexa).*shopping list.*ask.*",
+     "IF Alexa shopping list is queried"),
+
+    # ================= ALARM STATE =================
+
+    (r".*(during alarms).*|.*alarm event.*",
+     "IF an alarm is active"),
+
+    # ================= SPREADSHEET (SPECIFIC CELL) =================
+
+    (r".*(particular|specific).*cell.*(updated|changed|modified).*spreadsheet.*",
+     "IF a specific spreadsheet cell is updated"),
+
+    (r".*spreadsheet.*cell.*(updated|changed).*",
+     "IF a spreadsheet cell is updated"),
+
+    # ================= VOICE KEYWORD / ORION =================
+
+    (r".*(orion).*group.*(says|say).*word.*phrase.*",
+     "IF a specific keyword is spoken in a voice group"),
+
+    (r".*(say|says).*particular.*(word|phrase).*",
+     "IF a specific spoken keyword is detected"),
+
+    # ================= FRENCH TARIFF =================
+
+    (r".*(plage tarifaire).*commence.*logement.*",
+     "IF a tariff period starts (French)"),
+
+    (r".*(plage tarifaire).*commence.*",
+     "IF a tariff period starts"),
+
+    # ================= NEST PROTECT (SMOKE / CO) =================
+
+    (r".*nest protect.*detects.*(dangerous|warning).*smoke.*",
+     "IF Nest Protect detects smoke"),
+
+    (r".*nest protect.*detects.*(dangerous|warning).*carbon monoxide.*",
+     "IF Nest Protect detects carbon monoxide"),
+
+    # ================= TADO / HOME MODE =================
+
+    (r".*(tado).*switches to.*away mode.*",
+     "IF thermostat switches to away mode"),
+
+    (r".*(tado).*switches to.*home mode.*",
+     "IF thermostat switches to home mode"),
+
+    (r".*(security device).*enters.*home mode.*",
+     "IF security system enters home mode"),
+
+    # ================= FITNESS GOAL =================
+
+    (r".*achieve.*daily step goal.*",
+     "IF daily step goal is achieved"),
+
+    # ================= MIHOME POWER =================
+
+    (r".*(mi\|home|mihome).*powered on.*",
+     "IF a MiHome device is powered on"),
+
+    # ================= MYFOX ALARM / RISK =================
+
+    (r".*(myfox).*receives.*alarm.*",
+     "IF Myfox security alarm occurs"),
+
+    (r".*(myfox).*detects.*risk.*",
+     "IF Myfox detects a household risk"),
+
+    # ================= HEAT MODE =================
+
+    (r".*device.*set to.*heat mode.*",
+     "IF a device switches to heat mode"),
+
+    # ================= RF BRIDGE ALARM =================
+
+    (r".*(rf bridge).*alarm.*activated.*",
+     "IF RF bridge alarm is activated"),
+
+    # ================= SWANN MOTION =================
+
+    (r".*(swann).*detects.*motion.*",
+     "IF Swann camera detects motion"),
+
+    # ================= SITE MODE =================
+
+    (r".*site.*changes.*mode.*",
+     "IF a site changes operating mode"),
+
+    # ================= ALEXA SHOPPING =================
+
+    (r".*(alexa).*what'?s on.*shopping list.*",
+     "IF Alexa shopping list is queried"),
+
+    (r".*(alexa).*shopping list.*ask.*",
+     "IF Alexa shopping list is queried"),
+
+    # ================= DOOR SENSOR OPEN =================
+
+    (r".*(opens the door|door.*open).*activated door sensor.*|.*someone opens the door.*",
+     "IF a door is opened"),
+
+    (r".*alarm.*bridge.*","IF an alarm of your network bridge is activated")
 ]
 
 
@@ -179,7 +650,7 @@ filtered_df = df
 
 filtered_df = filtered_df[
     ~filtered_df["triggerDesc"].str.contains(
-        "NaN",
+        r"NaN",
         case=False,
         na=False
     )

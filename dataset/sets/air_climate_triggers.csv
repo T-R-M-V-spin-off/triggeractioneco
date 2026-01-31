@@ -1,40 +1,42 @@
 triggerDesc,percentage,triggerType
-"this trigger fires a set number of minutes before the starting time of an event on your calendar that contains a specific keyword or phrase in the event’s title, description, or location. ingredient will be based on the zone set in google.",1.04,external_service
-"this trigger fires a set number of minutes before the starting time of an event on your google calendar that contains a specific keyword or phrase. the search looks at the event’s title, description, and location.",2.08,external_service
-this trigger fires before time-of-day peak rates start.,1.04,schedule
-this trigger fires every single day at a specific time set by you.,7.29,schedule
-this trigger fires every time ifttt receives a specific event from apilio.,2.08,external_service
-this trigger fires every time the home you specify is set to away.,1.04,schedule
-this trigger fires every time the home you specify is set to home.,1.04,schedule
-this trigger fires every time you enter an area you specify.,5.21,motion
-this trigger fires every time you exit an area you specify.,9.38,motion
-this trigger fires every time you press the button.,15.62,manual_interaction
-"this trigger fires every time you say 'alexa trigger' + the phrase that you have defined. for instance, if you set 'party time' as the phrase, you can say 'alexa trigger party time' to have your lights loop colors.",12.5,audio
-this trigger fires every time your a/c unit detects temperatures above a value you specify.,2.08,weather
-this trigger fires every time your a/c unit detects temperatures below a value you specify.,1.04,weather
-this trigger fires every time your android device connects to a wifi network you specify.,2.08,external_service
-this trigger fires every time your android device disconnects from a wifi network you specify.,3.12,external_service
-this trigger fires every time your fitbit logs new sleep.,1.04,external_service
-this trigger fires every time your myfox security system is partially armed.,1.04,external_service
-this trigger fires every time your smartthings device is switched off.,1.04,device_state
-this trigger fires every time your smartthings device is switched on.,1.04,device_state
-this trigger fires when a routine is activated.,1.04,external_service
-"this trigger fires when the air purifier detects a certain air quality (very good, good, moderate, or bad).",1.04,weather
-this trigger fires when the room temperature satisfies a condition with a threshold,2.08,weather
-this trigger fires when the solar power drops below the specified value in watts.,1.04,weather
-this trigger fires when the temperature for a specific device exceeds the specified threshold.,1.04,weather
-this trigger fires when the temperature satisfies a condition with a threshold,2.08,weather
-this trigger fires when you say “ok google” to the google assistant followed by a phrase like “post a tweet saying ‘new high score.’” **use the $ symbol to specify where you'll say the text ingredient,1.04,audio
-"this trigger fires when you say “ok google” to the google assistant followed by a phrase you choose. for example, say “ok google, i’m running late” to text a family member that you’re on your way home.",3.12,audio
-this trigger fires when your device detects the temperature is above the threshold you specified.,1.04,weather
-this trigger fires when your device detects the temperature is below the threshold you specified.,1.04,weather
-this trigger fires within 15 minutes of detection of the indoor temperature dropping below the specified temperature threshold.,1.04,weather
-this trigger fires within 15 minutes of detection of the indoor temperature rising above the specified temperature threshold.,1.04,weather
-this trigger fires within 15 minutes of the sunrise in your location.,1.04,schedule
-this trigger fires within 15 minutes of the sunset in your location.,2.08,schedule
-this trigger fires within 15 minutes of your unit having been turned on.,1.04,device_state
-"this trigger monitors changes in the current weather condition. when one of those conditions is met the trigger fires. currently only these simple conditions are supported: rain, snow, cloudy, clear. ",1.04,weather
-this trigger monitors your local humidity and fires every time the humidity rises above the value you specify.,2.08,weather
-this trigger monitors your local temperature and fires whenever the temperature drops below the value you provide.,1.04,weather
-this trigger monitors your local temperature and fires whenever the temperature rises above the value you provide.,3.12,weather
-this triggers fire every time your room enters manual mode.,1.04,device_state
+"this trigger fires a set number of minutes before the starting time of an event on your calendar that contains a specific keyword or phrase in the event’s title, description, or location. ingredient will be based on the zone set in google.",0.95,external_service
+"this trigger fires a set number of minutes before the starting time of an event on your google calendar that contains a specific keyword or phrase. the search looks at the event’s title, description, and location.",1.9,external_service
+this trigger fires before time-of-day peak rates start.,0.95,schedule
+this trigger fires every single day at a specific time set by you.,6.67,schedule
+this trigger fires every time ifttt receives a specific event from apilio.,1.9,external_service
+this trigger fires every time the home you specify is set to away.,0.95,schedule
+this trigger fires every time the home you specify is set to home.,0.95,schedule
+this trigger fires every time you enter an area you specify.,4.76,motion
+this trigger fires every time you exit an area you specify.,8.57,motion
+this trigger fires every time you press the button.,17.14,manual_interaction
+"this trigger fires every time you say 'alexa trigger' + the phrase that you have defined. for instance, if you set 'party time' as the phrase, you can say 'alexa trigger party time' to have your lights loop colors.",11.43,audio
+this trigger fires every time your a/c unit detects temperatures above a value you specify.,1.9,weather
+this trigger fires every time your a/c unit detects temperatures below a value you specify.,0.95,weather
+this trigger fires every time your android device connects to a wifi network you specify.,1.9,external_service
+this trigger fires every time your android device disconnects from a wifi network you specify.,2.86,external_service
+this trigger fires every time your fitbit logs new sleep.,0.95,external_service
+this trigger fires every time your myfox security system is partially armed.,0.95,external_service
+this trigger fires every time your smartthings device is switched off.,0.95,device_state
+this trigger fires every time your smartthings device is switched on.,0.95,device_state
+this trigger fires when a routine is activated.,0.95,external_service
+"this trigger fires when the air purifier detects a certain air quality (very good, good, moderate, or bad).",0.95,weather
+this trigger fires when the room temperature satisfies a condition with a threshold,1.9,weather
+this trigger fires when the solar power drops below the specified value in watts.,0.95,weather
+this trigger fires when the temperature for a specific device exceeds the specified threshold.,0.95,weather
+this trigger fires when the temperature satisfies a condition with a threshold,1.9,weather
+this trigger fires when you say “ok google” to the google assistant followed by a phrase like “post a tweet saying ‘new high score.’” **use the $ symbol to specify where you'll say the text ingredient,0.95,audio
+"this trigger fires when you say “ok google” to the google assistant followed by a phrase you choose. for example, say “ok google, i’m running late” to text a family member that you’re on your way home.",5.71,audio
+this trigger fires when your device detects the temperature is above the threshold you specified.,0.95,weather
+this trigger fires when your device detects the temperature is below the threshold you specified.,0.95,weather
+this trigger fires whenever the measured particulate matter of 2.5 microns in size (pm2.5) is above or below the threshold.,1.9,other
+this trigger fires within 15 minutes of detection of the indoor temperature dropping below the specified temperature threshold.,0.95,weather
+this trigger fires within 15 minutes of detection of the indoor temperature rising above the specified temperature threshold.,0.95,weather
+this trigger fires within 15 minutes of the sunrise in your location.,0.95,schedule
+this trigger fires within 15 minutes of the sunset in your location.,1.9,schedule
+this trigger fires within 15 minutes of your unit having been turned on.,0.95,device_state
+"this trigger monitors changes in the current weather condition. when one of those conditions is met the trigger fires. currently only these simple conditions are supported: rain, snow, cloudy, clear. ",0.95,weather
+this trigger monitors your local humidity and fires every time the humidity rises above the value you specify.,1.9,weather
+this trigger monitors your local temperature and fires whenever the temperature drops below the value you provide.,0.95,weather
+this trigger monitors your local temperature and fires whenever the temperature rises above the value you provide.,2.86,weather
+this triggers fire every time your room enters manual mode.,0.95,device_state
+virtual device turned on,0.95,device_state

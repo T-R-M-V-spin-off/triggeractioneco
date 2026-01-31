@@ -1,31 +1,32 @@
 triggerDesc,percentage,triggerType
-device turned on,1.39,device_state
-the trigger fires when your smoke detector detects a smoke alarm.,1.39,external_service
-this trigger fires at the hours where electricity in denmark is cheap.,6.94,schedule
-this trigger fires at the hours where electricity in norway is cheap.,5.56,schedule
-this trigger fires every single day at a specific time set by you.,4.17,schedule
-this trigger fires every time the nest protect you specify detects dangerous smoke levels.,2.78,schedule
-this trigger fires every time you click the selected flic.,2.78,manual_interaction
-this trigger fires every time you edit an item on your to do list.,1.39,device_state
-this trigger fires every time you enter an area you specify.,1.39,motion
-this trigger fires every time you enter or exit an area you specify.,1.39,motion
-this trigger fires every time you exit an area you specify.,2.78,motion
-this trigger fires every time you press the button.,13.89,manual_interaction
-"this trigger fires every time you say 'alexa trigger' + the phrase that you have defined. for instance, if you set 'party time' as the phrase, you can say 'alexa trigger party time' to have your lights loop colors.",11.11,audio
-this trigger fires every time your cookit has finished successfully.,1.39,schedule
-this trigger fires every time your cookit is turned on.,1.39,device_state
-this trigger fires every time your device's binary switch is turned on.,1.39,device_state
-this trigger fires every time your freezer door has been opened.,1.39,device_state
-"this trigger fires every time your withings sleep detects that you get out of bed, within the start and end time parameters that you specify.",1.39,schedule
-this trigger fires only on specific days of the week at the time you provide.,1.39,device_state
-this trigger fires when a device attached to your homeseer system is turned on.,1.39,device_state
-this trigger fires when a knx device or binary switch is turned on.,1.39,device_state
-this trigger fires when my total connect security panel has been armed or disarmed.,1.39,external_service
-this trigger fires when the button connected to fibaro home center is pressed as specified.,1.39,manual_interaction
-this trigger fires when the co2 intensity in the electricity production is lowest between a starting time and a finish time and for a duration specified by you.,2.78,weather
-this trigger fires when the exchanged power satisfies a condition with a threshold ,2.78,device_state
-"this trigger fires when you say “ok google” to the google assistant followed by a phrase you choose. for example, say “ok google, i’m running late” to text a family member that you’re on your way home.",16.67,audio
-this trigger fires when you send a text message with a key phrase to the @ifttt bot on telegram.,1.39,external_service
-"this trigger fires within 15 minutes of the ending time of an event on your google calendar that contains a specific keyword or phrase. the search looks at the event’s title, description, and location. ingredient will be based on the zone set in google.",1.39,external_service
-this trigger fires within 15 minutes of the sunrise in your location.,2.78,schedule
-when the smart button of the lawnmower has pressed once,1.39,manual_interaction
+device turned on,1.37,device_state
+the trigger fires when your smoke detector detects a smoke alarm.,1.37,external_service
+this trigger fires at the hours where electricity in denmark is cheap.,6.85,schedule
+this trigger fires at the hours where electricity in norway is cheap.,5.48,schedule
+this trigger fires every single day at a specific time set by you.,4.11,schedule
+this trigger fires every time the nest protect you specify detects dangerous smoke levels.,2.74,schedule
+this trigger fires every time you click the selected flic.,2.74,manual_interaction
+this trigger fires every time you edit an item on your to do list.,1.37,device_state
+this trigger fires every time you enter an area you specify.,1.37,motion
+this trigger fires every time you enter or exit an area you specify.,1.37,motion
+this trigger fires every time you exit an area you specify.,2.74,motion
+this trigger fires every time you press the button.,13.7,manual_interaction
+"this trigger fires every time you say 'alexa trigger' + the phrase that you have defined. for instance, if you set 'party time' as the phrase, you can say 'alexa trigger party time' to have your lights loop colors.",10.96,audio
+this trigger fires every time your cookit has finished successfully.,1.37,schedule
+this trigger fires every time your cookit is turned on.,1.37,device_state
+this trigger fires every time your device's binary switch is turned on.,1.37,device_state
+this trigger fires every time your freezer door has been opened.,1.37,device_state
+"this trigger fires every time your withings sleep detects that you get out of bed, within the start and end time parameters that you specify.",1.37,schedule
+this trigger fires only on specific days of the week at the time you provide.,1.37,device_state
+this trigger fires when a device attached to your homeseer system is turned on.,1.37,device_state
+this trigger fires when a knx device or binary switch is turned on.,1.37,device_state
+this trigger fires when my total connect security panel has been armed or disarmed.,1.37,external_service
+this trigger fires when the button connected to fibaro home center is pressed as specified.,1.37,manual_interaction
+this trigger fires when the co2 intensity in the electricity production is lowest between a starting time and a finish time and for a duration specified by you.,2.74,weather
+this trigger fires when the electricity price is lowest between a starting time and a finish time and for a duration specified by you.,1.37,pricing
+this trigger fires when the exchanged power satisfies a condition with a threshold ,2.74,device_state
+"this trigger fires when you say “ok google” to the google assistant followed by a phrase you choose. for example, say “ok google, i’m running late” to text a family member that you’re on your way home.",16.44,audio
+this trigger fires when you send a text message with a key phrase to the @ifttt bot on telegram.,1.37,external_service
+"this trigger fires within 15 minutes of the ending time of an event on your google calendar that contains a specific keyword or phrase. the search looks at the event’s title, description, and location. ingredient will be based on the zone set in google.",1.37,external_service
+this trigger fires within 15 minutes of the sunrise in your location.,2.74,schedule
+when the smart button of the lawnmower has pressed once,1.37,manual_interaction

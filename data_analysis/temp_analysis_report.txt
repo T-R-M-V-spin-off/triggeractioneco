@@ -1,33 +1,33 @@
 === TRIGGER DESCRIPTION DISTRIBUTION ===
 --- Device Category: Generic/Other ---
-Totale righe: 1672
-Valori unici (triggerDesc primi 64 caratteri): 263
+Totale righe: 1435
+Valori unici (triggerDesc primi 64 caratteri): 241
 Top 10 valori unici:
-  This Trigger fires every single day at a specific time set by yo: 127 (7.60%)
-  This trigger fires when you say “Ok Google” to the Google Assist: 119 (7.12%)
-  This Trigger fires within 15 minutes of the sunset in your locat: 108 (6.46%)
-  This trigger fires every time you say 'Alexa trigger' + the phra: 81 (4.84%)
-  This trigger fires every time you press the button.: 70 (4.19%)
-  This Trigger fires every time you enter an area you specify.: 62 (3.71%)
-  This Trigger fires every time you exit an area you specify.: 57 (3.41%)
-  This Trigger monitors your local temperature and fires whenever : 54 (3.23%)
-  This Trigger fires only on specific days of the week at the time: 51 (3.05%)
-  This Trigger fires within 15 minutes of the sunrise in your loca: 42 (2.51%)
+  This Trigger fires every single day at a specific time set by yo: 109 (7.60%)
+  This Trigger fires within 15 minutes of the sunset in your locat: 100 (6.97%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 100 (6.97%)
+  This trigger fires every time you press the button.: 66 (4.60%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 55 (3.83%)
+  This Trigger fires every time you enter an area you specify.: 55 (3.83%)
+  This Trigger fires every time you exit an area you specify.: 50 (3.48%)
+  This Trigger monitors your local temperature and fires whenever : 50 (3.48%)
+  This Trigger fires only on specific days of the week at the time: 43 (3.00%)
+  Send IFTTT an email at trigger@applet.ifttt.com with a hashtag i: 35 (2.44%)
 
 --- Device Category: Light ---
-Totale righe: 8924
-Valori unici (triggerDesc primi 64 caratteri): 502
+Totale righe: 3796
+Valori unici (triggerDesc primi 64 caratteri): 491
 Top 10 valori unici:
-  This trigger fires if Aura detects motion when set to the Away s: 2150 (24.09%)
-  This trigger fires when a selected member arrives.: 1189 (13.32%)
-  This trigger fires when the scene is changed to the selected sce: 1096 (12.28%)
-  This trigger fires if Aura detects motion. Note: this trigger on: 341 (3.82%)
-  This trigger fires every time you say 'Alexa trigger' + the phra: 326 (3.65%)
-  This Trigger fires every single day at a specific time set by yo: 301 (3.37%)
-  This trigger fires when you say “Ok Google” to the Google Assist: 294 (3.29%)
-  This Trigger fires within 15 minutes of the sunset in your locat: 259 (2.90%)
-  This trigger fires if Aura detects motion when set to Night scen: 230 (2.58%)
-  This Trigger fires only on specific days of the week at the time: 166 (1.86%)
+  This trigger fires every time you say 'Alexa trigger' + the phra: 326 (8.59%)
+  This Trigger fires every single day at a specific time set by yo: 300 (7.90%)
+  This trigger fires when you say “Ok Google” to the Google Assist: 294 (7.74%)
+  This Trigger fires within 15 minutes of the sunset in your locat: 259 (6.82%)
+  This Trigger fires only on specific days of the week at the time: 166 (4.37%)
+  This trigger fires every time you press the button.: 111 (2.92%)
+  This Trigger fires every time you enter an area you specify.: 110 (2.90%)
+  This Trigger monitors changes in the current weather condition. : 96 (2.53%)
+  This Trigger fires within 15 minutes of the sunrise in your loca: 96 (2.53%)
+  This Trigger fires once a year on the date and time you specify.: 71 (1.87%)
 
 --- Device Category: Thermostat/Heating ---
 Totale righe: 794
@@ -77,34 +77,34 @@ Top 10 valori unici:
 
 === ACTION DESCRIPTION DISTRIBUTION ===
 --- Device Category: Generic/Other ---
-Totale righe: 1672
-Valori unici (actionDesc primi 64 caratteri): 87
+Totale righe: 1435
+Valori unici (actionDesc primi 64 caratteri): 78
 Top 10 valori unici:
-  This Action will turn a WeMo Switch on. If the WeMo Switch is al: 292 (17.46%)
-  This Action will turn a WeMo Switch off. If the WeMo Switch is a: 209 (12.50%)
-  This Action will turn on your SmartThings devices that support s: 98 (5.86%)
-  This action will turn on the device/group of your choosing.: 83 (4.96%)
-  This action will turn on a device.: 79 (4.72%)
-  This Action will toggle a WeMo Switch on or off.: 73 (4.37%)
-  This Action will turn a WeMo Insight Switch on. If the WeMo Insi: 68 (4.07%)
-  This action will turn off the device/group of your choosing.: 62 (3.71%)
-  This Action will turn off your SmartThings devices that support : 51 (3.05%)
-  This action will activate the specified scene.: 41 (2.45%)
+  This Action will turn a WeMo Switch on. If the WeMo Switch is al: 292 (20.35%)
+  This Action will turn a WeMo Switch off. If the WeMo Switch is a: 209 (14.56%)
+  This action will turn on the device/group of your choosing.: 83 (5.78%)
+  This action will turn on a device.: 79 (5.51%)
+  This Action will toggle a WeMo Switch on or off.: 73 (5.09%)
+  This Action will turn a WeMo Insight Switch on. If the WeMo Insi: 68 (4.74%)
+  This action will turn off the device/group of your choosing.: 62 (4.32%)
+  This action will activate the specified scene.: 41 (2.86%)
+  This action will turn off a selected device.: 40 (2.79%)
+  This action will start your robot.: 37 (2.58%)
 
 --- Device Category: Light ---
-Totale righe: 8924
-Valori unici (actionDesc primi 64 caratteri): 82
+Totale righe: 3796
+Valori unici (actionDesc primi 64 caratteri): 76
 Top 10 valori unici:
-  This action will set your Aura to Guardian scene. : 2342 (26.24%)
-  This action will set your Aura to Away scene. : 2107 (23.61%)
-  This Action will turn on your hue lights.: 587 (6.58%)
-  This action will set your Aura to Home scene. : 566 (6.34%)
-  This Action will change the color of your hue lights. NOTE: Acce: 468 (5.24%)
-  This Action will turn off your hue lights.: 438 (4.91%)
-  This Action will briefly turn your hue lights off then back on.: 404 (4.53%)
-  This Action will turn your lights on.: 153 (1.71%)
-  This Action will turn on a slow color loop effect for your hue l: 140 (1.57%)
-  This Action will dim or brighten your hue lights to a value betw: 120 (1.34%)
+  This Action will turn on your hue lights.: 587 (15.46%)
+  This Action will change the color of your hue lights. NOTE: Acce: 468 (12.33%)
+  This Action will turn off your hue lights.: 438 (11.54%)
+  This Action will briefly turn your hue lights off then back on.: 404 (10.64%)
+  This Action will turn your lights on.: 153 (4.03%)
+  This Action will turn on a slow color loop effect for your hue l: 140 (3.69%)
+  This Action will dim or brighten your hue lights to a value betw: 120 (3.16%)
+  This Action will make your lights quickly blink the color of you: 106 (2.79%)
+  This Action well set a scene on your hue lights. NOTE: in order : 99 (2.61%)
+  This Action will change the color of your lights.: 94 (2.48%)
 
 --- Device Category: Thermostat/Heating ---
 Totale righe: 794

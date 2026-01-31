@@ -1,73 +1,73 @@
 actionDesc,percentage,actionType
-the action will set the temperature on the selected heatmiser thermostat.,0.89,set_value
-this action removes the currently running event on the selected thermostat providing the event is not a mandatory demand response event.,3.06,turn_on_off
+the action will set the temperature on the selected heatmiser thermostat.,0.88,set_value
+this action removes the currently running event on the selected thermostat providing the event is not a mandatory demand response event.,3.02,turn_on_off
 this action will activate eco mode on your appliance. note that this will change set point temperature and manually changing it will disable the eco mode.,0.13,set_value
 this action will activate fresh mode on your appliance. note that this will change set point temperature and manually changing it will disable the fresh mode.,0.13,set_value
-this action will activate standby mode on the selected heatmiser thermostat.,1.15,set_mode
+this action will activate standby mode on the selected heatmiser thermostat.,1.13,set_mode
 this action will activate vacation mode (holiday mode) on your appliance. note that this will change set point temperature and manually changing it will disable the vacation mode (holiday mode).,0.13,set_value
-this action will boost heating to the temperature and duration you specify.,1.78,set_value
-this action will boost your hot water for 1 hour.,0.51,set_value
+this action will boost heating to the temperature and duration you specify.,1.76,set_value
+this action will boost your hot water for 1 hour.,0.5,set_value
 this action will cancel standby mode on the selected heatmiser thermostat.,0.76,set_mode
-this action will change operation settings for heat mode in your device. ,1.02,set_mode
+this action will change operation settings for heat mode in your device. ,1.01,set_mode
 this action will change operation settings for heat mode in your device. this action is for devices not set to work with compensation curve setting.,0.25,set_mode
-this action will change the schedule for the corresponding home.,0.38,set_mode
-this action will change the setpoint of a device to the desired value.,1.27,set_mode
+this action will change the schedule for the corresponding home.,1.26,set_mode
+this action will change the setpoint of a device to the desired value.,1.26,set_mode
 this action will create a vacation event on the selected thermostat with the specified setpoint. the vacation event will begin immediately and last the number of specified days.,0.13,set_value
 this action will decrease the room temperature by a configurable amount.,0.13,set_value
 this action will enable a temperature hold on the selected heatmiser thermostat.,0.25,turn_on_off
 this action will increase the room temperature by a configurable amount.,0.13,set_value
-this action will order your home to go back to default schedule.,1.78,set_mode
-"this action will return control of your heating to tado⁠°, using your user-defined settings (e.g. location and smart schedule) to automatically determine the right room temperature.",1.53,set_mode
-this action will set a nest thermostat in heat-cool mode to the temperature range you specify. note: works only when nest is set to home.,1.66,set_value
-this action will set a nest thermostat to the temperature you specify. note: works only when nest is set to home.,25.99,set_value
-this action will set a specific device on cool mode,0.89,set_mode
-this action will set a specific device on heat mode,1.27,set_mode
-this action will set a target temperature on your window ac unit.,1.4,set_value
+this action will order your home to go back to default schedule.,1.76,set_mode
+"this action will return control of your heating to tado⁠°, using your user-defined settings (e.g. location and smart schedule) to automatically determine the right room temperature.",1.51,set_mode
+this action will set a nest thermostat in heat-cool mode to the temperature range you specify. note: works only when nest is set to home.,1.64,set_value
+this action will set a nest thermostat to the temperature you specify. note: works only when nest is set to home.,25.69,set_value
+this action will set a specific device on cool mode,0.88,set_mode
+this action will set a specific device on heat mode,1.26,set_mode
+this action will set a target temperature on your window ac unit.,1.39,set_value
 this action will set a thermostat group mode,0.25,set_mode
 this action will set home to frost-guard mode.,0.13,set_mode
-this action will set the current room temperature to a level of your choice. this temperature level can be adjusted manually or if clock mode is activated.,1.15,set_value
-this action will set the freezer temperature.,1.15,set_value
-this action will set the heating mode of the thermostat.,1.15,set_mode
-this action will set the heating mode to off.,1.02,set_mode
-this action will set the heating mode to schedule.,1.15,set_mode
-this action will set the honeywell thermostat fan to on where the fan is always on or auto where the fan runs only when the heating or cooling system is on.,0.51,set_mode
+this action will set the current room temperature to a level of your choice. this temperature level can be adjusted manually or if clock mode is activated.,1.13,set_value
+this action will set the freezer temperature.,1.13,set_value
+this action will set the heating mode of the thermostat.,1.13,set_mode
+this action will set the heating mode to off.,1.01,set_mode
+this action will set the heating mode to schedule.,1.13,set_mode
+this action will set the honeywell thermostat fan to on where the fan is always on or auto where the fan runs only when the heating or cooling system is on.,0.76,set_mode
 this action will set the position of a thermostatic radiator valve (trv).,0.25,set_mode
 this action will set the refrigerator temperature.,0.25,set_value
 this action will set the target temperature of your thermostat.,0.25,set_value
-this action will set the temperature of a thermostat or thermostatic radiator valve (trv).,0.51,set_value
-this action will set the temperature of your ge water heater.,1.15,set_value
-this action will set the temperature on the thermostat.,1.02,set_value
-this action will set the thermostat into a hold using the settings from the specified comfort profile. this comfort profile hold will remain in effect for the specified number of hours.,1.53,set_value
-this action will set the thermostat into a hold using the settings from the specified comfort profile. this comfort profile hold will remain in effect until the next next comfort profile transition in the program.,8.15,set_value
-this action will set the thermostat into a hold with the specified temperature and the end date/time will be set to the next climate transition in the program.,0.89,set_value
-this action will set the thermostat into a hold with the specified temperature for the specified number of hours.,1.53,set_value
-this action will set the thermostat into an indefinite hold with the specified temperature.,2.29,set_value
+this action will set the temperature of a thermostat or thermostatic radiator valve (trv).,0.5,set_value
+this action will set the temperature of your ge water heater.,1.13,set_value
+this action will set the temperature on the thermostat.,1.01,set_value
+this action will set the thermostat into a hold using the settings from the specified comfort profile. this comfort profile hold will remain in effect for the specified number of hours.,1.51,set_value
+this action will set the thermostat into a hold using the settings from the specified comfort profile. this comfort profile hold will remain in effect until the next next comfort profile transition in the program.,8.06,set_value
+this action will set the thermostat into a hold with the specified temperature and the end date/time will be set to the next climate transition in the program.,0.88,set_value
+this action will set the thermostat into a hold with the specified temperature for the specified number of hours.,1.51,set_value
+this action will set the thermostat into an indefinite hold with the specified temperature.,2.27,set_value
 this action will set the thermostat mode.,0.25,set_mode
 this action will set the thermostat temperature,0.38,set_value
 this action will set thermostat to a specific temperature in current mode,0.25,set_value
-this action will set thermostat to manual at a specific temperature indefinitely.,0.51,set_value
+this action will set thermostat to manual at a specific temperature indefinitely.,0.5,set_value
 this action will set your home to away mode for a time limit you specify.,0.13,set_value
-this action will set your home to away mode.,1.15,set_mode
-this action will set your honeywell thermostat to hold a temperature for a specified period of time. the schedule will resume when the time expires.,4.08,set_value
-this action will set your honeywell thermostat to permanently hold the specified temperature until you change it.,2.42,set_value
-this action will set your honeywell thermostat to resume the currently defined thermostat programmed schedule.,2.29,turn_on_off
+this action will set your home to away mode.,1.13,set_mode
+this action will set your honeywell thermostat to hold a temperature for a specified period of time. the schedule will resume when the time expires.,4.03,set_value
+this action will set your honeywell thermostat to permanently hold the specified temperature until you change it.,2.39,set_value
+this action will set your honeywell thermostat to resume the currently defined thermostat programmed schedule.,2.27,turn_on_off
 this action will set your room temperature to a new set point for a configurable period.,0.13,set_value
-this action will set your thermosmart to the temperature you specify.,0.89,set_value
-this action will set your thermostat to a specified temperature.,1.02,set_value
-this action will set your thermostat to manual mode.,0.89,set_mode
+this action will set your thermosmart to the temperature you specify.,0.88,set_value
+this action will set your thermostat to a specified temperature.,1.01,set_value
+this action will set your thermostat to manual mode.,0.88,set_mode
 this action will start the selected heating mode at your preferred temperature and duration.,0.13,set_mode
-this action will start your heating.,0.89,turn_on_off
+this action will start your heating.,0.88,turn_on_off
 this action will switch the electric switch off.,0.13,turn_on_off
 this action will temporarily cool the freezer at maximum power.,0.38,set_value
 this action will temporarily cool the refrigerator at maximum power.,0.38,set_value
 this action will turn off your thermostat and place it in frost protect mode until heating is turned back on.,0.38,set_mode
 "this action will turn on your air conditioner and set target temperature, ac operation mode and air volume settings.
 
-note: please use the control home appliances actions for the button registered by learning mode.",1.02,set_value
+note: please use the control home appliances actions for the button registered by learning mode.",1.01,set_value
 "this action will turn on your air conditioner and set target temperature, ac operation mode and air volume settings.note: please use the control home appliances actions for the button registered by learning mode.",0.25,set_value
-this action will turn on your hvac system fan for the amount of time you specify in your nest fan timer setting (default is 15 minutes). note: works only if you have a fan option and nest is set to home.,5.48,set_value
+this action will turn on your hvac system fan for the amount of time you specify in your nest fan timer setting (default is 15 minutes). note: works only if you have a fan option and nest is set to home.,5.42,set_value
 this action will turn the thermostat back on to the mode that was last set. ,0.25,set_mode
-this action will turn your aros a/c on and set to a temperature you specify.,2.17,set_value
-this action will turn your heating off.,1.02,turn_on_off
+this action will turn your aros a/c on and set to a temperature you specify.,2.14,set_value
+this action will turn your heating off.,1.01,turn_on_off
 this action will turn your thermostat off.,0.25,turn_on_off
-"turn your a/c on with a set temperature, mode and fan level.",1.91,set_mode
+"turn your a/c on with a set temperature, mode and fan level.",1.89,set_mode

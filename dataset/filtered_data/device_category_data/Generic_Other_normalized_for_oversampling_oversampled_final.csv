@@ -1,0 +1,1806 @@
+triggerDesc,actionDesc,freeOrLocked
+IF air pollution or carbon intensity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution or carbon intensity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution or carbon intensity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution or carbon intensity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution or carbon intensity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN start the robot.",LOCKED
+IF the user exits a specified area,", THEN start the robot.",LOCKED
+IF the user exits a specified area,", THEN start the robot.",LOCKED
+IF the user exits a specified area,", THEN start the robot.",LOCKED
+IF the user exits a specified area,", THEN start the robot.",LOCKED
+IF the user exits a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user exits a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user exits a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user exits a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user exits a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device.",LOCKED
+IF the user exits a specified area,", THEN pause the thermostat.",LOCKED
+IF the user exits a specified area,", THEN pause the thermostat.",LOCKED
+IF the user exits a specified area,", THEN pause the thermostat.",LOCKED
+IF the user exits a specified area,", THEN pause the thermostat.",LOCKED
+IF the user exits a specified area,", THEN pause the thermostat.",LOCKED
+IF the user exits a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user exits a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user exits a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user exits a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user exits a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user exits a specified area,", THEN turn off a device",LOCKED
+IF the user exits a specified area,", THEN turn off a device",LOCKED
+IF the user exits a specified area,", THEN turn off a device",LOCKED
+IF the user exits a specified area,", THEN turn off a device",LOCKED
+IF the user exits a specified area,", THEN turn off a device",LOCKED
+IF the user exits a specified area,", THEN send a notify to a smart device.",LOCKED
+IF the user exits a specified area,", THEN send a notify to a smart device.",LOCKED
+IF the user exits a specified area,", THEN send a notify to a smart device.",LOCKED
+IF the user exits a specified area,", THEN send a notify to a smart device.",LOCKED
+IF the user exits a specified area,", THEN send a notify to a smart device.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user exits a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN activate to a specified scene.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN activate to a specified scene.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN activate to a specified scene.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN activate to a specified scene.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN activate to a specified scene.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN set brightness to a specified level",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN set brightness to a specified level",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN set brightness to a specified level",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN set brightness to a specified level",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN set brightness to a specified level",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device for a specified time.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device for a specified time.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device for a specified time.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device for a specified time.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device for a specified time.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN pause the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN pause the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN pause the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN pause the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN pause the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN start the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN start the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN start the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN start the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN start the robot.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN send a notify to a smart device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN send a notify to a smart device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN send a notify to a smart device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN send a notify to a smart device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN send a notify to a smart device.",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to eco",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to eco",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to eco",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to eco",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to eco",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN unlock a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN unlock a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN unlock a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN unlock a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN unlock a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN trigger an automation bot",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN trigger an automation bot",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN trigger an automation bot",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN trigger an automation bot",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN trigger an automation bot",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change heating or water heater mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change heating or water heater mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change heating or water heater mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change heating or water heater mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change heating or water heater mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN turn off a device",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN toggle a device on",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN toggle a device on",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN toggle a device on",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN toggle a device on",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN toggle a device on",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change home presence mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change home presence mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change home presence mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change home presence mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change home presence mode",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to auto",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to auto",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to auto",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to auto",LOCKED
+IF a voice assistant is activated with a specific phrase,", THEN change the device operating mode to auto",LOCKED
+IF temperature rises above a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a threshold,", THEN turn on a device",LOCKED
+IF temperature rises above a threshold,", THEN turn on a device",LOCKED
+IF temperature rises above a threshold,", THEN turn on a device",LOCKED
+IF temperature rises above a threshold,", THEN turn on a device",LOCKED
+IF temperature rises above a threshold,", THEN turn on a device",LOCKED
+IF temperature rises above a threshold,", THEN set brightness to a specified level",LOCKED
+IF temperature rises above a threshold,", THEN set brightness to a specified level",LOCKED
+IF temperature rises above a threshold,", THEN set brightness to a specified level",LOCKED
+IF temperature rises above a threshold,", THEN set brightness to a specified level",LOCKED
+IF temperature rises above a threshold,", THEN set brightness to a specified level",LOCKED
+IF temperature rises above a threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a threshold,", THEN pause the thermostat.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn on a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device",LOCKED
+IF temperature drops below a specified threshold,", THEN turn off a device",LOCKED
+IF temperature drops below a specified threshold,", THEN change the device operating mode to auto",LOCKED
+IF temperature drops below a specified threshold,", THEN change the device operating mode to auto",LOCKED
+IF temperature drops below a specified threshold,", THEN change the device operating mode to auto",LOCKED
+IF temperature drops below a specified threshold,", THEN change the device operating mode to auto",LOCKED
+IF temperature drops below a specified threshold,", THEN change the device operating mode to auto",LOCKED
+IF temperature drops below a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature drops below a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature drops below a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature drops below a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature drops below a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN activate to a specified scene.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF temperature rises above a specified threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a specified threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a specified threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a specified threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a specified threshold,", THEN pause the thermostat.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device.",LOCKED
+IF temperature rises above a specified threshold,", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn on a device",LOCKED
+", IF it is sunset, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunset, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunset, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunset, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunset, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunset, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunset, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunset, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunset, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunset, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunset, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device.",LOCKED
+", IF a specified time occurs",", THEN unlock a device",LOCKED
+", IF a specified time occurs",", THEN unlock a device",LOCKED
+", IF a specified time occurs",", THEN unlock a device",LOCKED
+", IF a specified time occurs",", THEN unlock a device",LOCKED
+", IF a specified time occurs",", THEN unlock a device",LOCKED
+", IF a specified time occurs",", THEN turn off a device for a specified time.",LOCKED
+", IF a specified time occurs",", THEN turn off a device for a specified time.",LOCKED
+", IF a specified time occurs",", THEN turn off a device for a specified time.",LOCKED
+", IF a specified time occurs",", THEN turn off a device for a specified time.",LOCKED
+", IF a specified time occurs",", THEN turn off a device for a specified time.",LOCKED
+", IF a specified time occurs",", THEN set brightness to a specified level",LOCKED
+", IF a specified time occurs",", THEN set brightness to a specified level",LOCKED
+", IF a specified time occurs",", THEN set brightness to a specified level",LOCKED
+", IF a specified time occurs",", THEN set brightness to a specified level",LOCKED
+", IF a specified time occurs",", THEN set brightness to a specified level",LOCKED
+", IF a specified time occurs",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN activate to a specified scene.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF a specified time occurs",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF a specified time occurs",", THEN change the device operating mode to eco",LOCKED
+", IF a specified time occurs",", THEN change the device operating mode to eco",LOCKED
+", IF a specified time occurs",", THEN change the device operating mode to eco",LOCKED
+", IF a specified time occurs",", THEN change the device operating mode to eco",LOCKED
+", IF a specified time occurs",", THEN change the device operating mode to eco",LOCKED
+", IF a specified time occurs",", THEN turn off a device",LOCKED
+", IF a specified time occurs",", THEN turn off a device",LOCKED
+", IF a specified time occurs",", THEN turn off a device",LOCKED
+", IF a specified time occurs",", THEN turn off a device",LOCKED
+", IF a specified time occurs",", THEN turn off a device",LOCKED
+", IF a specified time occurs",", THEN trigger an automation bot",LOCKED
+", IF a specified time occurs",", THEN trigger an automation bot",LOCKED
+", IF a specified time occurs",", THEN trigger an automation bot",LOCKED
+", IF a specified time occurs",", THEN trigger an automation bot",LOCKED
+", IF a specified time occurs",", THEN trigger an automation bot",LOCKED
+", IF a specified time occurs",", THEN change heating or water heater mode",LOCKED
+", IF a specified time occurs",", THEN change heating or water heater mode",LOCKED
+", IF a specified time occurs",", THEN change heating or water heater mode",LOCKED
+", IF a specified time occurs",", THEN change heating or water heater mode",LOCKED
+", IF a specified time occurs",", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a button is pressed,", THEN pause the thermostat.",LOCKED
+IF a button is pressed,", THEN pause the thermostat.",LOCKED
+IF a button is pressed,", THEN pause the thermostat.",LOCKED
+IF a button is pressed,", THEN pause the thermostat.",LOCKED
+IF a button is pressed,", THEN pause the thermostat.",LOCKED
+IF a button is pressed,", THEN change the device operating mode to auto",LOCKED
+IF a button is pressed,", THEN change the device operating mode to auto",LOCKED
+IF a button is pressed,", THEN change the device operating mode to auto",LOCKED
+IF a button is pressed,", THEN change the device operating mode to auto",LOCKED
+IF a button is pressed,", THEN change the device operating mode to auto",LOCKED
+IF a button is pressed,", THEN turn on a specified device.",LOCKED
+IF a button is pressed,", THEN turn on a specified device.",LOCKED
+IF a button is pressed,", THEN turn on a specified device.",LOCKED
+IF a button is pressed,", THEN turn on a specified device.",LOCKED
+IF a button is pressed,", THEN turn on a specified device.",LOCKED
+IF a button is pressed,", THEN activate to a specified scene.",LOCKED
+IF a button is pressed,", THEN activate to a specified scene.",LOCKED
+IF a button is pressed,", THEN activate to a specified scene.",LOCKED
+IF a button is pressed,", THEN activate to a specified scene.",LOCKED
+IF a button is pressed,", THEN activate to a specified scene.",LOCKED
+IF a button is pressed,", THEN turn off a device for a specified time.",LOCKED
+IF a button is pressed,", THEN turn off a device for a specified time.",LOCKED
+IF a button is pressed,", THEN turn off a device for a specified time.",LOCKED
+IF a button is pressed,", THEN turn off a device for a specified time.",LOCKED
+IF a button is pressed,", THEN turn off a device for a specified time.",LOCKED
+IF a button is pressed,", THEN let the robot clean a specified room.",LOCKED
+IF a button is pressed,", THEN let the robot clean a specified room.",LOCKED
+IF a button is pressed,", THEN let the robot clean a specified room.",LOCKED
+IF a button is pressed,", THEN let the robot clean a specified room.",LOCKED
+IF a button is pressed,", THEN let the robot clean a specified room.",LOCKED
+IF a button is pressed,", THEN unlock a device",LOCKED
+IF a button is pressed,", THEN unlock a device",LOCKED
+IF a button is pressed,", THEN unlock a device",LOCKED
+IF a button is pressed,", THEN unlock a device",LOCKED
+IF a button is pressed,", THEN unlock a device",LOCKED
+IF a button is pressed,", THEN change home system mode",LOCKED
+IF a button is pressed,", THEN change home system mode",LOCKED
+IF a button is pressed,", THEN change home system mode",LOCKED
+IF a button is pressed,", THEN change home system mode",LOCKED
+IF a button is pressed,", THEN change home system mode",LOCKED
+IF a button is pressed,", THEN change home presence mode",LOCKED
+IF a button is pressed,", THEN change home presence mode",LOCKED
+IF a button is pressed,", THEN change home presence mode",LOCKED
+IF a button is pressed,", THEN change home presence mode",LOCKED
+IF a button is pressed,", THEN change home presence mode",LOCKED
+IF a button is pressed,", THEN turn off a device",LOCKED
+IF a button is pressed,", THEN turn off a device",LOCKED
+IF a button is pressed,", THEN turn off a device",LOCKED
+IF a button is pressed,", THEN turn off a device",LOCKED
+IF a button is pressed,", THEN turn off a device",LOCKED
+IF a button is pressed,", THEN start the robot.",LOCKED
+IF a button is pressed,", THEN start the robot.",LOCKED
+IF a button is pressed,", THEN start the robot.",LOCKED
+IF a button is pressed,", THEN start the robot.",LOCKED
+IF a button is pressed,", THEN start the robot.",LOCKED
+IF a button is pressed,", THEN change the device operating mode to eco",LOCKED
+IF a button is pressed,", THEN change the device operating mode to eco",LOCKED
+IF a button is pressed,", THEN change the device operating mode to eco",LOCKED
+IF a button is pressed,", THEN change the device operating mode to eco",LOCKED
+IF a button is pressed,", THEN change the device operating mode to eco",LOCKED
+IF a button is pressed,", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN change heating or water heater mode",LOCKED
+IF a button is pressed,", THEN toggle a device on",LOCKED
+IF a button is pressed,", THEN toggle a device on",LOCKED
+IF a button is pressed,", THEN toggle a device on",LOCKED
+IF a button is pressed,", THEN toggle a device on",LOCKED
+IF a button is pressed,", THEN toggle a device on",LOCKED
+IF a button is pressed,", THEN set brightness to a specified level",LOCKED
+IF a button is pressed,", THEN set brightness to a specified level",LOCKED
+IF a button is pressed,", THEN set brightness to a specified level",LOCKED
+IF a button is pressed,", THEN set brightness to a specified level",LOCKED
+IF a button is pressed,", THEN set brightness to a specified level",LOCKED
+IF a button is pressed,", THEN trigger an automation bot",LOCKED
+IF a button is pressed,", THEN trigger an automation bot",LOCKED
+IF a button is pressed,", THEN trigger an automation bot",LOCKED
+IF a button is pressed,", THEN trigger an automation bot",LOCKED
+IF a button is pressed,", THEN trigger an automation bot",LOCKED
+IF a button is pressed,", THEN pause the robot.",LOCKED
+IF a button is pressed,", THEN pause the robot.",LOCKED
+IF a button is pressed,", THEN pause the robot.",LOCKED
+IF a button is pressed,", THEN pause the robot.",LOCKED
+IF a button is pressed,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected,", THEN turn on a specified device.",LOCKED
+IF motion is detected,", THEN turn on a specified device.",LOCKED
+IF motion is detected,", THEN turn on a specified device.",LOCKED
+IF motion is detected,", THEN turn on a specified device.",LOCKED
+IF motion is detected,", THEN turn on a specified device.",LOCKED
+IF motion is detected,", THEN set brightness to a specified level",LOCKED
+IF motion is detected,", THEN set brightness to a specified level",LOCKED
+IF motion is detected,", THEN set brightness to a specified level",LOCKED
+IF motion is detected,", THEN set brightness to a specified level",LOCKED
+IF motion is detected,", THEN set brightness to a specified level",LOCKED
+IF motion is detected,", THEN toggle a device on",LOCKED
+IF motion is detected,", THEN toggle a device on",LOCKED
+IF motion is detected,", THEN toggle a device on",LOCKED
+IF motion is detected,", THEN toggle a device on",LOCKED
+IF motion is detected,", THEN toggle a device on",LOCKED
+IF motion is detected,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN pause the robot.",LOCKED
+IF motion is detected,", THEN activate to a specified scene.",LOCKED
+IF motion is detected,", THEN activate to a specified scene.",LOCKED
+IF motion is detected,", THEN activate to a specified scene.",LOCKED
+IF motion is detected,", THEN activate to a specified scene.",LOCKED
+IF motion is detected,", THEN activate to a specified scene.",LOCKED
+IF motion is detected,", THEN trigger an automation bot",LOCKED
+IF motion is detected,", THEN trigger an automation bot",LOCKED
+IF motion is detected,", THEN trigger an automation bot",LOCKED
+IF motion is detected,", THEN trigger an automation bot",LOCKED
+IF motion is detected,", THEN trigger an automation bot",LOCKED
+IF motion is detected,", THEN open a connected device",LOCKED
+IF motion is detected,", THEN open a connected device",LOCKED
+IF motion is detected,", THEN open a connected device",LOCKED
+IF motion is detected,", THEN open a connected device",LOCKED
+IF motion is detected,", THEN open a connected device",LOCKED
+IF a scheduled time interval occurs,", THEN toggle a device on",LOCKED
+IF a scheduled time interval occurs,", THEN toggle a device on",LOCKED
+IF a scheduled time interval occurs,", THEN toggle a device on",LOCKED
+IF a scheduled time interval occurs,", THEN toggle a device on",LOCKED
+IF a scheduled time interval occurs,", THEN toggle a device on",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled time interval occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled time interval occurs,", THEN turn off a device",LOCKED
+IF a scheduled time interval occurs,", THEN turn off a device",LOCKED
+IF a scheduled time interval occurs,", THEN turn off a device",LOCKED
+IF a scheduled time interval occurs,", THEN turn off a device",LOCKED
+IF a scheduled time interval occurs,", THEN turn off a device",LOCKED
+IF the weather conditions change,", THEN turn on a specified device.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device.",LOCKED
+IF the weather conditions change,", THEN turn off a device for a specified time.",LOCKED
+IF the weather conditions change,", THEN turn off a device for a specified time.",LOCKED
+IF the weather conditions change,", THEN turn off a device for a specified time.",LOCKED
+IF the weather conditions change,", THEN turn off a device for a specified time.",LOCKED
+IF the weather conditions change,", THEN turn off a device for a specified time.",LOCKED
+IF the weather conditions change,", THEN close a connected device",LOCKED
+IF the weather conditions change,", THEN close a connected device",LOCKED
+IF the weather conditions change,", THEN close a connected device",LOCKED
+IF the weather conditions change,", THEN close a connected device",LOCKED
+IF the weather conditions change,", THEN close a connected device",LOCKED
+IF the weather conditions change,", THEN set brightness to a specified level",LOCKED
+IF the weather conditions change,", THEN set brightness to a specified level",LOCKED
+IF the weather conditions change,", THEN set brightness to a specified level",LOCKED
+IF the weather conditions change,", THEN set brightness to a specified level",LOCKED
+IF the weather conditions change,", THEN set brightness to a specified level",LOCKED
+IF the weather conditions change,", THEN activate to a specified scene.",LOCKED
+IF the weather conditions change,", THEN activate to a specified scene.",LOCKED
+IF the weather conditions change,", THEN activate to a specified scene.",LOCKED
+IF the weather conditions change,", THEN activate to a specified scene.",LOCKED
+IF the weather conditions change,", THEN activate to a specified scene.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the weather conditions change,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the weather conditions change,", THEN pause the thermostat.",LOCKED
+IF the weather conditions change,", THEN pause the thermostat.",LOCKED
+IF the weather conditions change,", THEN pause the thermostat.",LOCKED
+IF the weather conditions change,", THEN pause the thermostat.",LOCKED
+IF the weather conditions change,", THEN pause the thermostat.",LOCKED
+IF the weather conditions change,", THEN toggle a device on",LOCKED
+IF the weather conditions change,", THEN toggle a device on",LOCKED
+IF the weather conditions change,", THEN toggle a device on",LOCKED
+IF the weather conditions change,", THEN toggle a device on",LOCKED
+IF the weather conditions change,", THEN toggle a device on",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn on a specified device.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn on a specified device.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn on a specified device.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn on a specified device.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn on a specified device.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device",LOCKED
+IF electricity price changes beyond a threshold,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device",LOCKED
+IF an email is received with a specified hashtag,", THEN toggle a device on",LOCKED
+IF an email is received with a specified hashtag,", THEN toggle a device on",LOCKED
+IF an email is received with a specified hashtag,", THEN toggle a device on",LOCKED
+IF an email is received with a specified hashtag,", THEN toggle a device on",LOCKED
+IF an email is received with a specified hashtag,", THEN toggle a device on",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device for a specified time.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device for a specified time.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device for a specified time.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device for a specified time.",LOCKED
+IF an email is received with a specified hashtag,", THEN turn off a device for a specified time.",LOCKED
+IF an email is received with a specified hashtag,", THEN temporarily boost heating",LOCKED
+IF an email is received with a specified hashtag,", THEN temporarily boost heating",LOCKED
+IF an email is received with a specified hashtag,", THEN temporarily boost heating",LOCKED
+IF an email is received with a specified hashtag,", THEN temporarily boost heating",LOCKED
+IF an email is received with a specified hashtag,", THEN temporarily boost heating",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device for a specified time.",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device for a specified time.",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device for a specified time.",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device for a specified time.",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device for a specified time.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device.",LOCKED
+IF a specific day of the week occurs,", THEN change heating or water heater mode",LOCKED
+IF a specific day of the week occurs,", THEN change heating or water heater mode",LOCKED
+IF a specific day of the week occurs,", THEN change heating or water heater mode",LOCKED
+IF a specific day of the week occurs,", THEN change heating or water heater mode",LOCKED
+IF a specific day of the week occurs,", THEN change heating or water heater mode",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific day of the week occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific day of the week occurs,", THEN start the robot.",LOCKED
+IF a specific day of the week occurs,", THEN start the robot.",LOCKED
+IF a specific day of the week occurs,", THEN start the robot.",LOCKED
+IF a specific day of the week occurs,", THEN start the robot.",LOCKED
+IF a specific day of the week occurs,", THEN start the robot.",LOCKED
+IF a specific day of the week occurs,", THEN change the device operating mode to eco",LOCKED
+IF a specific day of the week occurs,", THEN change the device operating mode to eco",LOCKED
+IF a specific day of the week occurs,", THEN change the device operating mode to eco",LOCKED
+IF a specific day of the week occurs,", THEN change the device operating mode to eco",LOCKED
+IF a specific day of the week occurs,", THEN change the device operating mode to eco",LOCKED
+IF a specific day of the week occurs,", THEN activate to a specified scene.",LOCKED
+IF a specific day of the week occurs,", THEN activate to a specified scene.",LOCKED
+IF a specific day of the week occurs,", THEN activate to a specified scene.",LOCKED
+IF a specific day of the week occurs,", THEN activate to a specified scene.",LOCKED
+IF a specific day of the week occurs,", THEN activate to a specified scene.",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device",LOCKED
+IF a specific day of the week occurs,", THEN turn off a device",LOCKED
+IF a specific day of the week occurs,", THEN set brightness to a specified level",LOCKED
+IF a specific day of the week occurs,", THEN set brightness to a specified level",LOCKED
+IF a specific day of the week occurs,", THEN set brightness to a specified level",LOCKED
+IF a specific day of the week occurs,", THEN set brightness to a specified level",LOCKED
+IF a specific day of the week occurs,", THEN set brightness to a specified level",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn on a specified device.",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device",LOCKED
+IF volatile organic compounds cross a threshold,", THEN turn off a device",LOCKED
+IF a specific spreadsheet cell is updated,", THEN toggle a device on",LOCKED
+IF a specific spreadsheet cell is updated,", THEN toggle a device on",LOCKED
+IF a specific spreadsheet cell is updated,", THEN toggle a device on",LOCKED
+IF a specific spreadsheet cell is updated,", THEN toggle a device on",LOCKED
+IF a specific spreadsheet cell is updated,", THEN toggle a device on",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN activate to a specified scene.",LOCKED
+IF an external webhook event is received,", THEN activate to a specified scene.",LOCKED
+IF an external webhook event is received,", THEN activate to a specified scene.",LOCKED
+IF an external webhook event is received,", THEN activate to a specified scene.",LOCKED
+IF an external webhook event is received,", THEN activate to a specified scene.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device.",LOCKED
+IF an external webhook event is received,", THEN turn on a specified device.",LOCKED
+IF an external webhook event is received,", THEN turn off a device for a specified time.",LOCKED
+IF an external webhook event is received,", THEN turn off a device for a specified time.",LOCKED
+IF an external webhook event is received,", THEN turn off a device for a specified time.",LOCKED
+IF an external webhook event is received,", THEN turn off a device for a specified time.",LOCKED
+IF an external webhook event is received,", THEN turn off a device for a specified time.",LOCKED
+IF an external webhook event is received,", THEN start the robot.",LOCKED
+IF an external webhook event is received,", THEN start the robot.",LOCKED
+IF an external webhook event is received,", THEN start the robot.",LOCKED
+IF an external webhook event is received,", THEN start the robot.",LOCKED
+IF an external webhook event is received,", THEN start the robot.",LOCKED
+IF an external webhook event is received,", THEN change home presence mode",LOCKED
+IF an external webhook event is received,", THEN change home presence mode",LOCKED
+IF an external webhook event is received,", THEN change home presence mode",LOCKED
+IF an external webhook event is received,", THEN change home presence mode",LOCKED
+IF an external webhook event is received,", THEN change home presence mode",LOCKED
+IF an external webhook event is received,", THEN pause the robot.",LOCKED
+IF an external webhook event is received,", THEN pause the robot.",LOCKED
+IF an external webhook event is received,", THEN pause the robot.",LOCKED
+IF an external webhook event is received,", THEN pause the robot.",LOCKED
+IF an external webhook event is received,", THEN pause the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN start the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN start the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN start the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN start the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN start the robot.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF air pollution exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF air pollution exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF air pollution exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF air pollution exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF air pollution exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF air pollution exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart switch is long-pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN turn on a specified device for a specified duration.",LOCKED
+IF the user enters a specified area,", THEN pause the thermostat.",LOCKED
+IF the user enters a specified area,", THEN pause the thermostat.",LOCKED
+IF the user enters a specified area,", THEN pause the thermostat.",LOCKED
+IF the user enters a specified area,", THEN pause the thermostat.",LOCKED
+IF the user enters a specified area,", THEN pause the thermostat.",LOCKED
+IF the user enters a specified area,", THEN set brightness to a specified level",LOCKED
+IF the user enters a specified area,", THEN set brightness to a specified level",LOCKED
+IF the user enters a specified area,", THEN set brightness to a specified level",LOCKED
+IF the user enters a specified area,", THEN set brightness to a specified level",LOCKED
+IF the user enters a specified area,", THEN set brightness to a specified level",LOCKED
+IF the user enters a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user enters a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user enters a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user enters a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user enters a specified area,", THEN activate to a specified scene.",LOCKED
+IF the user enters a specified area,", THEN pause the robot.",LOCKED
+IF the user enters a specified area,", THEN pause the robot.",LOCKED
+IF the user enters a specified area,", THEN pause the robot.",LOCKED
+IF the user enters a specified area,", THEN pause the robot.",LOCKED
+IF the user enters a specified area,", THEN pause the robot.",LOCKED
+IF the user enters a specified area,", THEN turn on a device",LOCKED
+IF the user enters a specified area,", THEN turn on a device",LOCKED
+IF the user enters a specified area,", THEN turn on a device",LOCKED
+IF the user enters a specified area,", THEN turn on a device",LOCKED
+IF the user enters a specified area,", THEN turn on a device",LOCKED
+IF the user enters a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user enters a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user enters a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user enters a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user enters a specified area,", THEN turn off a device for a specified time.",LOCKED
+IF the user enters a specified area,", THEN change heating or water heater mode",LOCKED
+IF the user enters a specified area,", THEN change heating or water heater mode",LOCKED
+IF the user enters a specified area,", THEN change heating or water heater mode",LOCKED
+IF the user enters a specified area,", THEN change heating or water heater mode",LOCKED
+IF the user enters a specified area,", THEN change heating or water heater mode",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device for a specified time.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device for a specified time.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device for a specified time.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device for a specified time.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device for a specified time.",LOCKED
+IF a device connects to a WiFi network,", THEN activate to a specified scene.",LOCKED
+IF a device connects to a WiFi network,", THEN activate to a specified scene.",LOCKED
+IF a device connects to a WiFi network,", THEN activate to a specified scene.",LOCKED
+IF a device connects to a WiFi network,", THEN activate to a specified scene.",LOCKED
+IF a device connects to a WiFi network,", THEN activate to a specified scene.",LOCKED
+IF a device connects to a WiFi network,", THEN pause the thermostat.",LOCKED
+IF a device connects to a WiFi network,", THEN pause the thermostat.",LOCKED
+IF a device connects to a WiFi network,", THEN pause the thermostat.",LOCKED
+IF a device connects to a WiFi network,", THEN pause the thermostat.",LOCKED
+IF a device connects to a WiFi network,", THEN pause the thermostat.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device.",LOCKED
+IF a device connects to a WiFi network,", THEN turn on a specified device.",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device",LOCKED
+IF a device connects to a WiFi network,", THEN turn off a device",LOCKED
+IF a reminder or task changes,", THEN turn on a specified device.",LOCKED
+IF a reminder or task changes,", THEN turn on a specified device.",LOCKED
+IF a reminder or task changes,", THEN turn on a specified device.",LOCKED
+IF a reminder or task changes,", THEN turn on a specified device.",LOCKED
+IF a reminder or task changes,", THEN turn on a specified device.",LOCKED
+IF a reminder or task changes,", THEN let the robot clean a specified room.",LOCKED
+IF a reminder or task changes,", THEN let the robot clean a specified room.",LOCKED
+IF a reminder or task changes,", THEN let the robot clean a specified room.",LOCKED
+IF a reminder or task changes,", THEN let the robot clean a specified room.",LOCKED
+IF a reminder or task changes,", THEN let the robot clean a specified room.",LOCKED
+IF a reminder or task changes,", THEN start the robot.",LOCKED
+IF a reminder or task changes,", THEN start the robot.",LOCKED
+IF a reminder or task changes,", THEN start the robot.",LOCKED
+IF a reminder or task changes,", THEN start the robot.",LOCKED
+IF a reminder or task changes,", THEN start the robot.",LOCKED
+IF a reminder or task changes,", THEN turn off a device for a specified time.",LOCKED
+IF a reminder or task changes,", THEN turn off a device for a specified time.",LOCKED
+IF a reminder or task changes,", THEN turn off a device for a specified time.",LOCKED
+IF a reminder or task changes,", THEN turn off a device for a specified time.",LOCKED
+IF a reminder or task changes,", THEN turn off a device for a specified time.",LOCKED
+IF a reminder or task changes,", THEN pause the thermostat.",LOCKED
+IF a reminder or task changes,", THEN pause the thermostat.",LOCKED
+IF a reminder or task changes,", THEN pause the thermostat.",LOCKED
+IF a reminder or task changes,", THEN pause the thermostat.",LOCKED
+IF a reminder or task changes,", THEN pause the thermostat.",LOCKED
+IF a device is turned on,", THEN activate to a specified scene.",LOCKED
+IF a device is turned on,", THEN activate to a specified scene.",LOCKED
+IF a device is turned on,", THEN activate to a specified scene.",LOCKED
+IF a device is turned on,", THEN activate to a specified scene.",LOCKED
+IF a device is turned on,", THEN activate to a specified scene.",LOCKED
+IF a device is turned on,", THEN turn on a specified device.",LOCKED
+IF a device is turned on,", THEN turn on a specified device.",LOCKED
+IF a device is turned on,", THEN turn on a specified device.",LOCKED
+IF a device is turned on,", THEN turn on a specified device.",LOCKED
+IF a device is turned on,", THEN turn on a specified device.",LOCKED
+IF a device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a device is turned on,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned on,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned on,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned on,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned on,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned on,", THEN turn off a device",LOCKED
+IF a device is turned on,", THEN turn off a device",LOCKED
+IF a device is turned on,", THEN turn off a device",LOCKED
+IF a device is turned on,", THEN turn off a device",LOCKED
+IF a device is turned on,", THEN turn off a device",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an SMS is sent or received,", THEN activate to a specified scene.",LOCKED
+IF an SMS is sent or received,", THEN activate to a specified scene.",LOCKED
+IF an SMS is sent or received,", THEN activate to a specified scene.",LOCKED
+IF an SMS is sent or received,", THEN activate to a specified scene.",LOCKED
+IF an SMS is sent or received,", THEN activate to a specified scene.",LOCKED
+IF an SMS is sent or received,", THEN pause the thermostat.",LOCKED
+IF an SMS is sent or received,", THEN pause the thermostat.",LOCKED
+IF an SMS is sent or received,", THEN pause the thermostat.",LOCKED
+IF an SMS is sent or received,", THEN pause the thermostat.",LOCKED
+IF an SMS is sent or received,", THEN pause the thermostat.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device.",LOCKED
+IF an SMS is sent or received,", THEN turn on a specified device.",LOCKED
+IF an SMS is sent or received,", THEN toggle a device on",LOCKED
+IF an SMS is sent or received,", THEN toggle a device on",LOCKED
+IF an SMS is sent or received,", THEN toggle a device on",LOCKED
+IF an SMS is sent or received,", THEN toggle a device on",LOCKED
+IF an SMS is sent or received,", THEN toggle a device on",LOCKED
+IF a new calendar event is added,", THEN activate to a specified scene.",LOCKED
+IF a new calendar event is added,", THEN activate to a specified scene.",LOCKED
+IF a new calendar event is added,", THEN activate to a specified scene.",LOCKED
+IF a new calendar event is added,", THEN activate to a specified scene.",LOCKED
+IF a new calendar event is added,", THEN activate to a specified scene.",LOCKED
+IF electricity price changes within a time window,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes within a time window,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes within a time window,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes within a time window,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes within a time window,", THEN turn off a device for a specified time.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device for a specified duration.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device for a specified duration.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device for a specified duration.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device for a specified duration.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device for a specified duration.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device.",LOCKED
+IF electricity price changes within a time window,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a specified device.",LOCKED
+IF a relay is toggled on,", THEN turn on a device",LOCKED
+IF a relay is toggled on,", THEN turn on a device",LOCKED
+IF a relay is toggled on,", THEN turn on a device",LOCKED
+IF a relay is toggled on,", THEN turn on a device",LOCKED
+IF a relay is toggled on,", THEN turn on a device",LOCKED
+IF motion is detected or stops,", THEN turn off a device for a specified time.",LOCKED
+IF motion is detected or stops,", THEN turn off a device for a specified time.",LOCKED
+IF motion is detected or stops,", THEN turn off a device for a specified time.",LOCKED
+IF motion is detected or stops,", THEN turn off a device for a specified time.",LOCKED
+IF motion is detected or stops,", THEN turn off a device for a specified time.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device.",LOCKED
+IF motion is detected or stops,", THEN change the device operating mode to eco",LOCKED
+IF motion is detected or stops,", THEN change the device operating mode to eco",LOCKED
+IF motion is detected or stops,", THEN change the device operating mode to eco",LOCKED
+IF motion is detected or stops,", THEN change the device operating mode to eco",LOCKED
+IF motion is detected or stops,", THEN change the device operating mode to eco",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device for a specified duration.",LOCKED
+IF motion is detected or stops,", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device for a specified time.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn on a specified device for a specified duration.",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunrise, within a specified time",", THEN turn off a device",LOCKED
+", IF it is sunrise, within a specified time",", THEN start the robot.",LOCKED
+", IF it is sunrise, within a specified time",", THEN start the robot.",LOCKED
+", IF it is sunrise, within a specified time",", THEN start the robot.",LOCKED
+", IF it is sunrise, within a specified time",", THEN start the robot.",LOCKED
+", IF it is sunrise, within a specified time",", THEN start the robot.",LOCKED
+", IF it is sunrise, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunrise, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunrise, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunrise, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunrise, within a specified time",", THEN activate to a specified scene.",LOCKED
+", IF it is sunrise, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunrise, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunrise, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunrise, within a specified time",", THEN set brightness to a specified level",LOCKED
+", IF it is sunrise, within a specified time",", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned off,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned off,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned off,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned off,", THEN turn off a device for a specified time.",LOCKED
+IF a device is turned off,", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN set brightness to a specified level",LOCKED
+IF a device is turned off,", THEN start the robot.",LOCKED
+IF a device is turned off,", THEN start the robot.",LOCKED
+IF a device is turned off,", THEN start the robot.",LOCKED
+IF a device is turned off,", THEN start the robot.",LOCKED
+IF a device is turned off,", THEN start the robot.",LOCKED
+IF a device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned off,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device is turned off,", THEN turn on a specified device.",LOCKED
+IF a device is turned off,", THEN turn on a specified device.",LOCKED
+IF a device is turned off,", THEN turn on a specified device.",LOCKED
+IF a device is turned off,", THEN turn on a specified device.",LOCKED
+IF a device is turned off,", THEN turn on a specified device.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a notification is received from a mobile app,", THEN activate to a specified scene.",LOCKED
+IF a notification is received from a mobile app,", THEN activate to a specified scene.",LOCKED
+IF a notification is received from a mobile app,", THEN activate to a specified scene.",LOCKED
+IF a notification is received from a mobile app,", THEN activate to a specified scene.",LOCKED
+IF a notification is received from a mobile app,", THEN activate to a specified scene.",LOCKED
+IF a notification is received from a mobile app,", THEN turn off a device for a specified time.",LOCKED
+IF a notification is received from a mobile app,", THEN turn off a device for a specified time.",LOCKED
+IF a notification is received from a mobile app,", THEN turn off a device for a specified time.",LOCKED
+IF a notification is received from a mobile app,", THEN turn off a device for a specified time.",LOCKED
+IF a notification is received from a mobile app,", THEN turn off a device for a specified time.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device.",LOCKED
+IF a notification is received from a mobile app,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN change the device operating mode to auto",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN change the device operating mode to auto",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN change the device operating mode to auto",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN change the device operating mode to auto",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN change the device operating mode to auto",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN start the robot.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN start the robot.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN start the robot.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN start the robot.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN start the robot.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn off a device for a specified time.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn off a device for a specified time.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn off a device for a specified time.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn off a device for a specified time.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN turn off a device for a specified time.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN activate to a specified scene.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN activate to a specified scene.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN activate to a specified scene.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN activate to a specified scene.",LOCKED
+IF shortly before a calendar event with a specific keyword,", THEN activate to a specified scene.",LOCKED
+IF device is plugged in or unplugged,", THEN turn off a device for a specified time.",LOCKED
+IF device is plugged in or unplugged,", THEN turn off a device for a specified time.",LOCKED
+IF device is plugged in or unplugged,", THEN turn off a device for a specified time.",LOCKED
+IF device is plugged in or unplugged,", THEN turn off a device for a specified time.",LOCKED
+IF device is plugged in or unplugged,", THEN turn off a device for a specified time.",LOCKED
+IF device is plugged in or unplugged,", THEN set brightness to a specified level",LOCKED
+IF device is plugged in or unplugged,", THEN set brightness to a specified level",LOCKED
+IF device is plugged in or unplugged,", THEN set brightness to a specified level",LOCKED
+IF device is plugged in or unplugged,", THEN set brightness to a specified level",LOCKED
+IF device is plugged in or unplugged,", THEN set brightness to a specified level",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device.",LOCKED
+IF device is plugged in or unplugged,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN turn on a specified device.",LOCKED
+IF everyone leaves home,", THEN start the robot.",LOCKED
+IF everyone leaves home,", THEN start the robot.",LOCKED
+IF everyone leaves home,", THEN start the robot.",LOCKED
+IF everyone leaves home,", THEN start the robot.",LOCKED
+IF everyone leaves home,", THEN start the robot.",LOCKED
+IF a specific keyword is spoken in a voice group,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific keyword is spoken in a voice group,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific keyword is spoken in a voice group,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific keyword is spoken in a voice group,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a specific keyword is spoken in a voice group,", THEN turn on a specified device for a specified duration.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF humidity crosses a threshold,", THEN turn on a specified device for a specified duration.",LOCKED
+IF sleep activity is detected,", THEN change the device operating mode to eco",LOCKED
+IF sleep activity is detected,", THEN change the device operating mode to eco",LOCKED
+IF sleep activity is detected,", THEN change the device operating mode to eco",LOCKED
+IF sleep activity is detected,", THEN change the device operating mode to eco",LOCKED
+IF sleep activity is detected,", THEN change the device operating mode to eco",LOCKED
+IF sleep activity is detected,", THEN turn off a device for a specified time.",LOCKED
+IF sleep activity is detected,", THEN turn off a device for a specified time.",LOCKED
+IF sleep activity is detected,", THEN turn off a device for a specified time.",LOCKED
+IF sleep activity is detected,", THEN turn off a device for a specified time.",LOCKED
+IF sleep activity is detected,", THEN turn off a device for a specified time.",LOCKED
+IF sleep activity is detected,", THEN unlock a device",LOCKED
+IF sleep activity is detected,", THEN unlock a device",LOCKED
+IF sleep activity is detected,", THEN unlock a device",LOCKED
+IF sleep activity is detected,", THEN unlock a device",LOCKED
+IF sleep activity is detected,", THEN unlock a device",LOCKED
+IF sleep activity is detected,", THEN turn on a specified device.",LOCKED
+IF sleep activity is detected,", THEN turn on a specified device.",LOCKED
+IF sleep activity is detected,", THEN turn on a specified device.",LOCKED
+IF sleep activity is detected,", THEN turn on a specified device.",LOCKED
+IF sleep activity is detected,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN start the robot.",LOCKED
+IF home presence is set to away,", THEN start the robot.",LOCKED
+IF home presence is set to away,", THEN start the robot.",LOCKED
+IF home presence is set to away,", THEN start the robot.",LOCKED
+IF home presence is set to away,", THEN start the robot.",LOCKED
+IF home presence is set to away,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to away,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to away,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to away,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to away,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to away,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a demand response event starts or ends,", THEN turn on a specified device.",LOCKED
+IF a demand response event starts or ends,", THEN turn on a specified device.",LOCKED
+IF a demand response event starts or ends,", THEN turn on a specified device.",LOCKED
+IF a demand response event starts or ends,", THEN turn on a specified device.",LOCKED
+IF a demand response event starts or ends,", THEN turn on a specified device.",LOCKED
+IF a demand response event starts or ends,", THEN activate to a specified scene.",LOCKED
+IF a demand response event starts or ends,", THEN activate to a specified scene.",LOCKED
+IF a demand response event starts or ends,", THEN activate to a specified scene.",LOCKED
+IF a demand response event starts or ends,", THEN activate to a specified scene.",LOCKED
+IF a demand response event starts or ends,", THEN activate to a specified scene.",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to auto",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to auto",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to auto",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to auto",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to auto",LOCKED
+IF an automation flow is started,", THEN turn off a device for a specified time.",LOCKED
+IF an automation flow is started,", THEN turn off a device for a specified time.",LOCKED
+IF an automation flow is started,", THEN turn off a device for a specified time.",LOCKED
+IF an automation flow is started,", THEN turn off a device for a specified time.",LOCKED
+IF an automation flow is started,", THEN turn off a device for a specified time.",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to eco",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to eco",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to eco",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to eco",LOCKED
+IF an automation flow is started,", THEN change the device operating mode to eco",LOCKED
+IF an automation flow is started,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an automation flow is started,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an automation flow is started,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an automation flow is started,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an automation flow is started,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor closes,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor closes,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor closes,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor closes,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor closes,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor closes,", THEN turn off a device for a specified time.",LOCKED
+IF a door or contact sensor closes,", THEN turn off a device for a specified time.",LOCKED
+IF a door or contact sensor closes,", THEN turn off a device for a specified time.",LOCKED
+IF a door or contact sensor closes,", THEN turn off a device for a specified time.",LOCKED
+IF a door or contact sensor closes,", THEN turn off a device for a specified time.",LOCKED
+IF a door or contact sensor closes,", THEN close a connected device",LOCKED
+IF a door or contact sensor closes,", THEN close a connected device",LOCKED
+IF a door or contact sensor closes,", THEN close a connected device",LOCKED
+IF a door or contact sensor closes,", THEN close a connected device",LOCKED
+IF a door or contact sensor closes,", THEN close a connected device",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smart device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a smart device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a smart device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a smart device is turned on,", THEN set brightness to a specified level",LOCKED
+IF a smart device is turned on,", THEN set brightness to a specified level",LOCKED
+IF shortly after a calendar event,", THEN start the robot.",LOCKED
+IF shortly after a calendar event,", THEN start the robot.",LOCKED
+IF shortly after a calendar event,", THEN start the robot.",LOCKED
+IF shortly after a calendar event,", THEN start the robot.",LOCKED
+IF shortly after a calendar event,", THEN start the robot.",LOCKED
+IF shortly after a calendar event,", THEN change the device operating mode to auto",LOCKED
+IF shortly after a calendar event,", THEN change the device operating mode to auto",LOCKED
+IF shortly after a calendar event,", THEN change the device operating mode to auto",LOCKED
+IF shortly after a calendar event,", THEN change the device operating mode to auto",LOCKED
+IF shortly after a calendar event,", THEN change the device operating mode to auto",LOCKED
+IF shortly after a calendar event,", THEN turn on a specified device for a specified duration.",LOCKED
+IF shortly after a calendar event,", THEN turn on a specified device for a specified duration.",LOCKED
+IF shortly after a calendar event,", THEN turn on a specified device for a specified duration.",LOCKED
+IF shortly after a calendar event,", THEN turn on a specified device for a specified duration.",LOCKED
+IF shortly after a calendar event,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff period starts (French),", THEN turn on a specified device.",LOCKED
+IF a tariff period starts (French),", THEN turn on a specified device.",LOCKED
+IF a tariff period starts (French),", THEN turn on a specified device.",LOCKED
+IF a tariff period starts (French),", THEN turn on a specified device.",LOCKED
+IF a tariff period starts (French),", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects smoke,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to home,", THEN turn on a specified device for a specified duration.",LOCKED
+IF home presence is set to home,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to home,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to home,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to home,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to home,", THEN turn off a device for a specified time.",LOCKED
+IF home presence is set to home,", THEN activate to a specified scene.",LOCKED
+IF home presence is set to home,", THEN activate to a specified scene.",LOCKED
+IF home presence is set to home,", THEN activate to a specified scene.",LOCKED
+IF home presence is set to home,", THEN activate to a specified scene.",LOCKED
+IF home presence is set to home,", THEN activate to a specified scene.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device.",LOCKED
+IF an alarm is triggered,", THEN turn on a specified device.",LOCKED
+IF an alarm is triggered,", THEN activate to a specified scene.",LOCKED
+IF an alarm is triggered,", THEN activate to a specified scene.",LOCKED
+IF an alarm is triggered,", THEN activate to a specified scene.",LOCKED
+IF an alarm is triggered,", THEN activate to a specified scene.",LOCKED
+IF an alarm is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN toggle a device on",LOCKED
+IF a custom gesture or automation is triggered,", THEN toggle a device on",LOCKED
+IF a custom gesture or automation is triggered,", THEN toggle a device on",LOCKED
+IF a custom gesture or automation is triggered,", THEN toggle a device on",LOCKED
+IF a custom gesture or automation is triggered,", THEN toggle a device on",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn on a specified device.",LOCKED
+IF a custom gesture or automation is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN activate to a specified scene.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn off a device for a specified time.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn off a device for a specified time.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn off a device for a specified time.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn off a device for a specified time.",LOCKED
+IF a custom gesture or automation is triggered,", THEN turn off a device for a specified time.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a light or switch changes state,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an audio event is detected,", THEN turn on a specified device.",LOCKED
+IF an audio event is detected,", THEN turn on a specified device.",LOCKED
+IF an audio event is detected,", THEN turn on a specified device.",LOCKED
+IF an audio event is detected,", THEN turn on a specified device.",LOCKED
+IF an audio event is detected,", THEN turn on a specified device.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device.",LOCKED
+IF a smartwatch button is pressed,", THEN turn on a specified device.",LOCKED
+IF user presence changes,", THEN turn on a specified device for a specified duration.",LOCKED
+IF user presence changes,", THEN turn on a specified device for a specified duration.",LOCKED
+IF user presence changes,", THEN turn on a specified device for a specified duration.",LOCKED
+IF user presence changes,", THEN turn on a specified device for a specified duration.",LOCKED
+IF user presence changes,", THEN turn on a specified device for a specified duration.",LOCKED
+IF user presence changes,", THEN start the robot.",LOCKED
+IF user presence changes,", THEN start the robot.",LOCKED
+IF user presence changes,", THEN start the robot.",LOCKED
+IF user presence changes,", THEN start the robot.",LOCKED
+IF user presence changes,", THEN start the robot.",LOCKED
+IF user presence changes,", THEN turn on a specified device.",LOCKED
+IF user presence changes,", THEN turn on a specified device.",LOCKED
+IF user presence changes,", THEN turn on a specified device.",LOCKED
+IF user presence changes,", THEN turn on a specified device.",LOCKED
+IF user presence changes,", THEN turn on a specified device.",LOCKED
+IF a tweet is posted,", THEN start the robot.",LOCKED
+IF a tweet is posted,", THEN start the robot.",LOCKED
+IF a tweet is posted,", THEN start the robot.",LOCKED
+IF a tweet is posted,", THEN start the robot.",LOCKED
+IF a tweet is posted,", THEN start the robot.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tweet is posted,", THEN turn off a device",LOCKED
+IF a tweet is posted,", THEN turn off a device",LOCKED
+IF a tweet is posted,", THEN turn off a device",LOCKED
+IF a tweet is posted,", THEN turn off a device",LOCKED
+IF a tweet is posted,", THEN turn off a device",LOCKED
+IF a tweet is posted,", THEN turn on a specified device.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device.",LOCKED
+IF a tweet is posted,", THEN turn on a specified device.",LOCKED
+IF wind speed exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF wind speed exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF wind speed exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF wind speed exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF wind speed exceeds a threshold,", THEN set brightness to a specified level",LOCKED
+IF wind speed exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF wind speed exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF wind speed exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF wind speed exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF wind speed exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN start the robot.",LOCKED
+IF a security alarm changes state,", THEN start the robot.",LOCKED
+IF a security alarm changes state,", THEN start the robot.",LOCKED
+IF a security alarm changes state,", THEN start the robot.",LOCKED
+IF a security alarm changes state,", THEN start the robot.",LOCKED
+IF a security alarm changes state,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN turn on a specified device.",LOCKED
+IF a security alarm changes state,", THEN change home system mode",LOCKED
+IF a security alarm changes state,", THEN change home system mode",LOCKED
+IF a security alarm changes state,", THEN change home system mode",LOCKED
+IF a security alarm changes state,", THEN change home system mode",LOCKED
+IF a security alarm changes state,", THEN change home system mode",LOCKED
+IF an automation routine runs,", THEN change heating or water heater mode",LOCKED
+IF an automation routine runs,", THEN change heating or water heater mode",LOCKED
+IF an automation routine runs,", THEN change heating or water heater mode",LOCKED
+IF an automation routine runs,", THEN change heating or water heater mode",LOCKED
+IF an automation routine runs,", THEN change heating or water heater mode",LOCKED
+IF an automation routine runs,", THEN start the robot.",LOCKED
+IF an automation routine runs,", THEN start the robot.",LOCKED
+IF an automation routine runs,", THEN start the robot.",LOCKED
+IF an automation routine runs,", THEN start the robot.",LOCKED
+IF an automation routine runs,", THEN start the robot.",LOCKED
+IF thermostat switches to away mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to away mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to away mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to away mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to away mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to away mode,", THEN turn off a device for a specified time.",LOCKED
+IF thermostat switches to away mode,", THEN turn off a device for a specified time.",LOCKED
+IF thermostat switches to away mode,", THEN turn off a device for a specified time.",LOCKED
+IF thermostat switches to away mode,", THEN turn off a device for a specified time.",LOCKED
+IF thermostat switches to away mode,", THEN turn off a device for a specified time.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device for a specified duration.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device for a specified duration.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device for a specified duration.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device for a specified duration.",LOCKED
+IF thermostat switches to home mode,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event ends,", THEN turn off a device for a specified time.",LOCKED
+IF a calendar event ends,", THEN turn off a device for a specified time.",LOCKED
+IF a calendar event ends,", THEN turn off a device for a specified time.",LOCKED
+IF a calendar event ends,", THEN turn off a device for a specified time.",LOCKED
+IF a calendar event ends,", THEN turn off a device for a specified time.",LOCKED
+IF a calendar event ends,", THEN start the robot.",LOCKED
+IF a calendar event ends,", THEN start the robot.",LOCKED
+IF a calendar event ends,", THEN start the robot.",LOCKED
+IF a calendar event ends,", THEN start the robot.",LOCKED
+IF a calendar event ends,", THEN start the robot.",LOCKED
+IF a door or contact sensor opens,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor opens,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor opens,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor opens,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor opens,", THEN activate to a specified scene.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor opens,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a door or contact sensor opens,", THEN open a connected device",LOCKED
+IF a door or contact sensor opens,", THEN open a connected device",LOCKED
+IF a door or contact sensor opens,", THEN open a connected device",LOCKED
+IF a door or contact sensor opens,", THEN open a connected device",LOCKED
+IF a door or contact sensor opens,", THEN open a connected device",LOCKED
+IF security system enters home mode,", THEN pause the robot.",LOCKED
+IF security system enters home mode,", THEN pause the robot.",LOCKED
+IF security system enters home mode,", THEN pause the robot.",LOCKED
+IF security system enters home mode,", THEN pause the robot.",LOCKED
+IF security system enters home mode,", THEN pause the robot.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF prayer time occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event starts,", THEN pause the robot.",LOCKED
+IF a calendar event starts,", THEN pause the robot.",LOCKED
+IF a calendar event starts,", THEN pause the robot.",LOCKED
+IF a calendar event starts,", THEN pause the robot.",LOCKED
+IF a calendar event starts,", THEN pause the robot.",LOCKED
+IF a calendar event starts,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event starts,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event starts,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event starts,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a calendar event starts,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN pause the robot.",LOCKED
+IF a voicemail is received,", THEN pause the robot.",LOCKED
+IF a voicemail is received,", THEN pause the robot.",LOCKED
+IF a voicemail is received,", THEN pause the robot.",LOCKED
+IF a voicemail is received,", THEN pause the robot.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device.",LOCKED
+IF a voicemail is received,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn on a specified device.",LOCKED
+IF temperature drops below a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF temperature drops below a threshold,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a lock is locked or unlocked,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a lock is locked or unlocked,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN turn off a device for a specified time.",LOCKED
+IF a lock is locked or unlocked,", THEN set brightness to a specified level",LOCKED
+IF a lock is locked or unlocked,", THEN set brightness to a specified level",LOCKED
+IF a lock is locked or unlocked,", THEN set brightness to a specified level",LOCKED
+IF a lock is locked or unlocked,", THEN set brightness to a specified level",LOCKED
+IF a lock is locked or unlocked,", THEN set brightness to a specified level",LOCKED
+IF weather forecast changes,", THEN turn on a specified device.",LOCKED
+IF weather forecast changes,", THEN turn on a specified device.",LOCKED
+IF weather forecast changes,", THEN turn on a specified device.",LOCKED
+IF weather forecast changes,", THEN turn on a specified device.",LOCKED
+IF weather forecast changes,", THEN turn on a specified device.",LOCKED
+IF temperature crosses configured thresholds,", THEN turn on a specified device.",LOCKED
+IF temperature crosses configured thresholds,", THEN turn on a specified device.",LOCKED
+IF temperature crosses configured thresholds,", THEN turn on a specified device.",LOCKED
+IF temperature crosses configured thresholds,", THEN turn on a specified device.",LOCKED
+IF temperature crosses configured thresholds,", THEN turn on a specified device.",LOCKED
+IF mentioned on Twitter,", THEN turn on a specified device.",LOCKED
+IF mentioned on Twitter,", THEN turn on a specified device.",LOCKED
+IF mentioned on Twitter,", THEN turn on a specified device.",LOCKED
+IF mentioned on Twitter,", THEN turn on a specified device.",LOCKED
+IF mentioned on Twitter,", THEN turn on a specified device.",LOCKED
+IF device connects or disconnects from WiFi,", THEN turn on a specified device.",LOCKED
+IF device connects or disconnects from WiFi,", THEN turn on a specified device.",LOCKED
+IF device connects or disconnects from WiFi,", THEN turn on a specified device.",LOCKED
+IF device connects or disconnects from WiFi,", THEN turn on a specified device.",LOCKED
+IF device connects or disconnects from WiFi,", THEN turn on a specified device.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device.",LOCKED
+IF a Facebook post or tag occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a phone call event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a phone call event occurs,", THEN activate to a specified scene.",LOCKED
+IF a phone call event occurs,", THEN activate to a specified scene.",LOCKED
+IF a phone call event occurs,", THEN activate to a specified scene.",LOCKED
+IF a phone call event occurs,", THEN activate to a specified scene.",LOCKED
+IF a phone call event occurs,", THEN activate to a specified scene.",LOCKED
+IF a phone call event occurs,", THEN pause the robot.",LOCKED
+IF a phone call event occurs,", THEN pause the robot.",LOCKED
+IF a phone call event occurs,", THEN pause the robot.",LOCKED
+IF a phone call event occurs,", THEN pause the robot.",LOCKED
+IF a phone call event occurs,", THEN pause the robot.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn on a specified device.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn off a device for a specified time.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn off a device for a specified time.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn off a device for a specified time.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn off a device for a specified time.",LOCKED
+IF a tariff or peak rate period starts or ends,", THEN turn off a device for a specified time.",LOCKED
+IF a scheduled periodic event occurs,", THEN activate to a specified scene.",LOCKED
+IF a scheduled periodic event occurs,", THEN activate to a specified scene.",LOCKED
+IF a scheduled periodic event occurs,", THEN activate to a specified scene.",LOCKED
+IF a scheduled periodic event occurs,", THEN activate to a specified scene.",LOCKED
+IF a scheduled periodic event occurs,", THEN activate to a specified scene.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device.",LOCKED
+IF a scheduled periodic event occurs,", THEN turn on a specified device.",LOCKED
+IF shortly before a calendar event,", THEN pause the robot.",LOCKED
+IF shortly before a calendar event,", THEN pause the robot.",LOCKED
+IF shortly before a calendar event,", THEN pause the robot.",LOCKED
+IF shortly before a calendar event,", THEN pause the robot.",LOCKED
+IF shortly before a calendar event,", THEN pause the robot.",LOCKED
+IF carbon intensity changes,", THEN turn on a specified device.",LOCKED
+IF carbon intensity changes,", THEN turn on a specified device.",LOCKED
+IF carbon intensity changes,", THEN turn on a specified device.",LOCKED
+IF carbon intensity changes,", THEN turn on a specified device.",LOCKED
+IF carbon intensity changes,", THEN turn on a specified device.",LOCKED
+IF carbon dioxide level exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF carbon dioxide level exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF carbon dioxide level exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF carbon dioxide level exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF carbon dioxide level exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF a channel interaction occurs,", THEN trigger an automation bot",LOCKED
+IF a channel interaction occurs,", THEN trigger an automation bot",LOCKED
+IF a channel interaction occurs,", THEN trigger an automation bot",LOCKED
+IF a channel interaction occurs,", THEN trigger an automation bot",LOCKED
+IF a channel interaction occurs,", THEN trigger an automation bot",LOCKED
+IF a channel interaction occurs,", THEN turn on a specified device.",LOCKED
+IF a channel interaction occurs,", THEN turn on a specified device.",LOCKED
+IF a channel interaction occurs,", THEN turn on a specified device.",LOCKED
+IF a channel interaction occurs,", THEN turn on a specified device.",LOCKED
+IF a channel interaction occurs,", THEN turn on a specified device.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a water leak is detected,", THEN close a connected device",LOCKED
+IF a water leak is detected,", THEN close a connected device",LOCKED
+IF a water leak is detected,", THEN close a connected device",LOCKED
+IF a water leak is detected,", THEN close a connected device",LOCKED
+IF a water leak is detected,", THEN close a connected device",LOCKED
+IF a water leak is detected,", THEN turn on a specified device.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device.",LOCKED
+IF a water leak is detected,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device.",LOCKED
+IF a doorbell is rung,", THEN pause the robot.",LOCKED
+IF a doorbell is rung,", THEN pause the robot.",LOCKED
+IF a doorbell is rung,", THEN pause the robot.",LOCKED
+IF a doorbell is rung,", THEN pause the robot.",LOCKED
+IF a doorbell is rung,", THEN pause the robot.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a doorbell is rung,", THEN turn on a specified device for a specified duration.",LOCKED
+", THEN set device temperature",", THEN change the device operating mode to eco",LOCKED
+", THEN set device temperature",", THEN change the device operating mode to eco",LOCKED
+", THEN set device temperature",", THEN change the device operating mode to eco",LOCKED
+", THEN set device temperature",", THEN change the device operating mode to eco",LOCKED
+", THEN set device temperature",", THEN change the device operating mode to eco",LOCKED
+", THEN set device temperature",", THEN turn off a device for a specified time.",LOCKED
+", THEN set device temperature",", THEN turn off a device for a specified time.",LOCKED
+", THEN set device temperature",", THEN turn off a device for a specified time.",LOCKED
+", THEN set device temperature",", THEN turn off a device for a specified time.",LOCKED
+", THEN set device temperature",", THEN turn off a device for a specified time.",LOCKED
+", THEN set device temperature",", THEN turn on a specified device for a specified duration.",LOCKED
+", THEN set device temperature",", THEN turn on a specified device for a specified duration.",LOCKED
+", THEN set device temperature",", THEN turn on a specified device for a specified duration.",LOCKED
+", THEN set device temperature",", THEN turn on a specified device for a specified duration.",LOCKED
+", THEN set device temperature",", THEN turn on a specified device for a specified duration.",LOCKED
+IF daily step goal is achieved,", THEN turn on a specified device.",LOCKED
+IF daily step goal is achieved,", THEN turn on a specified device.",LOCKED
+IF daily step goal is achieved,", THEN turn on a specified device.",LOCKED
+IF daily step goal is achieved,", THEN turn on a specified device.",LOCKED
+IF daily step goal is achieved,", THEN turn on a specified device.",LOCKED
+IF a vehicle exits a geofence,", THEN start the robot.",LOCKED
+IF a vehicle exits a geofence,", THEN start the robot.",LOCKED
+IF a vehicle exits a geofence,", THEN start the robot.",LOCKED
+IF a vehicle exits a geofence,", THEN start the robot.",LOCKED
+IF a vehicle exits a geofence,", THEN start the robot.",LOCKED
+IF a security panel alarm occurs,", THEN set brightness to a specified level",LOCKED
+IF a security panel alarm occurs,", THEN set brightness to a specified level",LOCKED
+IF a security panel alarm occurs,", THEN set brightness to a specified level",LOCKED
+IF a security panel alarm occurs,", THEN set brightness to a specified level",LOCKED
+IF a security panel alarm occurs,", THEN set brightness to a specified level",LOCKED
+IF a group decision is made,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a group decision is made,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a group decision is made,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a group decision is made,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a group decision is made,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a group decision is made,", THEN turn off a device for a specified time.",LOCKED
+IF a group decision is made,", THEN turn off a device for a specified time.",LOCKED
+IF a group decision is made,", THEN turn off a device for a specified time.",LOCKED
+IF a group decision is made,", THEN turn off a device for a specified time.",LOCKED
+IF a group decision is made,", THEN turn off a device for a specified time.",LOCKED
+IF device disconnects from Bluetooth,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device disconnects from Bluetooth,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device disconnects from Bluetooth,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device disconnects from Bluetooth,", THEN turn on a specified device for a specified duration.",LOCKED
+IF device disconnects from Bluetooth,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a location check-in occurs,", THEN turn on a specified device.",LOCKED
+IF a location check-in occurs,", THEN turn on a specified device.",LOCKED
+IF a location check-in occurs,", THEN turn on a specified device.",LOCKED
+IF a location check-in occurs,", THEN turn on a specified device.",LOCKED
+IF a location check-in occurs,", THEN turn on a specified device.",LOCKED
+IF a new feed item is published,", THEN turn on a specified device.",LOCKED
+IF a new feed item is published,", THEN turn on a specified device.",LOCKED
+IF a new feed item is published,", THEN turn on a specified device.",LOCKED
+IF a new feed item is published,", THEN turn on a specified device.",LOCKED
+IF a new feed item is published,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device.",LOCKED
+IF a sensor is activated,", THEN trigger an automation bot",LOCKED
+IF a sensor is activated,", THEN trigger an automation bot",LOCKED
+IF a sensor is activated,", THEN trigger an automation bot",LOCKED
+IF a sensor is activated,", THEN trigger an automation bot",LOCKED
+IF a sensor is activated,", THEN trigger an automation bot",LOCKED
+IF a sensor is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a sensor is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a MiHome device is powered on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a MiHome device is powered on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a MiHome device is powered on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a MiHome device is powered on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a MiHome device is powered on,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device problem occurs,", THEN start the robot.",LOCKED
+IF a device problem occurs,", THEN start the robot.",LOCKED
+IF a device problem occurs,", THEN start the robot.",LOCKED
+IF a device problem occurs,", THEN start the robot.",LOCKED
+IF a device problem occurs,", THEN start the robot.",LOCKED
+IF radon level crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF radon level crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF radon level crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF radon level crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF radon level crosses a threshold,", THEN turn on a specified device.",LOCKED
+IF Myfox security alarm occurs,", THEN turn on a specified device.",LOCKED
+IF Myfox security alarm occurs,", THEN turn on a specified device.",LOCKED
+IF Myfox security alarm occurs,", THEN turn on a specified device.",LOCKED
+IF Myfox security alarm occurs,", THEN turn on a specified device.",LOCKED
+IF Myfox security alarm occurs,", THEN turn on a specified device.",LOCKED
+IF a fitness goal is achieved or missed,", THEN turn off a device",LOCKED
+IF a fitness goal is achieved or missed,", THEN turn off a device",LOCKED
+IF a fitness goal is achieved or missed,", THEN turn off a device",LOCKED
+IF a fitness goal is achieved or missed,", THEN turn off a device",LOCKED
+IF a fitness goal is achieved or missed,", THEN turn off a device",LOCKED
+IF a subscribed user publishes a video,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a subscribed user publishes a video,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a subscribed user publishes a video,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a subscribed user publishes a video,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a subscribed user publishes a video,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a device switches to heat mode,", THEN change the device operating mode to eco",LOCKED
+IF a device switches to heat mode,", THEN change the device operating mode to eco",LOCKED
+IF a device switches to heat mode,", THEN change the device operating mode to eco",LOCKED
+IF a device switches to heat mode,", THEN change the device operating mode to eco",LOCKED
+IF a device switches to heat mode,", THEN change the device operating mode to eco",LOCKED
+IF someone arrives home,", THEN pause the robot.",LOCKED
+IF someone arrives home,", THEN pause the robot.",LOCKED
+IF someone arrives home,", THEN pause the robot.",LOCKED
+IF someone arrives home,", THEN pause the robot.",LOCKED
+IF someone arrives home,", THEN pause the robot.",LOCKED
+IF a robot starts or completes a task,", THEN start the robot.",LOCKED
+IF a robot starts or completes a task,", THEN start the robot.",LOCKED
+IF a robot starts or completes a task,", THEN start the robot.",LOCKED
+IF a robot starts or completes a task,", THEN start the robot.",LOCKED
+IF a robot starts or completes a task,", THEN start the robot.",LOCKED
+IF an alarm of your network bridge is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm of your network bridge is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm of your network bridge is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm of your network bridge is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm of your network bridge is activated,", THEN turn on a specified device for a specified duration.",LOCKED
+IF an alarm of your network bridge is activated,", THEN activate to a specified scene.",LOCKED
+IF an alarm of your network bridge is activated,", THEN activate to a specified scene.",LOCKED
+IF an alarm of your network bridge is activated,", THEN activate to a specified scene.",LOCKED
+IF an alarm of your network bridge is activated,", THEN activate to a specified scene.",LOCKED
+IF an alarm of your network bridge is activated,", THEN activate to a specified scene.",LOCKED
+IF Myfox detects a household risk,", THEN turn on a specified device.",LOCKED
+IF Myfox detects a household risk,", THEN turn on a specified device.",LOCKED
+IF Myfox detects a household risk,", THEN turn on a specified device.",LOCKED
+IF Myfox detects a household risk,", THEN turn on a specified device.",LOCKED
+IF Myfox detects a household risk,", THEN turn on a specified device.",LOCKED
+IF Swann camera detects motion,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Swann camera detects motion,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Swann camera detects motion,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Swann camera detects motion,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Swann camera detects motion,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a new task is added,", THEN pause the thermostat.",LOCKED
+IF a new task is added,", THEN pause the thermostat.",LOCKED
+IF a new task is added,", THEN pause the thermostat.",LOCKED
+IF a new task is added,", THEN pause the thermostat.",LOCKED
+IF a new task is added,", THEN pause the thermostat.",LOCKED
+IF UV index exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF UV index exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF UV index exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF UV index exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF UV index exceeds a threshold,", THEN turn on a specified device.",LOCKED
+IF a social status is posted,", THEN turn on a specified device.",LOCKED
+IF a social status is posted,", THEN turn on a specified device.",LOCKED
+IF a social status is posted,", THEN turn on a specified device.",LOCKED
+IF a social status is posted,", THEN turn on a specified device.",LOCKED
+IF a social status is posted,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device for a specified duration.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device.",LOCKED
+IF Nest Protect detects carbon monoxide,", THEN turn on a specified device.",LOCKED
+IF a door or lock changes state,", THEN change the device operating mode to auto",LOCKED
+IF a door or lock changes state,", THEN change the device operating mode to auto",LOCKED
+IF a door or lock changes state,", THEN change the device operating mode to auto",LOCKED
+IF a door or lock changes state,", THEN change the device operating mode to auto",LOCKED
+IF a door or lock changes state,", THEN change the device operating mode to auto",LOCKED
+IF a door or lock changes state,", THEN turn off a device for a specified time.",LOCKED
+IF a door or lock changes state,", THEN turn off a device for a specified time.",LOCKED
+IF a door or lock changes state,", THEN turn off a device for a specified time.",LOCKED
+IF a door or lock changes state,", THEN turn off a device for a specified time.",LOCKED
+IF a door or lock changes state,", THEN turn off a device for a specified time.",LOCKED
+IF solar power is exported to the grid,", THEN turn on a specified device for a specified duration.",LOCKED
+IF solar power is exported to the grid,", THEN turn on a specified device for a specified duration.",LOCKED
+IF solar power is exported to the grid,", THEN turn on a specified device for a specified duration.",LOCKED
+IF solar power is exported to the grid,", THEN turn on a specified device for a specified duration.",LOCKED
+IF solar power is exported to the grid,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a sensor reaches a target value,", THEN turn off a device",LOCKED
+IF a sensor reaches a target value,", THEN turn off a device",LOCKED
+IF a sensor reaches a target value,", THEN turn off a device",LOCKED
+IF a sensor reaches a target value,", THEN turn off a device",LOCKED
+IF a sensor reaches a target value,", THEN turn off a device",LOCKED
+IF an alarm is active,", THEN turn off a device for a specified time.",LOCKED
+IF an alarm is active,", THEN turn off a device for a specified time.",LOCKED
+IF an alarm is active,", THEN turn off a device for a specified time.",LOCKED
+IF an alarm is active,", THEN turn off a device for a specified time.",LOCKED
+IF an alarm is active,", THEN turn off a device for a specified time.",LOCKED
+IF a site changes operating mode,", THEN start the robot.",LOCKED
+IF a site changes operating mode,", THEN start the robot.",LOCKED
+IF a site changes operating mode,", THEN start the robot.",LOCKED
+IF a site changes operating mode,", THEN start the robot.",LOCKED
+IF a site changes operating mode,", THEN start the robot.",LOCKED
+IF a screenshot is taken,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a screenshot is taken,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a screenshot is taken,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a screenshot is taken,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a screenshot is taken,", THEN turn on a specified device for a specified duration.",LOCKED
+IF a timer expires,", THEN turn on a specified device.",LOCKED
+IF a timer expires,", THEN turn on a specified device.",LOCKED
+IF a timer expires,", THEN turn on a specified device.",LOCKED
+IF a timer expires,", THEN turn on a specified device.",LOCKED
+IF a timer expires,", THEN turn on a specified device.",LOCKED
+IF Alexa shopping list is queried,", THEN turn on a specified device.",LOCKED
+IF Alexa shopping list is queried,", THEN turn on a specified device.",LOCKED
+IF Alexa shopping list is queried,", THEN turn on a specified device.",LOCKED
+IF Alexa shopping list is queried,", THEN turn on a specified device.",LOCKED
+IF Alexa shopping list is queried,", THEN turn on a specified device.",LOCKED
+IF a door is opened,", THEN change the device operating mode to auto",LOCKED
+IF a door is opened,", THEN change the device operating mode to auto",LOCKED
+IF a door is opened,", THEN change the device operating mode to auto",LOCKED
+IF a door is opened,", THEN change the device operating mode to auto",LOCKED
+IF a door is opened,", THEN change the device operating mode to auto",LOCKED
+IF a device powers on or enters standby,", THEN turn on a specified device.",LOCKED
+IF a device powers on or enters standby,", THEN turn on a specified device.",LOCKED
+IF a device powers on or enters standby,", THEN turn on a specified device.",LOCKED
+IF a device powers on or enters standby,", THEN turn on a specified device.",LOCKED
+IF a device powers on or enters standby,", THEN turn on a specified device.",LOCKED
