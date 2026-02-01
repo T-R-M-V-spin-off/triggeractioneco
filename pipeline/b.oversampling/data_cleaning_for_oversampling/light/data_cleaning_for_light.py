@@ -940,41 +940,15 @@ ACTION_RULES = [
 (r".*turn your lights off if.*on.*|.*turn your lights on if.*off.*", ", THEN toggles lights based on current state."),
 (r".*turn your lights off.*|.*turns off.*wemo.*group.*|.*turns off.*wemo.*light.*", ", THEN turns off smart lights."),
 (r".*turn your lights on.*|.*turns on.*wemo.*group.*|.*turns on.*wemo.*light.*", ", THEN turns on smart lights."),
-# Lutron / Scene multi-device
-(r".*adjust.*multiple.*lights.*shades.*activating.*scene.*lutron.*|.*lutron.*app.*scene.*",
- ", THEN activates a lighting scene."),
-
-# WeMo switch ON (idempotente)
-(r".*turn.*wemo.*light switch.*on.*remain on.*|.*turn.*wemo.*switch.*on.*",
- ", THEN turns on a light switch."),
-
-# WeMo switch OFF (idempotente)
-(r".*turn.*wemo.*light switch.*off.*remain off.*|.*turn.*wemo.*switch.*off.*",
- ", THEN turns off a light switch."),
-
-# Set brightness (generico: lights / light / bulb)
-(r".*set.*(your )?lights?.*specified brightness.*|.*set.*light.*specified brightness.*",
- ", THEN adjusts the brightness of lights."),
-
-# Change brightness to level
-(r".*change.*light.*brightness.*specified level.*|.*change.*lights?.*brightness.*level.*",
- ", THEN adjusts the brightness of lights."),
-
-# Dim level
-(r".*set.*dim level.*light.*|.*set.*dim.*level.*",
- ", THEN adjusts the brightness of lights."),
-
-# Change bulb color
-(r".*change.*color.*light bulb.*|.*change.*color.*bulb.*",
- ", THEN changes the color of lights."),
-
-# Set lights to specified color
-(r".*change.*lights?.*specified color.*|.*set.*lights?.*specified color.*",
- ", THEN changes the color of lights."),
-
-# Apply scene to WiZ
-(r".*apply.*scene.*wiz.*lights.*|.*wiz.*scene.*settings.*",
- ", THEN activates a lighting scene."),
+(r".*adjust.*multiple.*lights.*shades.*activating.*scene.*lutron.*|.*lutron.*app.*scene.*",", THEN activates a lighting scene."),
+(r".*turn.*wemo.*light switch.*on.*remain on.*|.*turn.*wemo.*switch.*on.*",", THEN turns on a light switch."),
+(r".*turn.*wemo.*light switch.*off.*remain off.*|.*turn.*wemo.*switch.*off.*",", THEN turns off a light switch."),
+(r".*set.*(your )?lights?.*specified brightness.*|.*set.*light.*specified brightness.*",", THEN adjusts the brightness of lights."),
+(r".*change.*light.*brightness.*specified level.*|.*change.*lights?.*brightness.*level.*", ", THEN adjusts the brightness of lights."),
+(r".*set.*dim level.*light.*|.*set.*dim.*level.*", ", THEN adjusts the brightness of lights."),
+(r".*change.*color.*light bulb.*|.*change.*color.*bulb.*", ", THEN changes the color of lights."),
+(r".*change.*lights?.*specified color.*|.*set.*lights?.*specified color.*", ", THEN changes the color of lights."),
+(r".*apply.*scene.*wiz.*lights.*|.*wiz.*scene.*settings.*", ", THEN activates a lighting scene."),
 ]
 
 # ===============================

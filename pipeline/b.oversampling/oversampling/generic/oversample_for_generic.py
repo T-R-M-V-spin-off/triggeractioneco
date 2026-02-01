@@ -198,7 +198,7 @@ oversampled_rows = []
 # -------------------------------
 for trig in free_triggers:
     for act in unique_actions:
-        for _ in range(5):
+        for _ in range(2):
             oversampled_rows.append({
                 "triggerDesc": trig,
                 "actionDesc": act,
@@ -211,7 +211,7 @@ for trig in free_triggers:
 for trig in locked_triggers:
     associated_actions = df[df["triggerDesc"] == trig]["actionDesc"].unique()
     for act in associated_actions:
-        for _ in range(5):
+        for _ in range(2):
             oversampled_rows.append({
                 "triggerDesc": trig,
                 "actionDesc": act,
@@ -260,12 +260,25 @@ print(f"- Dipendono da trigger FREE: {len(extra_free)}")
 print(f"- Dipendono da trigger LOCKED: {len(extra_locked)}")
 
 # ===============================
-# STEP 5: Rimuovo [FREE] per il CSV finale
+# STEP 4.5: Merge originale + oversampled
 # ===============================
 
-oversampled_df["triggerDesc"] = oversampled_df["triggerDesc"].str.replace(r" ?\[FREE\]", "", regex=True).str.strip()
+# ===============================
+# STEP: Keep only trigger/action and merge
+# ===============================
 
-oversampled_df.to_csv(OUTPUT_FILE_FINAL, index=False)
+# Seleziona solo le colonne che ti servono
+df_reduced = df[["triggerDesc", "actionDesc"]].copy()
+oversampled_reduced = oversampled_df[["triggerDesc", "actionDesc"]].copy()
 
-print(f"Oversampled dataset finale salvato in: {OUTPUT_FILE_FINAL}")
-print(f"Numero righe finali: {len(oversampled_df)}")
+# Merge (concat verticale)
+final_df = pd.concat(
+    [df_reduced, oversampled_reduced],
+    ignore_index=True
+)
+
+final_df["triggerDesc"] = final_df["triggerDesc"].str.replace(r" ?\[FREE\]", "", regex=True).str.strip()
+
+final_df.to_csv(OUTPUT_FILE_FINAL, index=False)
+
+print(f"Dataset finale: {len(final_df)} righe")

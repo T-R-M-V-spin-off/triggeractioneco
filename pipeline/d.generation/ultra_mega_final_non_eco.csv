@@ -1,0 +1,131 @@
+triggerDesc,isTriggerEco,actionDesc,freeOrLocked,isActionEco,isRuleEco
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched off,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a routine is activated,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specific button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a smart device is switched on,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a voice assistant is activated with a specific phrase,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a chosen button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF a specified button is pressed,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a specified event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF ifttt receives a chosen event from an external service,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",FREE,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF your Android device connects to a specified wifi network,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a set number of minutes before sunset,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF local humidity and fires when above a specified value,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO
+IF a device logs new sleep data,NEUTRAL,", THEN set the mode of the air conditioner to turbo.",LOCKED,NON-ECO,NON-ECO

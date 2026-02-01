@@ -14,46 +14,41 @@ INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Air_Climate
 # ===============================
 
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"),
-    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"),
-    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase [FREE]"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"), #FREE
+    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"), #FREE
+    (r".*(alexa trigger|ok google|google assistant).*|.*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase [FREE]"), #FREE
     (r".*before.*time-of-day.*peak rates.*start.*", "IF before time-of-day peak rates start"),
-    (r".*every day at a specified time.*", "IF every day at a specified time [FREE]"),
-    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent [FREE]"),
+    (r".*every day at a specified time.*|*every.*day.*specific time.*", "IF every day at a specified time [FREE]"), #FREE
+    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent [FREE]"), #FREE
     (r".*home.*set to away.*", "IF every time no one is at home"),
     (r".*home.*set to home.*", "IF every time someone is at home"),
-    (r".*user enters a specified area.*", "IF the user enters a specified area"),
-    (r".*user exits a specified area.*", "IF the user exits a specified area"),
-    (r".*button.*pressed.*", "IF a button is pressed [FREE]"),
-    (r".*enter.*area.*", "IF the user enters a specified area"),
-    (r".*exit.*area.*", "IF the user exits a specified area"),
-    (r".*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase [FREE]"),
+    (r".*user enters a specified area.*|.*enter.*area.*", "IF the user enters a specified area"),
+    (r".*user exits a specified area.*|.*exit.*area.*", "IF the user exits a specified area"),
+    (r".*button.*pressed.*|.*press the button.", "IF a button is pressed [FREE]"), #FREE
     (r".*a/c unit.*temperature.*above.*value.*", "IF an AC unit detects temperature above a specified value"),
     (r".*a/c unit.*temperature.*below.*value.*", "IF an AC unit detects temperature below a specified value"),
     (r".*android device.*connects to wifi.*", "IF an Android device connects to a specified Wi-Fi network"),
     (r".*android device.*disconnects from wifi.*", "IF an Android device disconnects from a specified Wi-Fi network"),
     (r".*fitbit.*logs.*sleep.*", "IF a device logs new sleep data"),
-    (r".*every.*day.*specific time.*", "IF every day at a specified time [FREE]"),
     (r".*every time.*connects.*", "IF your Android device connects to a specified wifi network"),
     (r".*every time.*disconnects.*", "IF your Android device disconnects from a specified wifi network"),
-    (r".*press the button.*", "IF a specified button is pressed [FREE]"),
-    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service [FREE]"),
+    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service [FREE]"), #FREE
     (r".*myfox.*security system.*partially armed.*", "IF a security system is partially armed"),
-    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off [FREE]"),
-    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on [FREE]"),
-    (r".*routine.*activated.*", "IF a routine is activated [FREE]"),
+    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off [FREE]"), #FREE
+    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on [FREE]"), #FREE
+    (r".*routine.*activated.*", "IF a routine is activated [FREE]"), #FREE
     (r".*air purifier.*air quality.*", "IF an air purifier detects a specific air quality level"),
     (r".*room temperature.*condition.*threshold.*", "IF the room temperature satisfies a threshold condition"),
     (r".*solar power.*drops below.*", "IF solar power drops below a specified value"),
     (r".*temperature.*specific device.*exceeds.*threshold.*", "IF a device temperature exceeds a threshold"),
-    (r".*temperature.*satisfies.*threshold.*", "IF the room temperature satisfies a threshold condition"),
+    (r".*temperature.*satisfies.*threshold.*", "IF the house temperature satisfies a threshold condition"),
     (r".*device.*temperature.*above.*threshold.*", "IF a device detects temperature above a specified threshold"),
     (r".*device.*temperature.*below.*threshold.*", "IF a device detects temperature below a specified threshold"),
     (r".*indoor temperature.*dropping below.*threshold.*", "IF indoor temperature drops below a specified threshold"),
     (r".*indoor temperature.*rising above.*threshold.*", "IF indoor temperature rises above a specified threshold"),
-    (r".*sunrise.*", "IF a set number of minutes before sunrise"),
-    (r".*sunset.*", "IF a set number of minutes before sunset"),
-    (r".*unit.*turned on.*", "IF a set number of minutes after a unit has been turned on"),
+    (r".*sunrise.*", "IF a set number of minutes have passed after the sunrise"),
+    (r".*sunset.*", "IF a set number of minutes have passed after the sunset"),
+    (r".*unit.*turned on.*", "IF a unit has been turned on and a set number of minutes have passed"),
     (r".*current weather condition.*rain|snow|cloudy|clear.*", "IF the weather conditions change"),
     (r".*local humidity.*above.*value.*", "IF local humidity is above a specified value"),
     (r".*local temperature.*drops below.*value.*", "IF local temperature is below a specified value"),
@@ -62,26 +57,29 @@ TRIGGER_RULES = [
     (r".*particulate matter.*", "IF the air quality is below a specified value")
 ]
 
+X = ["eco mode", "comfort mode", "turbo mode"]
+Y = ["for a specific amount of time", "", "for the entire day"]
+Z = ["low", "medium", "high"]
 
 ACTION_RULES = [
-    (r".*changes modes.*auto.*sleep.*", ", THEN change the AC unit mode to sleep."),
-    (r".*turns off.*air purifier.*", ", THEN turns off the air purifier."),
-    (r".*turns on.*air purifier.*", ", THEN turns on the air purifier."),
-    (r".*turns.*display.*on or off.*", ", THEN turns the AC unit display on."),
-    (r".*turns.*fan.*speed.*low.*", ", THEN sets the fan to low speed."),
-    (r".*turns.*fan.*medium.*", ", THEN sets the fan to medium speed."),
-    (r".*turns.*fan.*high.*", ", THEN sets the fan to high speed."),
-    (r".*disable.*timer.*", ", THEN disable the indicated timer."),
-    (r".*enable.*timer.*", ", THEN enable the indicated timer."),
-    (r".*econo mode.*enable|disable.*|.*holiday mode.*enable|disable.*", ", THEN disable eco mode on the AC unit."),
-    (r".*execute.*scene.*", ", THEN set the mode of the air conditioner to turbo."),
-    (r".*set.*mode.*air conditioner.*", ", THEN set the mode of the air conditioner to eco."),
-    (r".*turn off.*air conditioner.*", ", THEN turn off the air conditioner."),
-    (r".*turn off.*a/c.*specified room.*", ", THEN turn off the air conditioner in a specified room."),
-    (r".*turn off.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit."),
-    (r".*turn on.*air conditioner.*", ", THEN turn on the air conditioner."),
-    (r".*turn on.*a/c.*specified room.*comfort mode.*", ", THEN turn on the air conditioner in a specified room in comfort mode."),
-    (r".*turn on.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit."),
+    (r".*changes modes.*auto.*sleep.*", ", THEN change the AC unit mode to [X]."),
+    (r".*turns off.*air purifier.*", ", THEN turns off the air purifier [Y]."),
+    (r".*turns on.*air purifier.*", ", THEN turns on the air purifier [Y]."),
+    (r".*turns.*display.*on or off.*", ", THEN turns the AC unit display on [Y]."),
+    (r".*turns.*fan.*speed.*low.*", ", THEN sets the fan to low speed [Y]."),
+    (r".*turns.*fan.*medium.*", ", THEN sets the fan to [Z] speed."),
+    (r".*turns.*fan.*high.*", ", THEN sets the fan to [Z] speed."),
+    (r".*disable.*timer.*", ", THEN disable the indicated timer [Y]."),
+    (r".*enable.*timer.*", ", THEN enable the indicated timer [Y]."),
+    (r".*econo mode.*enable|disable.*|.*holiday mode.*enable|disable.*", ", THEN enable [X] on the AC unit."),
+    (r".*execute.*scene.*", ", THEN set the mode of the air conditioner to [X]."),
+    (r".*set.*mode.*air conditioner.*", ", THEN set the mode of the air conditioner to [X]."),
+    (r".*turn off.*air conditioner.*", ", THEN turn off the air conditioner [Y]."),
+    (r".*turn off.*a/c.*specified room.*", ", THEN turn off the air conditioner in a specified room [Y]."),
+    (r".*turn off.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit [Y]."),
+    (r".*turn on.*air conditioner.*", ", THEN turn on the air conditioner [Y]."),
+    (r".*turn on.*a/c.*specified room.*comfort mode.*", ", THEN turn on the air conditioner in a specified room in [X]."),
+    (r".*turn on.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit [X]."),
 ]
 
 # ===============================

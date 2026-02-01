@@ -14,9 +14,12 @@ INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Appliance.c
 # NORMALIZATION RULES
 # ===============================
 
+ECO = ["during a low price period"]
+NON_ECO = ["during an high price period"]
+
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"), #FREE
-    (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on [ECO][NON-ECO][FREE]"), #FREE
+    (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low [ECO]"),
     (r".*(smoke detector|smoke alarm|dangerous smoke).*", "IF a smoke detector detects smoke"),
     (r".*every.*day.*specific time.*", "IF every day at a specified time"),
     (r".*button.*pressed.*|.*press.*button.*|flic.*|.*lawnmower.*button.*", "IF a button is pressed [FREE]"), #FREE
@@ -39,7 +42,7 @@ TRIGGER_RULES = [
 ]
 
 ACTION_RULES = [
-    (r".*deactivate.*eco mode.*", ", THEN deactivate eco mode on the appliance."),
+    (r".*deactivate.*eco mode.*", ", THEN deactivate eco mode on the appliance. [ECO] [NON-ECO]"),
     (r".*deactivate.*fresh mode.*", ", THEN deactivate fresh mode on the appliance."),
     (r".*deactivate.*vacation mode.*", ", THEN deactivate vacation mode on the appliance."),
     (r".*preheat.*oven.*hot air.*fast preheat.*", ", THEN preheat the oven using the hot air program with fast preheat."),
