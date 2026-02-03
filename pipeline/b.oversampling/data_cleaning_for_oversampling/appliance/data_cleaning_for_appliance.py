@@ -41,24 +41,40 @@ TRIGGER_RULES = [
     (r".*sunrise.*", "IF it is sunrise")
 ]
 
+ACTION_X = [
+    ["eco mode", "comfort mode", "turbo mode"],
+    ["low power mode", "default mode", "maximum power"],
+    ["energy saving mode", "auto mode", "boost mode"]
+]
+
+ACTION_Y = [
+    ["for a specific amount of time", "", "for the entire day"],
+    ["for a limited time", "until stopped", "indefinitely"],
+    ["temporarily", "until manually changed", "continuously"]
+]
+
+ACTION_W = [
+    ["after a specified amount of time", "", "after a large amount of time"],
+    ["after a fixed delay", "without delay", "after several hours"],
+    ["after a defined period ", "immediately", "much later"]
+]
+
 ACTION_RULES = [
-    (r".*deactivate.*eco mode.*", ", THEN deactivate eco mode on the appliance. [ECO] [NON-ECO]"),
-    (r".*deactivate.*fresh mode.*", ", THEN deactivate fresh mode on the appliance."),
-    (r".*deactivate.*vacation mode.*", ", THEN deactivate vacation mode on the appliance."),
-    (r".*preheat.*oven.*hot air.*fast preheat.*", ", THEN preheat the oven using the hot air program with fast preheat."),
-    (r".*start.*dishwasher.*selected.*", ", THEN start the selected dishwasher program."),
-    (r".*start.*hood.*selected.*", ", THEN start the selected hood program."),
-    (r".*turn off.*coffee machine.*", ", THEN turn off a coffee machine."),
-    (r".*turn off.*dishwasher.*", ", THEN turn off the dishwasher."),
-    (r".*turn off.*hood.*", ", THEN turn off the hood."),
-    (r".*turn off.*oven.*", ", THEN turn off then oven."),
-    (r".*turn on.*coffee machine.*", ", THEN turn on the coffee machine."),
-    (r".*turn on.*dishwasher.*", ", THEN turn on the dishwasher."),
-    (r".*turn on.*hood.*default program.*", ", THEN turn on the hood with the default program."),
-    (r".*start.*dishwasher.*", ", THEN start the dishwasher."),
-    (r".*selected coffee.*", ", THEN start the coffee with the specified program."),
-    (r".*start.*hood.*", ", THEN turn on the hood."),
-    (r".*turn on.*oven.*", ", THEN turn on the oven.")
+    (r".*deactivate.*eco mode.*|.*deactivate.*fresh mode.*|.*deactivate.*vacation mode.*", ", THEN deactivate [ACTION_X] on the appliance."), # deactivate eco mode è non eco
+    (r".*preheat.*oven.*hot air.*fast preheat.*", ", THEN preheat the oven using the hot air program with fast preheat [ACTION_Y]."),
+    (r".*start.*dishwasher.*selected.*", ", THEN start the selected dishwasher program [ACTION_Y]."),
+    (r".*start.*hood.*selected.*", ", THEN start the selected hood program [ACTION_Y]."),
+    (r".*turn off.*coffee machine.*", ", THEN turn off a coffee machine [ACTION_W]."),
+    (r".*turn off.*dishwasher.*", ", THEN turn off the dishwasher [ACTION_W]."),
+    (r".*turn off.*hood.*", ", THEN turn off the hood [ACTION_W]."),
+    (r".*turn off.*oven.*", ", THEN turn off then oven [ACTION_W]."),
+    (r".*turn on.*coffee machine.*", ", THEN turn on the coffee machine [ACTION_Y]."),
+    (r".*turn on.*dishwasher.*", ", THEN turn on the dishwasher in [ACTION_X]."),
+    (r".*turn on.*hood.*default program.*", ", THEN turn on the hood with the default program [ACTION_Y]."),
+    (r".*start.*dishwasher.*", ", THEN start the dishwasher [ACTION_Y]."),
+    (r".*selected coffee.*", ", THEN start the coffee with the specified program [ACTION_Y]."),
+    (r".*start.*hood.*", ", THEN turn on the hood [ACTION_Y]."),
+    (r".*turn on.*oven.*", ", THEN turn on the oven [ACTION_Y].")
 ]
 
 # ===============================

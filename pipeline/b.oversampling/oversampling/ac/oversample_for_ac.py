@@ -1,271 +1,223 @@
-import random
 import pandas as pd
+import re
+from collections import Counter
 
 # ===============================
 # CONFIG
 # ===============================
 
-INPUT_FILE_NORMALIZED = "../../../../dataset/filtered_data/device_category_data/Air_Climate_normalized_for_oversampling.csv"
+INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Air_Climate_normalized_for_oversampling.csv"          # dataset originale
+OUTPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Air_Climate_normalized_for_oversampling_oversampled_final.csv"    # dataset generato
 
-OUTPUT_FILE_OVERSAMPLED = INPUT_FILE_NORMALIZED.replace(".csv", "_oversampled.csv")
-OUTPUT_FILE_FINAL = INPUT_FILE_NORMALIZED.replace(".csv", "_oversampled_final.csv")
+# ===============================
+# ACTION MATRICES
+# ===============================
+
+ACTION_X = [
+    ["eco mode", "comfort mode", "turbo mode"],
+    ["low power mode", "default mode", "maximum power"],
+    ["energy saving mode", "auto mode", "boost mode"]
+]
+
+ACTION_Y = [
+    ["temporarily", "indefinitely", "continuously"],
+    ["for a limited time", "until stopped", "until manually changed"],
+    ["for the entire day", "for a specific amount of time", "for a fixed delay"]
+]
+
+ACTION_Z = [
+    ["low", "medium", "high"],
+    ["minimum", "moderate", "maximum"],
+    ["silent", "default", "boost"]
+]
+
+ACTION_W = [
+    ["immediately", "without delay", "much later"],
+    ["after several hours", "after a large amount of time", "after a fixed delay"],
+    ["after a defined period", "after a specified amount of time", "after some time"]
+]
+
+PLACEHOLDER_MAP = {
+    "ACTION_X": ACTION_X,
+    "ACTION_Y": ACTION_Y,
+    "ACTION_Z": ACTION_Z,
+    "ACTION_W": ACTION_W
+}
+
+df = pd.read_csv(INPUT_FILE)
+
+unique_triggers = df["triggerDesc"].unique()
+unique_actions = df["actionDesc"].unique()
+
+def augmented_trigger_syn(unique_triggers) :
+    trigger_synonyms = {
+        "start": ["turn on", "activate"],
+        "turn on": ["start", "activate"],
+        "specified": ["chosen"],
+        "turned on": ["started", "activated"],
+    }
+
+    new_unique_triggers = []
+
+    for trigger in unique_triggers :
+        new_unique_triggers.append(trigger)
+        for key in trigger_synonyms :
+            for syn in trigger_synonyms[key] :
+                if syn in trigger :
+                    new_unique_triggers.append(trigger.replace(key, syn))
+
+    return new_unique_triggers
+
+unique_triggers = augmented_trigger_syn(unique_triggers)
+
+print(unique_triggers)
+
+# Funzione per creare varianti con sinonimi per trigger ed actions
+
+# Funzione per sostituire i placeholder con i valori
+
+
+# ===============================
+# ACTION COLUMN STATS
+# ===============================
+
+action_stats = {
+    "ACTION_X": [0, 0, 0],
+    "ACTION_Y": [0, 0, 0],
+    "ACTION_Z": [0, 0, 0],
+    "ACTION_W": [0, 0, 0]
+}
+
+# ===============================
+# FUNCTION TO EXPAND ACTION
+# ===============================
+
+def expand_action(action_text):
+    """
+    Espande un placeholder in un'azione
+    Ritorna lista di action finali
+    Aggiorna action_stats per colonna
+    """
+    for key, matrix in PLACEHOLDER_MAP.items():
+        pattern = rf"\[{key}\]"
+        if re.search(pattern, action_text):
+            expanded = []
+            rows = len(matrix)
+            cols = len(matrix[0])
+            for col in range(cols):
+                for row in range(rows):
+                    value = matrix[row][col]
+                    new_action = re.sub(pattern, value, action_text)
+                    new_action = " ".join(new_action.split())
+                    expanded.append(new_action)
+                    action_stats[key][col] += 1
+            return expanded
+    return [action_text]
 
 # ===============================
 # LOAD DATA
 # ===============================
 
-df = pd.read_csv(INPUT_FILE_NORMALIZED)
+df = pd.read_csv(INPUT_FILE)
+
+# Controllo se trigger FREE / LOCKED
+df["triggerType"] = df["triggerDesc"].apply(lambda x: "FREE" if "[FREE]" in x else "LOCKED")
+
+# Trigger FREE e LOCKED prima
+free_triggers_before = df[df["triggerType"] == "FREE"]["triggerDesc"].unique()
+locked_triggers_before = df[df["triggerType"] == "LOCKED"]["triggerDesc"].unique()
+
+print("Trigger FREE prima:", free_triggers_before)
+print("Trigger LOCKED prima:", locked_triggers_before)
 
 # ===============================
-# STEP 1: freeOrLocked (manteniamo [FREE] per la validazione)
+# GENERATION
 # ===============================
 
-def classify_free_locked(trigger_text):
-    if pd.isna(trigger_text):
-        return "LOCKED", trigger_text
-    if "[FREE]" in trigger_text:
-        return "FREE", trigger_text.strip()  # mantieni [FREE] per ora
-    return "LOCKED", trigger_text
+generated_rows = []
 
-df[["freeOrLocked", "triggerDesc"]] = df["triggerDesc"].apply(
-    lambda x: pd.Series(classify_free_locked(x))
-)
+for _, row in df.iterrows():
+    trigger = row["triggerDesc"]
+    action = row["actionDesc"]
+    ttype = row["triggerType"]
 
-# ===============================
-# STEP 2: Prepare oversampling + synonym augmentation
-# ===============================
+    expanded_actions = expand_action(action)
 
-free_triggers = df[df["freeOrLocked"] == "FREE"]["triggerDesc"].unique()
-locked_triggers = df[df["freeOrLocked"] == "LOCKED"]["triggerDesc"].unique()
-unique_actions = df["actionDesc"].unique()
+    for new_action in expanded_actions:
+        generated_rows.append({
+            "triggerDesc": trigger,
+            "actionDesc": new_action,
+            "triggerType": ttype
+        })
 
-# Dizionari di sinonimi
-trigger_synonyms = {
-    "start": ["turn on", "activate"],
-    "turn on": ["start", "activate"],
-    "specified": ["chosen"],
-    "turned on": ["started", "activated"],
-}
+gen_df = pd.DataFrame(generated_rows)
 
-action_synonyms_on = ["turned on", "started", "turn on", "start", "activate"]
-action_synonyms_off = ["turned off", "stopped", "turn off", "stop", "deactivate"]
-action_synonyms_specified = ["specified", "chosen"]
+# Trigger FREE e LOCKED dopo
+free_triggers_after = gen_df[gen_df["triggerType"] == "FREE"]["triggerDesc"].unique()
+locked_triggers_after = gen_df[gen_df["triggerType"] == "LOCKED"]["triggerDesc"].unique()
 
-def augment_text(text, synonyms_dict):
-    words = text.split()
-    new_words = []
-    for w in words:
-        lw = w.lower().strip(",.")  # minuscolo senza punteggiatura
-        if lw in synonyms_dict:
-            new_words.append(random.choice(synonyms_dict[lw]))
-        else:
-            new_words.append(w)
-    return " ".join(new_words)
-
+print("\nTrigger FREE dopo:", free_triggers_after)
+print("Trigger LOCKED dopo:", locked_triggers_after)
 
 # ===============================
-# STEP 2a: augment FREE triggers
+# FREQUENZA ACTION
 # ===============================
 
-def generate_synonym_variants(text, synonyms_dict, n_variants=2):
-    """
-    Genera n_variants varianti di `text` sostituendo parole con sinonimi.
-    """
-    variants = set()
-    variants.add(text)  # includi l'originale
+print("\n=== FREQUENZA ACTION ===")
 
-    for _ in range(n_variants):
-        new_words = []
-        for w in text.split():
-            lw = w.lower().strip(",.")  # minuscolo senza punteggiatura
-            if lw in synonyms_dict:
-                new_words.append(random.choice(synonyms_dict[lw]))
-            else:
-                new_words.append(w)
-        variants.add(" ".join(new_words))
-
-    return list(variants)
-
-
-# Nuovi trigger generati dai FREE triggers
-augmented_free_triggers = []
-for trig in free_triggers:
-    variants = generate_synonym_variants(trig, trigger_synonyms, n_variants=3)
-    augmented_free_triggers.extend(variants)
-
-# Rimuoviamo duplicati
-free_triggers = list(set(list(free_triggers) + augmented_free_triggers))
+action_freq = Counter(gen_df["actionDesc"])
+for act, cnt in action_freq.most_common():
+    print(f"{act}  -->  {cnt}")
 
 # ===============================
-# Trigger / Action originali
-# ===============================
-free_triggers_original = df[df["freeOrLocked"] == "FREE"]["triggerDesc"].unique()
-locked_triggers = df[df["freeOrLocked"] == "LOCKED"]["triggerDesc"].unique()
-unique_actions_original = df["actionDesc"].unique()
-
-print("=== PRIMA DELL'AUGMENTATION ===")
-print(f"Trigger FREE originali: {len(free_triggers_original)}")
-print(f"Trigger FREE originali lista: {free_triggers_original}")
-print(f"Action uniche originali: {len(unique_actions_original)}")
-print(f"Action uniche originali lista: {unique_actions_original}")
-
-# ===============================
-# Dizionari / liste di sinonimi
-# ===============================
-trigger_synonyms = {
-    "start": ["turn on", "activate", "enable"],
-    "turn on": ["start", "activate", "enable"],
-    "specified": ["chosen", "specific"],
-    "turned on": ["started", "activated", "enabled"],
-    "binary switch": ["switch", "toggle switch"]
-}
-
-action_synonyms_on_1 = ["turned on", "started", "activated", "enabled"]
-action_synonyms_on_2 = ["turn on", "start", "activate", "enable"]
-action_synonyms_off_1 = ["turned off", "stopped", "deactivated", "disabled"]
-action_synonyms_off_2 = ["turn off", "stop", "deactivate", "disable"]
-action_synonyms_specified = ["specified", "chosen", "specific"]
-action_synonyms_device = ["oven", "dryer", "microwave"]
-
-
-# ===============================
-# Funzioni di augmentation
-# ===============================
-def generate_synonym_variants(text, synonyms_dict, n_variants=3):
-    variants = set()
-    variants.add(text)
-
-    for _ in range(n_variants):
-        new_words = []
-        for w in text.split():
-            lw = w.lower().strip(",.")
-            if lw in synonyms_dict:
-                new_words.append(random.choice(synonyms_dict[lw]))
-            else:
-                new_words.append(w)
-        variants.add(" ".join(new_words))
-
-    return list(variants)
-
-
-def augment_action(action_text):
-    new_text = action_text
-    for w in action_synonyms_on_1:
-        new_text = new_text.replace(w, random.choice(action_synonyms_on_1))
-    for w in action_synonyms_off_1:
-        new_text = new_text.replace(w, random.choice(action_synonyms_off_1))
-    for w in action_synonyms_on_2:
-        new_text = new_text.replace(w, random.choice(action_synonyms_on_2))
-    for w in action_synonyms_off_2:
-        new_text = new_text.replace(w, random.choice(action_synonyms_off_2))
-    for w in action_synonyms_specified:
-        new_text = new_text.replace(w, random.choice(action_synonyms_specified))
-    for w in action_synonyms_device:
-        new_text = new_text.replace(w, random.choice(action_synonyms_device))
-    return new_text
-
-
-# ===============================
-# Augmentation
-# ===============================
-augmented_free_triggers = []
-for trig in free_triggers_original:
-    variants = generate_synonym_variants(trig, trigger_synonyms, n_variants=3)
-    augmented_free_triggers.extend(variants)
-
-free_triggers = list(set(list(free_triggers_original) + augmented_free_triggers))
-
-augmented_actions = []
-for act in unique_actions_original:
-    for _ in range(3):
-        augmented_actions.append(augment_action(act))
-
-unique_actions = list(set(list(unique_actions_original) + augmented_actions))
-
-# ===============================
-# Stampa dopo augmentation
-# ===============================
-print("\n=== DOPO L'AUGMENTATION ===")
-print(f"Trigger FREE dopo augmentation: {len(free_triggers)}")
-print(f"Trigger FREE lista dopo augmentation: {free_triggers}")
-print(f"Action uniche dopo augmentation: {len(unique_actions)}")
-print(f"Action uniche lista dopo augmentation: {unique_actions}")
-
-oversampled_rows = []
-
-# -------------------------------
-# FREE triggers
-# -------------------------------
-for trig in free_triggers:
-    for act in unique_actions:
-        for _ in range(10):
-            oversampled_rows.append({
-                "triggerDesc": trig,
-                "actionDesc": act,
-                "freeOrLocked": "FREE"
-            })
-
-# -------------------------------
-# LOCKED triggers
-# -------------------------------
-for trig in locked_triggers:
-    associated_actions = df[df["triggerDesc"] == trig]["actionDesc"].unique()
-    for act in associated_actions:
-        for _ in range(10):
-            oversampled_rows.append({
-                "triggerDesc": trig,
-                "actionDesc": act,
-                "freeOrLocked": "LOCKED"
-            })
-
-# ===============================
-# STEP 3: Creazione DataFrame oversampled
+# VALIDATION
 # ===============================
 
-oversampled_df = pd.DataFrame(oversampled_rows)
+print("\n=== VALIDATION ===")
+
+original_pairs = set(zip(df["triggerDesc"], df["actionDesc"]))
+generated_pairs = set(zip(gen_df["triggerDesc"], gen_df["actionDesc"]))
+
+# Tutte presenti?
+all_present = original_pairs.issubset(generated_pairs)
+print("Tutte le coppie originali presenti:", all_present)
+
+# Missing
+missing = original_pairs - generated_pairs
+if missing:
+    print("\nCoppie mancanti:")
+    print(pd.DataFrame(list(missing), columns=["triggerDesc", "actionDesc"]))
+
+# Extra
+extra = generated_pairs - original_pairs
+free_extra = sum(1 for t, _ in extra if t in free_triggers_after)
+locked_extra = sum(1 for t, _ in extra if t in locked_triggers_after)
+
+print("\nCoppie extra:", len(extra))
+print("- Da FREE:", free_extra)
+print("- Da LOCKED:", locked_extra)
 
 # ===============================
-# STEP 4: VALIDATION / PAIR CHECK
+# PLACEHOLDER CHECK
 # ===============================
 
-# Coppie uniche del dataset originale
-original_pairs = df[["triggerDesc", "actionDesc"]].drop_duplicates()
-
-# Coppie uniche del dataset oversampled
-oversampled_pairs = oversampled_df[["triggerDesc", "actionDesc"]].drop_duplicates()
-
-# Coppie originali mancanti
-missing_in_oversampled = original_pairs.merge(
-    oversampled_pairs,
-    on=["triggerDesc", "actionDesc"],
-    how="left",
-    indicator=True
-).query('_merge == "left_only"')
-
-# Coppie extra
-extra_in_oversampled = oversampled_pairs.merge(
-    original_pairs,
-    on=["triggerDesc", "actionDesc"],
-    how="left",
-    indicator=True
-).query('_merge == "left_only"')
-
-# Distinguo quelle aggiunte dovute ai trigger FREE
-extra_free = extra_in_oversampled[extra_in_oversampled["triggerDesc"].str.contains(r"\[FREE\]")]
-extra_locked = extra_in_oversampled[~extra_in_oversampled["triggerDesc"].str.contains(r"\[FREE\]")]
-
-print(f"Tutte le coppie originali sono presenti: {len(missing_in_oversampled) == 0}")
-print(f"Coppie aggiuntive nell'oversampled: {len(extra_in_oversampled)}")
-print(f"- Dipendono da trigger FREE: {len(extra_free)}")
-print(f"- Dipendono da trigger LOCKED: {len(extra_locked)}")
+bad = gen_df[gen_df["actionDesc"].str.contains(r"\[ACTION_", regex=True)]
+print("\nPlaceholder rimasti:", len(bad))
 
 # ===============================
-# STEP 5: Rimuovo [FREE] per il CSV finale
+# ACTION COLUMN REPORT
 # ===============================
 
-oversampled_df["triggerDesc"] = oversampled_df["triggerDesc"].str.replace(r" ?\[FREE\]", "", regex=True).str.strip()
+print("\n=== ACTION COLUMN STATS ===")
+for key, counts in action_stats.items():
+    print(f"\n{key}")
+    print(f"  Colonna 0: {counts[0]}")
+    print(f"  Colonna 1: {counts[1]}")
+    print(f"  Colonna 2: {counts[2]}")
 
-oversampled_df.to_csv(OUTPUT_FILE_FINAL, index=False)
+# ===============================
+# SAVE DATA
+# ===============================
 
-print(f"Oversampled dataset finale salvato in: {OUTPUT_FILE_FINAL}")
-print(f"Numero righe finali: {len(oversampled_df)}")
+gen_df.to_csv(OUTPUT_FILE, index=False)
+print("\nDataset salvato in:", OUTPUT_FILE)

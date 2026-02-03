@@ -18,14 +18,13 @@ TRIGGER_RULES = [
     (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"), #FREE
     (r".*(alexa trigger|ok google|google assistant).*|.*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase [FREE]"), #FREE
     (r".*before.*time-of-day.*peak rates.*start.*", "IF before time-of-day peak rates start"),
-    (r".*every day at a specified time.*|*every.*day.*specific time.*", "IF every day at a specified time [FREE]"), #FREE
+    (r".*every day at a specified time.*|.*every.*day.*specific time.*", "IF every day at a specified time [FREE]"), #FREE
     (r".*message.*key phrase.*", "IF a message containing a key phrase is sent [FREE]"), #FREE
     (r".*home.*set to away.*", "IF every time no one is at home"),
     (r".*home.*set to home.*", "IF every time someone is at home"),
     (r".*user enters a specified area.*|.*enter.*area.*", "IF the user enters a specified area"),
     (r".*user exits a specified area.*|.*exit.*area.*", "IF the user exits a specified area"),
-    (r".*button.*pressed.*|.*press the button.", "IF a button is pressed [FREE]"), #FREE
-    (r".*a/c unit.*temperature.*above.*value.*", "IF an AC unit detects temperature above a specified value"),
+    (r".*button.*pressed.*|.*press the button.*", "IF a button is pressed [FREE]"), #FREE
     (r".*a/c unit.*temperature.*below.*value.*", "IF an AC unit detects temperature below a specified value"),
     (r".*android device.*connects to wifi.*", "IF an Android device connects to a specified Wi-Fi network"),
     (r".*android device.*disconnects from wifi.*", "IF an Android device disconnects from a specified Wi-Fi network"),
@@ -42,7 +41,7 @@ TRIGGER_RULES = [
     (r".*solar power.*drops below.*", "IF solar power drops below a specified value"),
     (r".*temperature.*specific device.*exceeds.*threshold.*", "IF a device temperature exceeds a threshold"),
     (r".*temperature.*satisfies.*threshold.*", "IF the house temperature satisfies a threshold condition"),
-    (r".*device.*temperature.*above.*threshold.*", "IF a device detects temperature above a specified threshold"),
+    (r".*device.*temperature.*above.*threshold.*|.*above a value you specify.*", "IF a device detects temperature above a specified threshold"),
     (r".*device.*temperature.*below.*threshold.*", "IF a device detects temperature below a specified threshold"),
     (r".*indoor temperature.*dropping below.*threshold.*", "IF indoor temperature drops below a specified threshold"),
     (r".*indoor temperature.*rising above.*threshold.*", "IF indoor temperature rises above a specified threshold"),
@@ -57,29 +56,47 @@ TRIGGER_RULES = [
     (r".*particulate matter.*", "IF the air quality is below a specified value")
 ]
 
-X = ["eco mode", "comfort mode", "turbo mode"]
-Y = ["for a specific amount of time", "", "for the entire day"]
-Z = ["low", "medium", "high"]
+ACTION_X = [
+    ["eco mode", "comfort mode", "turbo mode"],
+    ["low power mode", "default mode", "maximum power"],
+    ["energy saving mode", "auto mode", "boost mode"]
+]
+
+ACTION_Y = [
+    ["for a specific amount of time", "", "for the entire day"],
+    ["for a limited time", "until stopped", "indefinitely"],
+    ["temporarily", "until manually changed", "continuously"]
+]
+
+ACTION_Z = [
+    ["low", "medium", "high"],
+    ["minimum", "default", "maximum"],
+    ["silent", "moderate", "boost"]
+]
+
+ACTION_W = [
+    ["after a specified amount of time", "", "after a large amount of time"],
+    ["after a fixed delay", "without delay", "after several hours"],
+    ["after a defined period ", "immediately", "much later"]
+]
 
 ACTION_RULES = [
-    (r".*changes modes.*auto.*sleep.*", ", THEN change the AC unit mode to [X]."),
-    (r".*turns off.*air purifier.*", ", THEN turns off the air purifier [Y]."),
-    (r".*turns on.*air purifier.*", ", THEN turns on the air purifier [Y]."),
-    (r".*turns.*display.*on or off.*", ", THEN turns the AC unit display on [Y]."),
-    (r".*turns.*fan.*speed.*low.*", ", THEN sets the fan to low speed [Y]."),
-    (r".*turns.*fan.*medium.*", ", THEN sets the fan to [Z] speed."),
-    (r".*turns.*fan.*high.*", ", THEN sets the fan to [Z] speed."),
-    (r".*disable.*timer.*", ", THEN disable the indicated timer [Y]."),
-    (r".*enable.*timer.*", ", THEN enable the indicated timer [Y]."),
-    (r".*econo mode.*enable|disable.*|.*holiday mode.*enable|disable.*", ", THEN enable [X] on the AC unit."),
-    (r".*execute.*scene.*", ", THEN set the mode of the air conditioner to [X]."),
-    (r".*set.*mode.*air conditioner.*", ", THEN set the mode of the air conditioner to [X]."),
-    (r".*turn off.*air conditioner.*", ", THEN turn off the air conditioner [Y]."),
-    (r".*turn off.*a/c.*specified room.*", ", THEN turn off the air conditioner in a specified room [Y]."),
-    (r".*turn off.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit [Y]."),
-    (r".*turn on.*air conditioner.*", ", THEN turn on the air conditioner [Y]."),
-    (r".*turn on.*a/c.*specified room.*comfort mode.*", ", THEN turn on the air conditioner in a specified room in [X]."),
-    (r".*turn on.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit [X]."),
+    (r".*changes modes.*auto.*sleep.*", ", THEN change the AC unit mode to [ACTION_X]."),
+    (r".*turns off.*air purifier.*", ", THEN turns off the air purifier [ACTION_W]."),
+    (r".*turns on.*air purifier.*", ", THEN turns on the air purifier [ACTION_Y]."),
+    (r".*turns.*display.*on or off.*", ", THEN turns the AC unit display on [ACTION_Y]."),
+    (r".*turns.*fan.*speed.*(low|medium|high).*|", ", THEN sets the fan to [ACTION_Z] speed."),
+    (r".*disable.*timer.*", ", THEN disable the indicated timer [ACTION_Y]."),
+    (r".*enable.*timer.*", ", THEN enable the indicated timer [ACTION_Y]."),
+    (r".*econo mode.*enable|disable.*|.*holiday mode.*enable|disable.*", ", THEN enable [ACTION_X] on the AC unit."),
+    (r".*execute.*scene.*", ", THEN set the mode of the air conditioner to [ACTION_X]."),
+    (r".*set.*mode.*air conditioner.*", ", THEN set the mode of the air conditioner to [ACTION_X]."),
+    (r".*turn off.*air conditioner.*", ", THEN turn off the air conditioner [ACTION_W]."),
+    (r".*turn off.*a/c.*specified room.*", ", THEN turn off the air conditioner in a specified room [ACTION_W]."),
+    (r".*turn off.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*off.*", ", THEN turn off the AC unit [ACTION_W]."),
+    (r".*turn on.*air conditioner.*", ", THEN turn on the air conditioner [ACTION_Y]."),
+    (r".*turn on.*a/c.*specified room.*comfort mode.*", ", THEN turn on the air conditioner in a specified room in [ACTION_X]."),
+    (r".*turn on.*daikin.*ac unit.*|.*turn.*intesishome.*a/c.*on.*", ", THEN turn on the AC unit [ACTION_X]."),
 ]
 
 # ===============================

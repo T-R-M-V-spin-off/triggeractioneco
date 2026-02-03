@@ -36,7 +36,6 @@ TRIGGER_RULES = [
     (r".*(telegram|text message|ifttt).*", "IF a message containing a key phrase is sent [FREE]"), #FREE
     (r".*google calendar.*event.*", "IF a calendar event with a specific keyword occurs [FREE]"), #FREE
     (r".*sunrise.*", "IF it is sunrise"),
-
     (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"),
     (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"),
     (r".*(alexa trigger|ok google|google assistant).*",
@@ -84,28 +83,20 @@ TRIGGER_RULES = [
     (r".*local temperature.*rises above.*value.*", "IF local temperature is above a specified value"),
     (r".*room enters manual mode.*", "IF every time a room enters manual mode"),
     (r".*particulate matter.*", "IF the air quality is below a specified value"),
-
-    # Temperature (General & Specific Devices)
     (r".*temperature.*(drops below|falls below|less than).*", "IF temperature drops below a threshold"),
     (r".*temperature.*(rises above|exceeds|greater than).*", "IF temperature rises above a threshold"),
     (r".*wirelesstag.*temperature.*returns.*", "IF WirelessTag temperature returns to normal range"),
-
-    # Air Quality / Smoke / CO (Nest, Awair)
     (r".*nest protect.*carbon monoxide.*", "IF Nest Protect detects carbon monoxide"),
     (r".*nest protect.*smoke.*", "IF Nest Protect detects smoke"),
     (r".*awair.*dust.*", "IF Awair detects high dust concentration"),
     (r".*awair.*(co2|carbon dioxide).*", "IF Awair detects high CO2 levels"),
     (r".*awair.*voc.*", "IF Awair detects high VOC levels"),
     (r".*co2.*level.*rises above.*", "IF CO2 level rises above a threshold"),
-
-    # Security / Alarms / Safety
     (r".*alarm.*goes off.*|.*alarm event.*", "IF an alarm triggers"),
     (r".*alarm.*armed.*", "IF an alarm is armed"),
     (r".*phyn.*alert.*", "IF Phyn detects an alert"),
     (r".*camera.*motion event.*", "IF a camera detects motion"),
     (r".*wirelesstag.*too wet.*", "IF WirelessTag detects moisture"),
-
-    # Smart Devices / Switches / Specific Apps
     (r".*eight app.*(night|day) mode.*", "IF Night or Day mode is toggled in Eight App"),
     (r".*ewelink.*switch.*(turned on|turned off).*", "IF eWeLink switch is toggled"),
     (r".*(knx|binary switch).*turned off.*", "IF a KNX or binary switch is turned off"),
@@ -114,16 +105,10 @@ TRIGGER_RULES = [
     (r".*aura air.*sensor.*reached.*", "IF Aura Air sensor reaches a specific value"),
     (r".*ecobee.*schedule.*overridden.*", "IF Ecobee schedule is overridden"),
     (r".*ecobee.*humidity.*greater.*", "IF Ecobee detects high humidity"),
-
-    # Wearables / Watches (Consolidated)
     (r".*(jaguar|kronaby|festina|lotus).*pusher.*", "IF a smartwatch button is pressed"),
     (r".*withings.*get into bed.*", "IF Withings detects user getting into bed"),
-
-    # Focus / Productivity / Calendar
     (r".*focus.*time.*session.*", "IF a Focus Time session starts or ends"),
     (r".*harvest.*new project.*", "IF a new project is created on Harvest"),
-
-    # Social / News / Messaging
     (r".*send.*sms.*android.*", "IF an SMS is sent from Android"),
     (r".*receive.*sms.*android.*", "IF an SMS is received on Android"),
     (r".*tweet.*hashtag.*", "IF a new tweet with a specific hashtag is posted"),
@@ -131,15 +116,8 @@ TRIGGER_RULES = [
     (r".*ballotpedia.*breaking news.*", "IF Ballotpedia reports breaking news"),
     (r".*npr.*new story.*", "IF a new story is published on NPR"),
     (r".*strava.*complete.*activity.*", "IF a new activity is completed on Strava"),
-
-    # Energy / Pricing
     (r".*electricity price.*(stays|falls|rises).*", "IF electricity price fluctuates beyond threshold"),
-
-    # Time / Events
     (r".*is christmas.*", "IF it is Christmas"),
-
-
-    # Energy / Pricing / Carbon
     (r".*plage tarifaire.*commence.*", "IF an energy tariff period starts"),
     (r".*carbon.*clean.*dirty.*", "IF carbon intensity changes"),
     (r".*peak time savings.*", "IF peak energy savings hours are announced"),
@@ -153,52 +131,34 @@ TRIGGER_RULES = [
     (r".*kronaby.*", "IF a Kronaby watch button is pressed"),
     (r".*festina.*", "IF a Festina watch button is pressed"),
     (r".*lotus.*", "IF a Lotus watch button is pressed"),
-
-    # Specific Apps (Basta il nome dell'app)
     (r".*eight app.*", "IF Night or Day mode is toggled in Eight App"),
     (r".*harvest.*", "IF a new project is created on Harvest"),
     (r".*strava.*", "IF a new activity is completed on Strava"),
     (r".*npr.*", "IF a new story is published on NPR"),
-
-    # Devices Specifics (Nome device + parola chiave univoca)
     (r".*aura air.*", "IF Aura Air sensor reaches a specific value"),
     (r".*wirelesstag.*return.*", "IF WirelessTag temperature returns to normal range"),
     (r".*wirelesstag.*wet.*", "IF WirelessTag detects moisture"),
     (r".*ecobee.*smart.*", "IF Ecobee switches to Smart Home/Away profile"),
     (r".*smartthings.*temperature.*", "IF SmartThings detects high temperature"),
-
-    # Awair (Device + Tipo di sensore)
     (r".*awair.*dust.*", "IF Awair detects high dust concentration"),
     (r".*awair.*carbon.*", "IF Awair detects high CO2 levels"),
     (r".*awair.*voc.*", "IF Awair detects high VOC levels"),
-
-    # General Environment (Senza device specifico)
     (r".*carbon dioxide.*rises.*", "IF CO2 level rises above a threshold"),
-
-    # Calendar / Time / Focus
     (r".*calendar.*keyword.*before.*start.*", "IF shortly before a calendar event with a keyword"),
     (r".*calendar.*ending.*keyword.*", "IF shortly after a calendar event with a keyword"),
     (r".*focus time.*started.*", "IF a focus session starts"),
     (r".*focus time.*end.*", "IF a focus session ends"),
     (r".*once an hour.*(:00|:15|:30|:45).*", "IF every hour at quarter intervals"),
-
-    # Email / Feed / News
     (r".*npr.*new story.*", "IF a new news story is published"),
     (r".*new item.*feed.*contains.*", "IF a feed item contains a keyword"),
     (r".*submit.*new note.*", "IF a new note is created"),
-
-    # Network / Router
     (r".*connects.*google wifi.*", "IF a device connects to WiFi"),
     (r".*disconnects.*google wifi.*", "IF a device disconnects from WiFi"),
     (r".*tp-link.*connect.*", "IF a device connects to a router"),
     (r".*tp-link.*disconnect.*", "IF a device disconnects from a router"),
-
-    # Reminders / Tasks / Productivity
     (r".*new reminder.*added.*", "IF a new reminder is added"),
     (r".*reminder.*completed.*", "IF a reminder is completed"),
     (r".*add.*item.*to do list.*", "IF an item is added to a to-do list"),
-
-    # Security / Locks / Modes
     (r".*lock.*lock n go.*", "IF a door is locked"),
     (r".*auto unlock.*|.*unlocked.*", "IF a door is unlocked"),
     (r".*mode.*armed.*", "IF a security mode is armed"),
@@ -209,129 +169,125 @@ TRIGGER_RULES = [
     (r".*adt.*arm state.*", "IF a security system state changes"),
     (r".*smanos.*armed.*", "IF a security system is armed"),
     (r".*abode.*mode.*changed.*", "IF a security mode changes"),
-
-    # Motion / Doors / Windows
     (r".*door.*opened.*|.*door sensor.*open.*", "IF a door is opened"),
     (r".*door.*closed.*|.*window.*closed.*", "IF a door or window is closed"),
     (r".*window.*opens.*|.*window.*moves.*", "IF a window is opened or moved"),
     (r".*motion sensor.*detect.*", "IF motion is detected"),
-
-    # Temperature / Weather / Forecast
     (r".*weatherflow.*temperature.*below.*|.*spotter.*below.*", "IF temperature drops below a threshold"),
     (r".*weatherflow.*temperature.*above.*|.*spotter.*above.*", "IF temperature rises above a threshold"),
     (r".*forecasted.*high.*above.*", "IF tomorrow's high temperature exceeds a threshold"),
     (r".*forecasted.*low.*below.*", "IF tomorrow's low temperature drops below a threshold"),
     (r".*current temperature.*above.*|.*current temperature.*below.*", "IF temperature crosses a threshold"),
-
-    # Air Quality / Environment
     (r".*awair.*carbon dioxide.*", "IF CO2 level exceeds a threshold"),
     (r".*awair.*dust.*|.*pm2.5.*", "IF particulate matter exceeds a threshold"),
     (r".*awair.*voc.*", "IF VOC level exceeds a threshold"),
     (r".*air quality.*above.*|.*air quality.*below.*", "IF air quality crosses a threshold"),
     (r".*global air pollution.*", "IF air pollution exceeds a threshold"),
-
-    # Wearables / Health
     (r".*fitbit.*sleep.*", "IF new sleep data is logged"),
     (r".*daily calorie.*goal.*", "IF a daily calorie goal is achieved"),
     (r".*start sleep.*zeeq.*", "IF sleep tracking is started"),
-
-    # Presence / Location
     (r".*every family member.*left.*", "IF everyone leaves home"),
     (r".*presence.*detected.*", "IF user presence is detected"),
     (r".*presence.*no longer.*", "IF user presence ends"),
-
-    # Smart Home / Automation
     (r".*scene.*launched.*|.*routine.*activated.*", "IF an automation routine is activated"),
     (r".*homey.*flow.*started.*", "IF a home automation flow starts"),
     (r".*aura air.*sensor.*value.*", "IF an air sensor reaches a threshold"),
-
-    # Buttons / Watches / Input
     (r".*festina.*pusher.*|.*jaguar.*pusher.*|.*kronaby.*pusher.*|.*lotus.*pusher.*",
      "IF a smartwatch button is pressed"),
     (r".*air monitor.*button.*", "IF a monitoring device button is pressed"),
-
-    # Social / Check-in / Activity
     (r".*foursquare.*check in.*|.*swarm.*check in.*", "IF the user checks in at a location"),
     (r".*strava.*activity.*", "IF a fitness activity is completed"),
     (r".*harvest.*project.*", "IF a new project is created"),
-
-    # SwitchBot / WirelessTag
     (r".*switchbot.*motion.*", "IF motion is detected"),
     (r".*switchbot.*temperature.*|.*switchbot.*humidity.*", "IF environmental conditions change"),
     (r".*wirelesstag.*temperature.*above.*", "IF tag temperature exceeds a threshold"),
     (r".*wirelesstag.*temperature.*below.*", "IF tag temperature drops below a threshold"),
     (r".*wirelesstag.*humidity.*too wet.*", "IF moisture level is too high"),
-
-    # Misc / IoT Events
     (r".*particle.publish.*|.*interesting event.*", "IF a custom IoT event is received"),
     (r".*rescuetime.*alert.*", "IF a productivity alert is triggered"),
     (r".*caavo.*search.*", "IF a media search is performed")
 ]
 
+ACTION_X = [
+    ["eco mode", "comfort mode", "turbo mode"],
+    ["low power mode", "default mode", "maximum power"],
+    ["energy saving mode", "auto mode", "boost mode"]
+]
+
+ACTION_Y = [
+    ["for a specific amount of time", "", "for the entire day"],
+    ["for a limited time", "until stopped", "indefinitely"],
+    ["temporarily", "until manually changed", "continuously"]
+]
+
+ACTION_Z = [
+    ["at low value", "at medium value", "at maximum value"],
+    ["at minimum value ", "at default value", "at high value"],
+    ["to power saving mode", "at moderate value", "at boosted value"]
+]
+
+ACTION_W = [
+    ["after a specified amount of time", "", "after a large amount of time"],
+    ["after a fixed delay", "without delay", "after several hours"],
+    ["after a defined period ", "immediately", "much later"]
+]
+
 ACTION_RULES = [
-    (r".*set.*temperature.*heatmiser.*", ", THEN sets the temperature on the Heatmiser thermostat."),
-    (r".*set.*target temperature.*window ac.*", ", THEN sets the target temperature on the window air conditioner."),
-    (r".*set.*refrigerator temperature.*", ", THEN sets the refrigerator temperature."),
-    (r".*set.*freezer temperature.*", ", THEN sets the freezer temperature."),
-    (r".*set.*temperature.*water heater.*", ", THEN sets the water heater temperature."),
-    (r".*set.*thermostat.*temperature.*", ", THEN sets the thermostat temperature."),
-    (r".*set.*target temperature.*thermostat.*", ", THEN sets the thermostat target temperature."),
-    (r".*set.*room temperature.*", ", THEN sets the room temperature."),
-    (r".*set.*setpoint.*", ", THEN sets the device temperature setpoint."),
-    (r".*set.*specific temperature.*current mode.*", ", THEN sets the thermostat temperature in the current mode."),
-    (r".*set.*manual.*specific temperature.*|.*set.*manual mode.*", ", THEN sets the thermostat to manual mode at a fixed temperature."),
-    (r".*set.*trv.*position.*", ", THEN sets the thermostatic radiator valve position."),
-    (r".*set.*temperature.*trv.*", ", THEN sets the TRV temperature."),
-    (r".*activate.*eco mode.*", ", THEN activates eco mode on the appliance."),
-    (r".*activate.*fresh mode.*", ", THEN activates fresh mode on the appliance."),
-    (r".*activate.*vacation mode.*|.*holiday mode.*", ", THEN activates vacation mode."),
-    (r".*activate.*standby mode.*", ", THEN activates standby mode."),
-    (r".*cancel.*standby mode.*", ", THEN cancels standby mode."),
-    (r".*set.*heating mode.*off.*", ", THEN turns heating mode off."),
-    (r".*set.*heating mode.*schedule.*", ", THEN sets heating mode to scheduled."),
-    (r".*set.*heating mode.*", ", THEN sets the heating mode."),
-    (r".*set.*thermostat mode.*", ", THEN sets the thermostat mode."),
-    (r".*set.*cool mode.*", ", THEN sets cooling mode."),
-    (r".*set.*heat mode.*", ", THEN sets heating mode."),
-    (r".*set.*frost.*guard.*", ", THEN enables frost protection mode."),
-    (r".*turn off.*frost protect.*", ", THEN enables frost protection mode."),
-    (r".*set.*away mode.*", ", THEN sets home to away mode."),
-    (r".*boost.*heating.*", ", THEN boosts heating temporarily."),
-    (r".*boost.*hot water.*", ", THEN boosts hot water temporarily."),
-    (r".*start.*heating.*preferred temperature.*", ", THEN starts heating at a preferred temperature."),
-    (r".*start.*heating.*", ", THEN starts heating."),
-    (r".*enable.*temperature hold.*", ", THEN enables a temperature hold."),
-    (r".*set.*thermostat.*hold.*comfort profile.*hours.*", ", THEN sets a timed comfort profile hold."),
-    (r".*set.*thermostat.*hold.*comfort profile.*", ", THEN sets a comfort profile hold."),
-    (r".*set.*hold.*specified temperature.*hours.*", ", THEN sets a timed temperature hold."),
-    (r".*set.*hold.*indefinite.*", ", THEN sets an indefinite temperature hold."),
-    (r".*permanent.*hold.*", ", THEN sets a permanent temperature hold."),
-    (r".*resume.*programmed schedule.*", ", THEN resumes the programmed schedule."),
-    (r".*return.*default schedule.*", ", THEN restores the default schedule."),
-    (r".*change.*schedule.*", ", THEN updates the thermostat schedule."),
-    (r".*create.*vacation event.*", ", THEN creates a vacation temperature schedule."),
-    (r".*increase.*room temperature.*", ", THEN increases room temperature."),
-    (r".*decrease.*room temperature.*", ", THEN decreases room temperature."),
-    (r".*set.*fan.*on.*|.*fan.*auto.*", ", THEN configures thermostat fan mode."),
-    (r".*turn on.*fan.*nest.*", ", THEN activates the HVAC fan temporarily."),
-    (r".*turn on.*air conditioner.*", ", THEN turns on the air conditioner and configures settings."),
-    (r".*turn your a/c on.*", ", THEN turns on the air conditioner."),
-    (r".*turn your aros.*a/c.*", ", THEN turns on the Aros air conditioner."),
-    (r".*set.*thermostat.*heat-cool mode.*", ", THEN sets thermostat to heat-cool mode."),
-    (r".*temporarily cool.*freezer.*", ", THEN temporarily boosts freezer cooling."),
-    (r".*temporarily cool.*refrigerator.*", ", THEN temporarily boosts refrigerator cooling."),
-    (r".*turn your heating off.*", ", THEN turns off heating."),
-    (r".*turn off.*thermostat.*", ", THEN turns off the thermostat."),
-    (r".*turn thermostat back on.*", ", THEN restores the previous thermostat mode."),
-    (r".*switch.*electric switch off.*", ", THEN switches off the electric switch."),
-    (r".*return control.*tado.*", ", THEN restores automatic temperature control."),
-    (r".*order.*back.*default schedule.*", ", THEN restores default heating schedule."),
-    (r".*remove.*running event.*thermostat.*", ", THEN cancels the current thermostat event."),
-    (r".*set.*thermostat group mode.*", ", THEN sets thermostat group mode."),
-    (r".*set.*home.*away mode.*time.*", ", THEN sets home to temporary away mode."),
-    (r".*set.*home.*away mode.*", ", THEN sets home to away mode."),
-    (r".*set the temperature.*|.*setpoint.*|.*temperature you specify.*", ", THEN the thermostat to the temperature you specify."),
-    (r".*turn.*off.*", ", THEN turn off the thermostat."),
+    (r".*set.*temperature.*heatmiser.*", ", THEN sets the temperature [ACTION_Z] on thermostat."),
+    (r".*set.*target temperature.*window ac.*", ", THEN sets the target temperature [ACTION_Z] on the window air conditioner."),
+    (r".*set.*refrigerator temperature.*", ", THEN sets the refrigerator temperature [ACTION_Z]."),
+    (r".*set.*freezer temperature.*", ", THEN sets the freezer temperature [ACTION_Z]."),
+    (r".*set.*temperature.*water heater.*", ", THEN sets the water heater temperature [ACTION_Z]."),
+    (r".*set.*thermostat.*temperature.*", ", THEN sets the thermostat temperature [ACTION_Y]."),
+    (r".*set.*target temperature.*thermostat.*", ", THEN sets the thermostat target temperature [ACTION_Y]."),
+    (r".*set.*room temperature.*", ", THEN sets the room temperature [ACTION_Z]."),
+    (r".*set.*setpoint.*", ", THEN sets the device temperature setpoint [ACTION_Z]."),
+    (r".*set.*specific temperature.*current mode.*", ", THEN sets the thermostat temperature in [ACTION_X]]."),
+    (r".*set.*manual.*specific temperature.*|.*set.*manual mode.*", ", THEN sets the thermostat to [ACTION_X]."),
+    (r".*set.*temperature.*trv.*", ", THEN sets the temperature [ACTION_Z]."),
+    (r".*activate.*(eco|fresh) mode.*", ", THEN activates [ACTION_X] on the appliance."),
+    (r".*activate.*vacation mode.*|.*holiday mode.*", ", THEN activates vacation mode [ACTION_Z]."),
+    (r".*activate.*standby mode.*", ", THEN activates [ACTION_X]."),
+    (r".*cancel.*standby mode.*", ", THEN cancels [ACTION_X]."), # cancels eco mode è non eco
+    (r".*set.*heating mode.*off.*", ", THEN turns heating mode off [ACTION_W]."),
+    (r".*set.*heating mode.*schedule.*", ", THEN sets heating mode to [ACTION_X]."),
+    (r".*set.*thermostat mode.*", ", THEN sets the thermostat mode to [ACTION_X]."),
+    (r".*set.*cool mode.*", ", THEN sets cooling mode [ACTION_Z]."),
+    (r".*set.*(heat|heating) mode.*", ", THEN sets heating mode [ACTION_Z]."),
+    (r".*set.*frost.*guard.*|.*turn off.*frost protect.*", ", THEN enables [ACTION_X]."),
+    (r".*set.*away mode.*", ", THEN sets home to [ACTION_X]."),
+    (r".*boost.*heating.*", ", THEN boosts heating [ACTION_Y]."),
+    (r".*boost.*hot water.*", ", THEN boosts hot water [ACTION_Y]."),
+    (r".*start.*heating.*preferred temperature.*", ", THEN starts heating at a preferred temperature [ACTION_Y]."),
+    (r".*start.*heating.*", ", THEN starts heating [ACTION_Z]."),
+    (r".*enable.*temperature hold.*", ", THEN enables a temperature hold [ACTION_Y]."),
+    (r".*set.*thermostat.*hold.*comfort profile.*", ", THEN sets a timed [ACTION_X] to hold."),
+    (r".*set.*hold.*specified temperature.*hours.*", ", THEN sets a temperature hold [ACTION_Y]."),
+    (r".*resume.*programmed schedule.*", ", THEN resumes the programmed schedule [ACTION_Y]."),
+    (r".*return.*default schedule.*", ", THEN restores the default schedule [ACTION_Z]."),
+    (r".*change.*schedule.*", ", THEN updates the thermostat schedule [ACTION_W]."),
+    (r".*create.*vacation event.*", ", THEN creates an [ACTION_X] temperature schedule."),
+    (r".*increase.*room temperature.*", ", THEN increases room temperature [ACTION_Z]."),
+    (r".*decrease.*room temperature.*", ", THEN decreases room temperature [ACTION_W]."),
+    (r".*set.*fan.*on.*|.*fan.*auto.*", ", THEN configures thermostat fan mode [ACTION_Z]."),
+    (r".*turn on.*fan.*nest.*", ", THEN activates the HVAC fan [ACTION_Y]."),
+    (r".*turn on.*air conditioner.*", ", THEN turns on the air conditioner and configures settings to [ACTION_X]."),
+    (r".*turn your a/c on.*", ", THEN turns on the air conditioner [ACTION_Z]."),
+    (r".*turn your aros.*a/c.*", ", THEN turns on the air conditioner in [ACTION_X]."),
+    (r".*set.*thermostat.*heat-cool mode.*", ", THEN sets thermostat to [ACTION_X]."),
+    (r".*temporarily cool.*freezer.*", ", THEN temporarily boosts freezer cooling [ACTION_Y]."),
+    (r".*temporarily cool.*refrigerator.*", ", THEN temporarily boosts refrigerator cooling [ACTION_Y]."),
+    (r".*turn your heating off.*", ", THEN turns off heating [ACTION_W]."),
+    (r".*turn off.*thermostat.*", ", THEN turns off the thermostat [ACTION_W]."),
+    (r".*turn thermostat back on.*", ", THEN restores the previous thermostat mode [ACTION_Z]."),
+    (r".*switch.*electric switch off.*", ", THEN switches off the electric switch [ACTION_W]."),
+    (r".*return control.*tado.*", ", THEN change temperature control in [ACTION_X]."),
+    (r".*order.*back.*default schedule.*", ", THEN restores default heating schedule [ACTION_Z]."),
+    (r".*remove.*running event.*thermostat.*", ", THEN cancels the current thermostat event [ACTION_W]."),
+    (r".*set.*thermostat group mode.*", ", THEN sets thermostat group mode to [ACTION_X]."),
+    (r".*set.*home.*away mode.*time.*", ", THEN sets home to temporary [ACTION_X]."),
+    (r".*set the temperature.*|.*setpoint.*|.*temperature you specify.*", ", THEN the thermostat to the temperature you specify [ACTION_W]."),
+    (r".*turn.*off.*", ", THEN turn off the thermostat [ACTION_W].")
 ]
 
 # ===============================
@@ -380,7 +336,7 @@ filtered_df = filtered_df[
 
 filtered_df = filtered_df[
     ~filtered_df["actionDesc"].str.contains(
-        r".*back on.*|.*position.*",
+        r".*back on.*|.*position.*|.*trv.*|.*indefinite.*|.*permanent.*",
         case=False,
         na=False
     )
