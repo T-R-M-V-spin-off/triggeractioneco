@@ -9,62 +9,61 @@ import re
 
 INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Thermostat_Heating.csv"
 
-
 # ===============================
 # NORMALIZATION RULES
 # ===============================
 
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"), #FREE
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on"), 
     (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low"),
     (r".*(smoke detector|smoke alarm|dangerous smoke).*", "IF a smoke detector detects smoke"),
     (r".*every.*day.*specific time.*", "IF every day at a specified time"),
-    (r".*button.*pressed.*|.*press.*button.*|flic.*|.*lawnmower.*button.*", "IF a button is pressed [FREE]"), #FREE
-    (r".*to do list.*edit.*|.*edit.*to do list.*", "IF a to-do list item is edited [FREE]"), #FREE
+    (r".*button.*pressed.*|.*press.*button.*|flic.*|.*lawnmower.*button.*", "IF a button is pressed"), 
+    (r".*to do list.*edit.*|.*edit.*to do list.*", "IF a to-do list item is edited"), 
     (r".*enter.*area.*|.*enter or exit.*area.*", "IF the user enters a specified area"),
     (r".*exit.*area.*", "IF the user exits a specified area"),
-    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase [FREE]"), #FREE
+    (r".*(alexa trigger|ok google|google assistant).*", "IF a voice assistant is activated with a specific phrase"), 
     (r".*cookit.*finished.*", "IF a smart cooking device finishes successfully"),
     (r".*cookit.*turned on.*", "IF a smart cooking device is turned on"),
-    (r".*binary switch.*turned on.*", "IF a binary switch is turned on [FREE]"), #FREE
+    (r".*binary switch.*turned on.*", "IF a binary switch is turned on"), 
     (r".*freezer.*door.*open.*", "IF a freezer door is opened"),
     (r".*sleep.*out of bed.*", "IF a sleep tracking device detects the user leaving the bed"),
-    (r".*specific days.*week.*time.*", "IF is one of the specific days of the week at a specified time [FREE]"), #FREE
+    (r".*specific days.*week.*time.*", "IF is one of the specific days of the week at a specified time"), 
     (r".*(homeseer|knx).*turned on.*", "IF a connected device is turned on"),
     (r".*co2.*intensity.*lowest.*", "IF carbon emissions is lowest within a time window"),
     (r".*exchanged power.*threshold.*", "IF power usage satisfies a threshold condition"),
-    (r".*(telegram|text message|ifttt).*", "IF a message containing a key phrase is sent [FREE]"), #FREE
-    (r".*google calendar.*event.*", "IF a calendar event with a specific keyword occurs [FREE]"), #FREE
+    (r".*(telegram|text message|ifttt).*", "IF a message containing a key phrase is sent"), 
+    (r".*google calendar.*event.*", "IF a calendar event with a specific keyword occurs"), 
     (r".*sunrise.*", "IF it is sunrise"),
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"),
-    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs [FREE]"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on"),
+    (r".*calendar.*event.*", "IF shortly before a calendar event with a specific keyword occurs"),
     (r".*(alexa trigger|ok google|google assistant).*",
-     "IF a voice assistant is activated with a specific phrase [FREE]"),
+     "IF a voice assistant is activated with a specific phrase"),
     (r".*before.*time-of-day.*peak rates.*start.*", "IF before time-of-day peak rates start"),
-    (r".*every day at a specified time.*", "IF every day at a specified time [FREE]"),
-    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent [FREE]"),
+    (r".*every day at a specified time.*", "IF every day at a specified time"),
+    (r".*message.*key phrase.*", "IF a message containing a key phrase is sent"),
     (r".*home.*set to away.*", "IF every time no one is at home"),
     (r".*home.*set to home.*", "IF every time someone is at home"),
     (r".*user enters a specified area.*", "IF the user enters a specified area"),
     (r".*user exits a specified area.*", "IF the user exits a specified area"),
-    (r".*button.*pressed.*", "IF a button is pressed [FREE]"),
+    (r".*button.*pressed.*", "IF a button is pressed"),
     (r".*enter.*area.*", "IF the user enters a specified area"),
     (r".*exit.*area.*", "IF the user exits a specified area"),
-    (r".*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase [FREE]"),
+    (r".*voice assistant.*activated.*", "IF a voice assistant is activated with a specific phrase"),
     (r".*a/c unit.*temperature.*above.*value.*", "IF an AC unit detects temperature above a specified value"),
     (r".*a/c unit.*temperature.*below.*value.*", "IF an AC unit detects temperature below a specified value"),
     (r".*android device.*connects to wifi.*", "IF an Android device connects to a specified Wi-Fi network"),
     (r".*android device.*disconnects from wifi.*", "IF an Android device disconnects from a specified Wi-Fi network"),
     (r".*fitbit.*logs.*sleep.*", "IF a device logs new sleep data"),
-    (r".*every.*day.*specific time.*", "IF every day at a specified time [FREE]"),
+    (r".*every.*day.*specific time.*", "IF every day at a specified time"),
     (r".*every time.*connects.*", "IF your Android device connects to a specified wifi network"),
     (r".*every time.*disconnects.*", "IF your Android device disconnects from a specified wifi network"),
-    (r".*press the button.*", "IF a specified button is pressed [FREE]"),
-    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service [FREE]"),
+    (r".*press the button.*", "IF a specified button is pressed"),
+    (r".*ifttt receives.*", "IF ifttt receives a specified event from an external service"),
     (r".*myfox.*security system.*partially armed.*", "IF a security system is partially armed"),
-    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off [FREE]"),
-    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on [FREE]"),
-    (r".*routine.*activated.*", "IF a routine is activated [FREE]"),
+    (r".*smartthings.*device.*switched off.*", "IF a smart device is switched off"),
+    (r".*smartthings.*device.*switched on.*", "IF a smart device is switched on"),
+    (r".*routine.*activated.*", "IF a routine is activated"),
     (r".*air purifier.*air quality.*", "IF an air purifier detects a specific air quality level"),
     (r".*room temperature.*condition.*threshold.*", "IF the room temperature satisfies a threshold condition"),
     (r".*solar power.*drops below.*", "IF solar power drops below a specified value"),
@@ -208,30 +207,6 @@ TRIGGER_RULES = [
     (r".*caavo.*search.*", "IF a media search is performed")
 ]
 
-ACTION_X = [
-    ["eco mode", "comfort mode", "turbo mode"],
-    ["low power mode", "default mode", "maximum power"],
-    ["energy saving mode", "auto mode", "boost mode"]
-]
-
-ACTION_Y = [
-    ["for a specific amount of time", "", "for the entire day"],
-    ["for a limited time", "until stopped", "indefinitely"],
-    ["temporarily", "until manually changed", "continuously"]
-]
-
-ACTION_Z = [
-    ["at low value", "at medium value", "at maximum value"],
-    ["at minimum value ", "at default value", "at high value"],
-    ["to power saving mode", "at moderate value", "at boosted value"]
-]
-
-ACTION_W = [
-    ["after a specified amount of time", "", "after a large amount of time"],
-    ["after a fixed delay", "without delay", "after several hours"],
-    ["after a defined period ", "immediately", "much later"]
-]
-
 ACTION_RULES = [
     (r".*set.*temperature.*heatmiser.*", ", THEN sets the temperature [ACTION_Z] on thermostat."),
     (r".*set.*target temperature.*window ac.*", ", THEN sets the target temperature [ACTION_Z] on the window air conditioner."),
@@ -291,29 +266,42 @@ ACTION_RULES = [
 ]
 
 # ===============================
-# NORMALIZATION FUNCTIONS
+# NORMALIZATION FUNCTION
 # ===============================
 
-def normalize_text(text, rules, unmatched_tag):
 
-    if pd.isna(text):
+def normalize(df):
+
+    unmatched_triggers = []
+    unmatched_actions = []
+
+    def normalize_text(text, RULES, unmatched_list):
+        if not isinstance(text, str):
+            return text
+
+        text_l = text.lower()
+
+        for pattern, replacement in RULES:
+            if re.search(pattern, text_l):
+                return replacement
+
+        unmatched_list.append(text)
         return text
 
-    text = str(text).lower().strip()
 
-    for pattern, normalized in rules:
-        if re.search(pattern, text, re.IGNORECASE):
-            return normalized
-
-    return f"{unmatched_tag} {text}"
+    df["triggerDesc"] = df["triggerDesc"].apply(
+        normalize_text,
+        args=(TRIGGER_RULES, unmatched_triggers)
+    )
 
 
-def normalize_trigger(text):
-    return normalize_text(text, TRIGGER_RULES, "__UNMATCHED_TRIGGER__")
+    df["actionDesc"] = df["actionDesc"].apply(
+        normalize_text,
+        args=(ACTION_RULES, unmatched_actions)
+    )
 
 
-def normalize_action(text):
-    return normalize_text(text, ACTION_RULES, "__UNMATCHED_ACTION__")
+    return unmatched_triggers, unmatched_actions
 
 
 # ===============================
@@ -328,7 +316,7 @@ filtered_df = df
 
 filtered_df = filtered_df[
     ~filtered_df["triggerDesc"].str.contains(
-        r"dust concentration|Volatile Organic|tag senses that|or moisture monitoring",
+        r"NaN",
         case=False,
         na=False
     )
@@ -336,40 +324,23 @@ filtered_df = filtered_df[
 
 filtered_df = filtered_df[
     ~filtered_df["actionDesc"].str.contains(
-        r".*back on.*|.*position.*|.*trv.*|.*indefinite.*|.*permanent.*",
+        r".*comfort feedback.*",
         case=False,
         na=False
     )
 ]
 
-# Salva il nuovo CSV
 filtered_df.to_csv(INPUT_FILE, index=False)
 
-print(f"File salvato: {INPUT_FILE}")
-print(f"Righe originali: {len(df)}")
-print(f"Righe dopo filtro: {len(filtered_df)}")
+print(f"NUMBER OF ROWS BEFORE FILTERING: {len(df)}")
+print(f"NUMBER OF ROWS AFTER FILTERING: {len(filtered_df)}")
 
-
-# Check columns
-if "triggerDesc" not in df.columns:
-    raise ValueError("Missing column: triggerDesc")
-
-if "actionDesc" not in df.columns:
-    raise ValueError("Missing column: actionDesc")
-
-
-# Backup original
 df["originalTrigger"] = df["triggerDesc"]
 df["originalAction"] = df["actionDesc"]
 
-
-# Normalize
-print("Normalizing triggers...")
-df["triggerDesc"] = df["triggerDesc"].apply(normalize_trigger)
-
-print("Normalizing actions...")
-df["actionDesc"] = df["actionDesc"].apply(normalize_action)
-
+unmatched_triggers = []
+unmatched_actions = []
+unmatched_triggers, unmatched_actions = normalize(df)
 
 # ===============================
 # SAVE OUTPUT
@@ -378,30 +349,34 @@ df["actionDesc"] = df["actionDesc"].apply(normalize_action)
 folder = os.path.dirname(INPUT_FILE)
 base = os.path.basename(INPUT_FILE).replace(".csv", "")
 
-output_file = os.path.join(
+OUTPUT_FILE = os.path.join(
     folder,
     f"{base}_normalized_for_oversampling.csv"
 )
 
-df.to_csv(output_file, index=False)
+df.to_csv(OUTPUT_FILE, index=False)
 
-print(f"Saved: {output_file}")
-
+print(f"SAVED: {OUTPUT_FILE}")
 
 # ===============================
 # VALIDATION / REPORT
 # ===============================
 
-print("\n========== NORMALIZATION REPORT ==========")
+print("\n========== NORMALIZATION REPORT ==========\n")
+
+print("Loading dataset...")
+
+df = pd.read_csv(OUTPUT_FILE)
+
+unique_triggers = df["triggerDesc"].dropna().unique()
+unique_actions = df["actionDesc"].dropna().unique()
+
+print(f"UNIQUE TRIGGERS NORMALIZED: {unique_triggers.__len__()}")
+print(f"UNIQUE ACTIONS NORMALIZED: {unique_actions.__len__()}")
 
 # Trigger stats
 unique_triggers = df["originalTrigger"].dropna().unique()
-unique_unmatched_triggers = (
-    df[df["triggerDesc"].str.contains("__UNMATCHED_TRIGGER__", na=False)]
-    ["originalTrigger"]
-    .dropna()
-    .unique()
-)
+unique_unmatched_triggers = list(set(unmatched_triggers))
 
 total_unique_triggers = len(unique_triggers)
 unmatched_unique_triggers = len(unique_unmatched_triggers)
@@ -410,61 +385,35 @@ unique_trigger_coverage = 100 * (total_unique_triggers - unmatched_unique_trigge
 
 # Action stats
 unique_actions = df["originalAction"].dropna().unique()
-unique_unmatched_actions = (
-    df[df["actionDesc"].str.contains("__UNMATCHED_ACTION__", na=False)]
-    ["originalAction"]
-    .dropna()
-    .unique()
-)
+unique_unmatched_actions = list(set(unmatched_actions))
 
 total_unique_actions = len(unique_actions)
 unmatched_unique_actions = len(unique_unmatched_actions)
 
 unique_action_coverage = 100 * (total_unique_actions - unmatched_unique_actions) / total_unique_actions
 
-print("\n=== UNIQUE COVERAGE ===")
+print("\n========== UNIQUE COVERAGE ==========\n")
 
-print(f"Unique triggers normalized: "
+print(f"UNIQUE TRIGGERS NORMALIZED: "
       f"{total_unique_triggers - unmatched_unique_triggers}/{total_unique_triggers} "
       f"({unique_trigger_coverage:.2f}%)")
 
-print(f"Unique actions normalized: "
+print(f"UNIQUE ACTIONS NORMALIZED: "
       f"{total_unique_actions - unmatched_unique_actions}/{total_unique_actions} "
       f"({unique_action_coverage:.2f}%)")
 
-
-# === PRINT ALL UNMATCHED ===
-
 print("\n========== ALL UNMATCHED TRIGGERS ==========\n")
 
-unmatched_triggers_df = (
-    df[df["triggerDesc"].str.contains("__UNMATCHED_TRIGGER__", na=False)]
-    [["originalTrigger", "triggerDesc"]]
-    .drop_duplicates()
-)
-
-if unmatched_triggers_df.empty:
-    print("No unmatched triggers ✅")
+if unique_unmatched_triggers.__len__() == 0:
+    print("No unmatched triggers")
 else:
-    for _, row in unmatched_triggers_df.iterrows():
-        print(f"- ORIGINAL : {row['originalTrigger']}")
-        print(f"  CURRENT  : {row['triggerDesc']}\n")
-
+    print(unique_unmatched_triggers)
 
 print("\n========== ALL UNMATCHED ACTIONS ==========\n")
 
-unmatched_actions_df = (
-    df[df["actionDesc"].str.contains("__UNMATCHED_ACTION__", na=False)]
-    [["originalAction", "actionDesc"]]
-    .drop_duplicates()
-)
-
-if unmatched_actions_df.empty:
-    print("No unmatched actions ✅")
+if unique_unmatched_actions.__len__() == 0:
+    print("No unmatched actions")
 else:
-    for _, row in unmatched_actions_df.iterrows():
-        print(f"- ORIGINAL : {row['originalAction']}")
-        print(f"  CURRENT  : {row['actionDesc']}\n")
-
+    print(unique_unmatched_actions)
 
 print("==========================================")

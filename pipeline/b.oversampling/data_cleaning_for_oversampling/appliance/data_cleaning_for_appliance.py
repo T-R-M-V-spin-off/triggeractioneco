@@ -9,17 +9,14 @@ import re
 
 INPUT_FILE = "../../../../dataset/filtered_data/device_category_data/Appliance.csv"
 
-
 # ===============================
 # NORMALIZATION RULES
 # ===============================
 
-ECO = ["during a low price period"]
-NON_ECO = ["during an high price period"]
 
 TRIGGER_RULES = [
-    (r".*device.*turned on.*|device turned on", "IF a device is turned on [ECO][NON-ECO][FREE]"), #FREE
-    (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low [ECO]"),
+    (r".*device.*turned on.*|device turned on", "IF a device is turned on [FREE]"), #FREE
+    (r".*electricity.*cheap.*|.*electricity price.*lowest.*", "IF electricity prices are low "),
     (r".*(smoke detector|smoke alarm|dangerous smoke).*", "IF a smoke detector detects smoke"),
     (r".*every.*day.*specific time.*", "IF every day at a specified time"),
     (r".*button.*pressed.*|.*press.*button.*|flic.*|.*lawnmower.*button.*", "IF a button is pressed [FREE]"), #FREE
@@ -41,24 +38,6 @@ TRIGGER_RULES = [
     (r".*sunrise.*", "IF it is sunrise")
 ]
 
-ACTION_X = [
-    ["eco mode", "comfort mode", "turbo mode"],
-    ["low power mode", "default mode", "maximum power"],
-    ["energy saving mode", "auto mode", "boost mode"]
-]
-
-ACTION_Y = [
-    ["for a specific amount of time", "", "for the entire day"],
-    ["for a limited time", "until stopped", "indefinitely"],
-    ["temporarily", "until manually changed", "continuously"]
-]
-
-ACTION_W = [
-    ["after a specified amount of time", "", "after a large amount of time"],
-    ["after a fixed delay", "without delay", "after several hours"],
-    ["after a defined period ", "immediately", "much later"]
-]
-
 ACTION_RULES = [
     (r".*deactivate.*eco mode.*|.*deactivate.*fresh mode.*|.*deactivate.*vacation mode.*", ", THEN deactivate [ACTION_X] on the appliance."), # deactivate eco mode è non eco
     (r".*preheat.*oven.*hot air.*fast preheat.*", ", THEN preheat the oven using the hot air program with fast preheat [ACTION_Y]."),
@@ -78,29 +57,42 @@ ACTION_RULES = [
 ]
 
 # ===============================
-# NORMALIZATION FUNCTIONS
+# NORMALIZATION FUNCTION
 # ===============================
 
-def normalize_text(text, rules, unmatched_tag):
 
-    if pd.isna(text):
+def normalize(df):
+
+    unmatched_triggers = []
+    unmatched_actions = []
+
+    def normalize_text(text, RULES, unmatched_list):
+        if not isinstance(text, str):
+            return text
+
+        text_l = text.lower()
+
+        for pattern, replacement in RULES:
+            if re.search(pattern, text_l):
+                return replacement
+
+        unmatched_list.append(text)
         return text
 
-    text = str(text).lower().strip()
 
-    for pattern, normalized in rules:
-        if re.search(pattern, text, re.IGNORECASE):
-            return normalized
-
-    return f"{unmatched_tag} {text}"
+    df["triggerDesc"] = df["triggerDesc"].apply(
+        normalize_text,
+        args=(TRIGGER_RULES, unmatched_triggers)
+    )
 
 
-def normalize_trigger(text):
-    return normalize_text(text, TRIGGER_RULES, "__UNMATCHED_TRIGGER__")
+    df["actionDesc"] = df["actionDesc"].apply(
+        normalize_text,
+        args=(ACTION_RULES, unmatched_actions)
+    )
 
 
-def normalize_action(text):
-    return normalize_text(text, ACTION_RULES, "__UNMATCHED_ACTION__")
+    return unmatched_triggers, unmatched_actions
 
 
 # ===============================
@@ -115,7 +107,7 @@ filtered_df = df
 
 filtered_df = filtered_df[
     ~filtered_df["triggerDesc"].str.contains(
-        r".*particulate matter.*|.*security panel.*armed|disarmed.*",
+        r"NaN",
         case=False,
         na=False
     )
@@ -123,40 +115,23 @@ filtered_df = filtered_df[
 
 filtered_df = filtered_df[
     ~filtered_df["actionDesc"].str.contains(
-        r"NaN",
+        r".*comfort feedback.*",
         case=False,
         na=False
     )
 ]
 
-# Salva il nuovo CSV
 filtered_df.to_csv(INPUT_FILE, index=False)
 
-print(f"File salvato: {INPUT_FILE}")
-print(f"Righe originali: {len(df)}")
-print(f"Righe dopo filtro: {len(filtered_df)}")
+print(f"NUMBER OF ROWS BEFORE FILTERING: {len(df)}")
+print(f"NUMBER OF ROWS AFTER FILTERING: {len(filtered_df)}")
 
-
-# Check columns
-if "triggerDesc" not in df.columns:
-    raise ValueError("Missing column: triggerDesc")
-
-if "actionDesc" not in df.columns:
-    raise ValueError("Missing column: actionDesc")
-
-
-# Backup original
 df["originalTrigger"] = df["triggerDesc"]
 df["originalAction"] = df["actionDesc"]
 
-
-# Normalize
-print("Normalizing triggers...")
-df["triggerDesc"] = df["triggerDesc"].apply(normalize_trigger)
-
-print("Normalizing actions...")
-df["actionDesc"] = df["actionDesc"].apply(normalize_action)
-
+unmatched_triggers = []
+unmatched_actions = []
+unmatched_triggers, unmatched_actions = normalize(df)
 
 # ===============================
 # SAVE OUTPUT
@@ -165,30 +140,34 @@ df["actionDesc"] = df["actionDesc"].apply(normalize_action)
 folder = os.path.dirname(INPUT_FILE)
 base = os.path.basename(INPUT_FILE).replace(".csv", "")
 
-output_file = os.path.join(
+OUTPUT_FILE = os.path.join(
     folder,
     f"{base}_normalized_for_oversampling.csv"
 )
 
-df.to_csv(output_file, index=False)
+df.to_csv(OUTPUT_FILE, index=False)
 
-print(f"Saved: {output_file}")
-
+print(f"SAVED: {OUTPUT_FILE}")
 
 # ===============================
 # VALIDATION / REPORT
 # ===============================
 
-print("\n========== NORMALIZATION REPORT ==========")
+print("\n========== NORMALIZATION REPORT ==========\n")
+
+print("Loading dataset...")
+
+df = pd.read_csv(OUTPUT_FILE)
+
+unique_triggers = df["triggerDesc"].dropna().unique()
+unique_actions = df["actionDesc"].dropna().unique()
+
+print(f"UNIQUE TRIGGERS NORMALIZED: {unique_triggers.__len__()}")
+print(f"UNIQUE ACTIONS NORMALIZED: {unique_actions.__len__()}")
 
 # Trigger stats
 unique_triggers = df["originalTrigger"].dropna().unique()
-unique_unmatched_triggers = (
-    df[df["triggerDesc"].str.contains("__UNMATCHED_TRIGGER__", na=False)]
-    ["originalTrigger"]
-    .dropna()
-    .unique()
-)
+unique_unmatched_triggers = list(set(unmatched_triggers))
 
 total_unique_triggers = len(unique_triggers)
 unmatched_unique_triggers = len(unique_unmatched_triggers)
@@ -197,62 +176,35 @@ unique_trigger_coverage = 100 * (total_unique_triggers - unmatched_unique_trigge
 
 # Action stats
 unique_actions = df["originalAction"].dropna().unique()
-unique_unmatched_actions = (
-    df[df["actionDesc"].str.contains("__UNMATCHED_ACTION__", na=False)]
-    ["originalAction"]
-    .dropna()
-    .unique()
-)
+unique_unmatched_actions = list(set(unmatched_actions))
 
 total_unique_actions = len(unique_actions)
 unmatched_unique_actions = len(unique_unmatched_actions)
 
 unique_action_coverage = 100 * (total_unique_actions - unmatched_unique_actions) / total_unique_actions
 
-print("\n=== UNIQUE COVERAGE ===")
+print("\n========== UNIQUE COVERAGE ==========\n")
 
-print(f"Unique triggers normalized: "
+print(f"UNIQUE TRIGGERS NORMALIZED: "
       f"{total_unique_triggers - unmatched_unique_triggers}/{total_unique_triggers} "
       f"({unique_trigger_coverage:.2f}%)")
 
-print(f"Unique actions normalized: "
+print(f"UNIQUE ACTIONS NORMALIZED: "
       f"{total_unique_actions - unmatched_unique_actions}/{total_unique_actions} "
       f"({unique_action_coverage:.2f}%)")
 
-
-# === PRINT ALL UNMATCHED ===
-
 print("\n========== ALL UNMATCHED TRIGGERS ==========\n")
 
-unmatched_triggers_df = (
-    df[df["triggerDesc"].str.contains("__UNMATCHED_TRIGGER__", na=False)]
-    [["originalTrigger", "triggerDesc"]]
-    .drop_duplicates()
-)
-
-if unmatched_triggers_df.empty:
-    print("No unmatched triggers ✅")
+if unique_unmatched_triggers.__len__() == 0:
+    print("No unmatched triggers")
 else:
-    for _, row in unmatched_triggers_df.iterrows():
-        print(f"- ORIGINAL : {row['originalTrigger']}")
-        print(f"  CURRENT  : {row['triggerDesc']}\n")
-
+    print(unique_unmatched_triggers)
 
 print("\n========== ALL UNMATCHED ACTIONS ==========\n")
 
-unmatched_actions_df = (
-    df[df["actionDesc"].str.contains("__UNMATCHED_ACTION__", na=False)]
-    [["originalAction", "actionDesc"]]
-    .drop_duplicates()
-)
-
-if unmatched_actions_df.empty:
-    print("No unmatched actions ✅")
+if unique_unmatched_actions.__len__() == 0:
+    print("No unmatched actions")
 else:
-    for _, row in unmatched_actions_df.iterrows():
-        print(f"- ORIGINAL : {row['originalAction']}")
-        print(f"  CURRENT  : {row['actionDesc']}\n")
-
+    print(unique_unmatched_actions)
 
 print("==========================================")
-
