@@ -19,12 +19,12 @@ MODEL_NAME = "google/flan-t5-base"
 DATA_PATH = "dpo_dataset.jsonl"
 OUTPUT_DIR = "./flan_t5_dpo_eco"
 
-# Configurazione Hardware (RTX 2060 6GB)
-BATCH_SIZE = 2  # Aumentato leggermente
-GRAD_ACC = 16  # Ridotto per aggiornamenti più frequenti (batch effettivo = 32)
-LR = 5e-5  # Aumentato per convergenza più veloce
-EPOCHS = 2  # Aumentato per 200k samples
-MAX_LEN = 256
+# --- Configurazione Hardware (Ottimizzata per RTX 2060 6GB) ---
+BATCH_SIZE = 2  # Teniamo basso per sicurezza VRAM
+GRAD_ACC = 32  # Accumuliamo molto per avere un batch effettivo stabile
+LR = 5e-5  # Learning rate standard per LoRA
+EPOCHS = 3  # Un'epoca in più per compensare il batch piccolo
+MAX_LEN = 256  # Ridotto da 256: le tue regole sono brevi, questo salva VRAM
 MAX_PROMPT_LEN = 128
 SEED = 42
 
@@ -34,14 +34,34 @@ WARMUP_RATIO = 0.1  # AGGIUNTO: Warmup per stabilità
 set_seed(SEED)
 
 # ============================
-# 1. LOAD DATASET
+# 1. LOAD & PREPROCESS DATASET
 # ============================
 
 print("📂 Loading dataset...")
-dataset = load_dataset("json", data_files=DATA_PATH, split="train")
-print(f"✅ Loaded {len(dataset)} samples")
+# Carica il dataset grezzo
+raw_dataset = load_dataset("json", data_files=DATA_PATH, split="train")
+print(f"✅ Loaded {len(raw_dataset)} raw samples")
 
-# SPLIT TRAIN/VALIDATION (CRITICO)
+
+# --- MODIFICA CRITICA: AGGIUNTA ISTRUZIONE ---
+def add_instruction(samples):
+    # Aggiungiamo un prefisso chiaro affinché T5 sappia cosa fare
+    instruction = "Rewrite the following smart home rule to be eco-friendly and energy efficient:\n\n"
+
+    return {
+        "prompt": [instruction + p for p in samples["prompt"]],
+        "chosen": samples["chosen"],
+        "rejected": samples["rejected"]
+    }
+
+
+print("🔧 Injecting instructions into prompts...")
+dataset = raw_dataset.map(add_instruction, batched=True)
+
+# Esempio di controllo per vedere se l'istruzione è stata aggiunta
+print(f"👀 Example input: {dataset[0]['prompt'][:100]}...")
+
+# Split Train/Test
 dataset = dataset.train_test_split(test_size=0.1, seed=SEED)
 train_dataset = dataset["train"]
 eval_dataset = dataset["test"]
@@ -55,21 +75,17 @@ print("🔤 Loading tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 
 # ============================
-# 3. LOAD MODEL
+# 3. LOAD MODEL (Quantized)
 # ============================
 
 print("🧠 Loading model...")
 
 bnb_config = None
 if USE_8BIT:
-    try:
-        bnb_config = BitsAndBytesConfig(
-            load_in_8bit=True,
-            llm_int8_threshold=6.0
-        )
-        print("❄️  8-bit quantization enabled.")
-    except Exception as e:
-        print(f"⚠️  BitsAndBytes error: {e}. Loading in FP16/FP32.")
+    bnb_config = BitsAndBytesConfig(
+        load_in_8bit=True,
+        llm_int8_threshold=6.0
+    )
 
 model = AutoModelForSeq2SeqLM.from_pretrained(
     MODEL_NAME,
@@ -78,9 +94,11 @@ model = AutoModelForSeq2SeqLM.from_pretrained(
     torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32
 )
 
+# Preparazione per il training k-bit (riduce l'uso di memoria)
 if USE_8BIT:
     model = prepare_model_for_kbit_training(model)
 
+# Disabilita cache per il training (risparmia VRAM)
 model.config.use_cache = False
 
 # ============================
@@ -89,12 +107,12 @@ model.config.use_cache = False
 
 print("🧩 Applying LoRA...")
 lora_config = LoraConfig(
-    r=32,  # AUMENTATO da 16
-    lora_alpha=64,  # AUMENTATO proporzionalmente
-    target_modules=["q", "v"],
+    r=32,  # Ridotto a 16 per salvare memoria sulla 2060
+    lora_alpha=64,
+    target_modules=["q", "v"],  # Target standard per T5
     lora_dropout=0.05,
     bias="none",
-    task_type=TaskType.SEQ_2_SEQ_LM
+    task_type=TaskType.SEQ_2_SEQ_LM  # Importante per T5
 )
 
 model = get_peft_model(model, lora_config)
@@ -107,8 +125,11 @@ model.print_trainable_parameters()
 dpo_config = DPOConfig(
     output_dir=OUTPUT_DIR,
 
-    # Parametri DPO
-    beta=0.4,  # AUMENTATO da 0.1 (critico!)
+    # --- PARAMETRI CRITICI PER T5 ---
+    # INDISPENSABILE: dice al trainer che non è un GPT
+    beta=0.25,  # Valore standard, permette al modello di imparare lo stile
+    # --------------------------------
+
     max_length=MAX_LEN,
     max_prompt_length=MAX_PROMPT_LEN,
 
@@ -122,14 +143,16 @@ dpo_config = DPOConfig(
 
     # Evaluation
     eval_strategy="steps",  # AGGIUNTO
-    eval_steps=250,  # AGGIUNTO
+    eval_steps=125,  # AGGIUNTO
 
-    # Ottimizzazioni
-    fp16=True,
-    gradient_checkpointing=True,
+    # Ottimizzazioni Hardware
+    fp16=True,  # Mixed Precision
+    gradient_checkpointing=True,  # CRITICO per 6GB VRAM: rallenta un po' ma salva molta memoria
+
+    # Logging & Saving
     logging_steps=50,
     save_strategy="steps",
-    save_steps=250,  # RIDOTTO da 500
+    save_steps=125,  # RIDOTTO da 500
     save_total_limit=3,  # AUMENTATO
     load_best_model_at_end=True,  # AGGIUNTO
     metric_for_best_model="eval_loss",  # AGGIUNTO
@@ -160,7 +183,12 @@ trainer = DPOTrainer(
 # ============================
 
 print("🏋️ Training started...")
-trainer.train()
+try:
+    trainer.train()
+except Exception as e:
+    print(f"\n❌ ERRORE DURANTE IL TRAINING: {e}")
+    print("Suggerimento: Se è un errore di memoria (OOM), prova ad abbassare MAX_LEN a 64 o r a 8.")
+    exit()
 
 # ============================
 # 8. SAVE
@@ -171,3 +199,5 @@ trainer.save_model(OUTPUT_DIR)
 tokenizer.save_pretrained(OUTPUT_DIR)
 
 print(f"✅ Training completed! Model saved in {OUTPUT_DIR}")
+print("Per usare il modello, ricorda di usare lo stesso prefisso nel prompt:")
+print("'Rewrite the following smart home rule to be eco-friendly and energy efficient: IF ...'")

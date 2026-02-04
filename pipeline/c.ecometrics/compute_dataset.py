@@ -27,7 +27,7 @@ noneco_rules = []
 
 for index, row in enumerate(df.itertuples(index=False)):
 
-    text = str(row.triggerDesc) + " " + str(row.actionDesc)
+    text = str(row.triggerDesc) + str(row.actionDesc)
 
     if row.isRuleEco == "ECO":
         eco_rules.append(text)

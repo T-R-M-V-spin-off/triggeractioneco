@@ -37,7 +37,7 @@ This model was trained with DPO, a method introduced in [Direct Preference Optim
 ### Framework versions
 
 - PEFT 0.18.1
-- TRL: 0.27.1
+- TRL: 0.27.2
 - Transformers: 5.0.0
 - Pytorch: 2.7.1+cu118
 - Datasets: 4.5.0
